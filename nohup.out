@@ -1,0 +1,3093 @@
+gpu是否空闲： True
+init iterator: data/Ontonotes_5.0/ontonotes_train_bioes
+init iterator: data/Ontonotes_5.0/ontonotes_dev_bioes
+encoder.embedding.weight torch.Size([4457, 256])
+encoder.encoder.u_vec torch.Size([1, 64])
+encoder.encoder.v_vec torch.Size([1, 64])
+encoder.encoder.encoder_layers.0.attention_layer.multi_query.weight torch.Size([256, 256])
+encoder.encoder.encoder_layers.0.attention_layer.multi_query.bias torch.Size([256])
+encoder.encoder.encoder_layers.0.attention_layer.multi_key_embed.weight torch.Size([256, 256])
+encoder.encoder.encoder_layers.0.attention_layer.multi_key_embed.bias torch.Size([256])
+encoder.encoder.encoder_layers.0.attention_layer.multi_key_pos.weight torch.Size([64, 64])
+encoder.encoder.encoder_layers.0.attention_layer.multi_key_pos.bias torch.Size([64])
+encoder.encoder.encoder_layers.0.attention_layer.multi_value.weight torch.Size([256, 256])
+encoder.encoder.encoder_layers.0.attention_layer.multi_value.bias torch.Size([256])
+encoder.encoder.encoder_layers.0.attention_layer.output_matrix.weight torch.Size([256, 256])
+encoder.encoder.encoder_layers.0.attention_layer.output_matrix.bias torch.Size([256])
+encoder.encoder.encoder_layers.0.layer_norm.gamma torch.Size([256])
+encoder.encoder.encoder_layers.0.layer_norm.beta torch.Size([256])
+encoder.encoder.encoder_layers.0.fcnn.fc1.weight torch.Size([1024, 256])
+encoder.encoder.encoder_layers.0.fcnn.fc1.bias torch.Size([1024])
+encoder.encoder.encoder_layers.0.fcnn.fc2.weight torch.Size([256, 1024])
+encoder.encoder.encoder_layers.0.fcnn.fc2.bias torch.Size([256])
+encoder.encoder.encoder_layers.1.attention_layer.multi_query.weight torch.Size([256, 256])
+encoder.encoder.encoder_layers.1.attention_layer.multi_query.bias torch.Size([256])
+encoder.encoder.encoder_layers.1.attention_layer.multi_key_embed.weight torch.Size([256, 256])
+encoder.encoder.encoder_layers.1.attention_layer.multi_key_embed.bias torch.Size([256])
+encoder.encoder.encoder_layers.1.attention_layer.multi_key_pos.weight torch.Size([64, 64])
+encoder.encoder.encoder_layers.1.attention_layer.multi_key_pos.bias torch.Size([64])
+encoder.encoder.encoder_layers.1.attention_layer.multi_value.weight torch.Size([256, 256])
+encoder.encoder.encoder_layers.1.attention_layer.multi_value.bias torch.Size([256])
+encoder.encoder.encoder_layers.1.attention_layer.output_matrix.weight torch.Size([256, 256])
+encoder.encoder.encoder_layers.1.attention_layer.output_matrix.bias torch.Size([256])
+encoder.encoder.encoder_layers.1.layer_norm.gamma torch.Size([256])
+encoder.encoder.encoder_layers.1.layer_norm.beta torch.Size([256])
+encoder.encoder.encoder_layers.1.fcnn.fc1.weight torch.Size([1024, 256])
+encoder.encoder.encoder_layers.1.fcnn.fc1.bias torch.Size([1024])
+encoder.encoder.encoder_layers.1.fcnn.fc2.weight torch.Size([256, 1024])
+encoder.encoder.encoder_layers.1.fcnn.fc2.bias torch.Size([256])
+encoder.encoder.encoder_layers.2.attention_layer.multi_query.weight torch.Size([256, 256])
+encoder.encoder.encoder_layers.2.attention_layer.multi_query.bias torch.Size([256])
+encoder.encoder.encoder_layers.2.attention_layer.multi_key_embed.weight torch.Size([256, 256])
+encoder.encoder.encoder_layers.2.attention_layer.multi_key_embed.bias torch.Size([256])
+encoder.encoder.encoder_layers.2.attention_layer.multi_key_pos.weight torch.Size([64, 64])
+encoder.encoder.encoder_layers.2.attention_layer.multi_key_pos.bias torch.Size([64])
+encoder.encoder.encoder_layers.2.attention_layer.multi_value.weight torch.Size([256, 256])
+encoder.encoder.encoder_layers.2.attention_layer.multi_value.bias torch.Size([256])
+encoder.encoder.encoder_layers.2.attention_layer.output_matrix.weight torch.Size([256, 256])
+encoder.encoder.encoder_layers.2.attention_layer.output_matrix.bias torch.Size([256])
+encoder.encoder.encoder_layers.2.layer_norm.gamma torch.Size([256])
+encoder.encoder.encoder_layers.2.layer_norm.beta torch.Size([256])
+encoder.encoder.encoder_layers.2.fcnn.fc1.weight torch.Size([1024, 256])
+encoder.encoder.encoder_layers.2.fcnn.fc1.bias torch.Size([1024])
+encoder.encoder.encoder_layers.2.fcnn.fc2.weight torch.Size([256, 1024])
+encoder.encoder.encoder_layers.2.fcnn.fc2.bias torch.Size([256])
+encoder.reverse_encoder.u_vec torch.Size([1, 64])
+encoder.reverse_encoder.v_vec torch.Size([1, 64])
+encoder.reverse_encoder.encoder_layers.0.attention_layer.multi_query.weight torch.Size([256, 256])
+encoder.reverse_encoder.encoder_layers.0.attention_layer.multi_query.bias torch.Size([256])
+encoder.reverse_encoder.encoder_layers.0.attention_layer.multi_key_embed.weight torch.Size([256, 256])
+encoder.reverse_encoder.encoder_layers.0.attention_layer.multi_key_embed.bias torch.Size([256])
+encoder.reverse_encoder.encoder_layers.0.attention_layer.multi_key_pos.weight torch.Size([64, 64])
+encoder.reverse_encoder.encoder_layers.0.attention_layer.multi_key_pos.bias torch.Size([64])
+encoder.reverse_encoder.encoder_layers.0.attention_layer.multi_value.weight torch.Size([256, 256])
+encoder.reverse_encoder.encoder_layers.0.attention_layer.multi_value.bias torch.Size([256])
+encoder.reverse_encoder.encoder_layers.0.attention_layer.output_matrix.weight torch.Size([256, 256])
+encoder.reverse_encoder.encoder_layers.0.attention_layer.output_matrix.bias torch.Size([256])
+encoder.reverse_encoder.encoder_layers.0.layer_norm.gamma torch.Size([256])
+encoder.reverse_encoder.encoder_layers.0.layer_norm.beta torch.Size([256])
+encoder.reverse_encoder.encoder_layers.0.fcnn.fc1.weight torch.Size([1024, 256])
+encoder.reverse_encoder.encoder_layers.0.fcnn.fc1.bias torch.Size([1024])
+encoder.reverse_encoder.encoder_layers.0.fcnn.fc2.weight torch.Size([256, 1024])
+encoder.reverse_encoder.encoder_layers.0.fcnn.fc2.bias torch.Size([256])
+decoder.transition_matrix torch.Size([19, 19])
+decoder.feature2tag.weight torch.Size([17, 512])
+需要训练的模型参数总量: 4323945
+training epoch: 1
+ Learning rate is setted as: 0.001
+训练数据总量： 1889
+sentence_shape: torch.Size([35, 86])
+sample loss: epoch:1, batch:40, time:39.82s, batch_loss:5429.7367
+sentence_shape: torch.Size([55, 77])
+sample loss: epoch:1, batch:80, time:38.74s, batch_loss:5081.8555
+sentence_shape: torch.Size([19, 53])
+sample loss: epoch:1, batch:120, time:37.68s, batch_loss:4528.2766
+sentence_shape: torch.Size([42, 134])
+sample loss: epoch:1, batch:160, time:38.28s, batch_loss:4787.2715
+sentence_shape: torch.Size([10, 90])
+sample loss: epoch:1, batch:200, time:40.07s, batch_loss:4622.5684
+sentence_shape: torch.Size([8, 90])
+sample loss: epoch:1, batch:240, time:45.37s, batch_loss:2976.0363
+sentence_shape: torch.Size([21, 68])
+sample loss: epoch:1, batch:280, time:41.96s, batch_loss:2648.6270
+sentence_shape: torch.Size([13, 97])
+sample loss: epoch:1, batch:320, time:40.18s, batch_loss:2499.7016
+sentence_shape: torch.Size([27, 106])
+sample loss: epoch:1, batch:360, time:35.17s, batch_loss:1911.9123
+sentence_shape: torch.Size([7, 51])
+sample loss: epoch:1, batch:400, time:36.26s, batch_loss:1886.6611
+sentence_shape: torch.Size([11, 78])
+sample loss: epoch:1, batch:440, time:36.85s, batch_loss:2334.3658
+sentence_shape: torch.Size([3, 67])
+sample loss: epoch:1, batch:480, time:32.80s, batch_loss:1488.6651
+sentence_shape: torch.Size([14, 70])
+sample loss: epoch:1, batch:520, time:31.59s, batch_loss:1190.1670
+sentence_shape: torch.Size([2, 139])
+sample loss: epoch:1, batch:560, time:34.67s, batch_loss:1089.8953
+sentence_shape: torch.Size([12, 52])
+sample loss: epoch:1, batch:600, time:30.77s, batch_loss:958.4789
+sentence_shape: torch.Size([8, 119])
+sample loss: epoch:1, batch:640, time:30.67s, batch_loss:923.5868
+sentence_shape: torch.Size([6, 74])
+sample loss: epoch:1, batch:680, time:38.27s, batch_loss:993.1173
+sentence_shape: torch.Size([4, 84])
+sample loss: epoch:1, batch:720, time:39.51s, batch_loss:858.8918
+sentence_shape: torch.Size([8, 92])
+sample loss: epoch:1, batch:760, time:38.92s, batch_loss:1051.3920
+sentence_shape: torch.Size([11, 67])
+sample loss: epoch:1, batch:800, time:38.53s, batch_loss:836.6033
+sentence_shape: torch.Size([9, 63])
+sample loss: epoch:1, batch:840, time:47.04s, batch_loss:2209.3359
+sentence_shape: torch.Size([4, 60])
+sample loss: epoch:1, batch:880, time:37.45s, batch_loss:1399.9742
+sentence_shape: torch.Size([16, 65])
+sample loss: epoch:1, batch:920, time:42.57s, batch_loss:1438.1350
+sentence_shape: torch.Size([5, 47])
+sample loss: epoch:1, batch:960, time:39.47s, batch_loss:1367.7646
+sentence_shape: torch.Size([15, 94])
+sample loss: epoch:1, batch:1000, time:38.49s, batch_loss:1211.5012
+sentence_shape: torch.Size([4, 53])
+sample loss: epoch:1, batch:1040, time:32.63s, batch_loss:938.5951
+sentence_shape: torch.Size([7, 107])
+sample loss: epoch:1, batch:1080, time:38.46s, batch_loss:1113.4694
+sentence_shape: torch.Size([1, 184])
+sample loss: epoch:1, batch:1120, time:39.43s, batch_loss:1175.5188
+sentence_shape: torch.Size([19, 77])
+sample loss: epoch:1, batch:1160, time:39.83s, batch_loss:1118.5610
+sentence_shape: torch.Size([14, 93])
+sample loss: epoch:1, batch:1200, time:39.02s, batch_loss:1173.1740
+sentence_shape: torch.Size([6, 113])
+sample loss: epoch:1, batch:1240, time:38.01s, batch_loss:944.9133
+sentence_shape: torch.Size([7, 122])
+sample loss: epoch:1, batch:1280, time:37.61s, batch_loss:1170.6016
+sentence_shape: torch.Size([7, 151])
+sample loss: epoch:1, batch:1320, time:37.59s, batch_loss:912.9496
+sentence_shape: torch.Size([3, 114])
+sample loss: epoch:1, batch:1360, time:37.64s, batch_loss:703.4604
+sentence_shape: torch.Size([20, 121])
+sample loss: epoch:1, batch:1400, time:78.12s, batch_loss:5254.4812
+sentence_shape: torch.Size([33, 119])
+sample loss: epoch:1, batch:1440, time:106.36s, batch_loss:7922.8711
+sentence_shape: torch.Size([24, 140])
+sample loss: epoch:1, batch:1480, time:99.57s, batch_loss:7103.1219
+sentence_shape: torch.Size([17, 66])
+sample loss: epoch:1, batch:1520, time:87.70s, batch_loss:8082.0375
+sentence_shape: torch.Size([33, 93])
+sample loss: epoch:1, batch:1560, time:83.11s, batch_loss:7453.5422
+sentence_shape: torch.Size([26, 76])
+sample loss: epoch:1, batch:1600, time:59.94s, batch_loss:3785.1871
+sentence_shape: torch.Size([29, 100])
+sample loss: epoch:1, batch:1640, time:68.12s, batch_loss:5069.0480
+sentence_shape: torch.Size([41, 75])
+sample loss: epoch:1, batch:1680, time:76.58s, batch_loss:5995.3227
+sentence_shape: torch.Size([51, 67])
+sample loss: epoch:1, batch:1720, time:78.07s, batch_loss:10035.5500
+sentence_shape: torch.Size([34, 39])
+sample loss: epoch:1, batch:1760, time:59.88s, batch_loss:5521.8176
+sentence_shape: torch.Size([40, 89])
+sample loss: epoch:1, batch:1800, time:51.67s, batch_loss:4876.3160
+sentence_shape: torch.Size([28, 64])
+sample loss: epoch:1, batch:1840, time:50.37s, batch_loss:3094.7246
+sentence_shape: torch.Size([58, 120])
+sample loss: epoch:1, batch:1880, time:51.20s, batch_loss:4740.4609
+Epoch:1 training finished. Time: 2254.57s, speed: 1.19s/instance, total loss:5788187.5000
+Epoch_train_result: epoch:1, accuracy:0.9197, precision:0.4438, recall:0.1936, f_measure:0.2696 
+dev_result: epoch:1, time:133.12, accuracy:0.9175, precision:0.3951, recall:0.1814, f_measure:0.2486 
+epoch:1 dev set exceed best f score-1.0000
+training epoch: 2
+ Learning rate is setted as: 0.00099
+训练数据总量： 1889
+sentence_shape: torch.Size([4, 67])
+sample loss: epoch:2, batch:40, time:52.81s, batch_loss:3199.0061
+sentence_shape: torch.Size([3, 77])
+sample loss: epoch:2, batch:80, time:53.35s, batch_loss:3096.2768
+sentence_shape: torch.Size([51, 58])
+sample loss: epoch:2, batch:120, time:49.53s, batch_loss:2780.8338
+sentence_shape: torch.Size([17, 66])
+sample loss: epoch:2, batch:160, time:55.52s, batch_loss:3426.1719
+sentence_shape: torch.Size([6, 189])
+sample loss: epoch:2, batch:200, time:46.14s, batch_loss:2316.3498
+sentence_shape: torch.Size([28, 68])
+sample loss: epoch:2, batch:240, time:48.31s, batch_loss:2892.8107
+sentence_shape: torch.Size([11, 81])
+sample loss: epoch:2, batch:280, time:44.90s, batch_loss:2606.7418
+sentence_shape: torch.Size([6, 112])
+sample loss: epoch:2, batch:320, time:52.24s, batch_loss:3112.7643
+sentence_shape: torch.Size([14, 111])
+sample loss: epoch:2, batch:360, time:56.48s, batch_loss:3746.2070
+sentence_shape: torch.Size([5, 60])
+sample loss: epoch:2, batch:400, time:46.70s, batch_loss:2676.7287
+sentence_shape: torch.Size([17, 115])
+sample loss: epoch:2, batch:440, time:50.68s, batch_loss:2962.6055
+sentence_shape: torch.Size([27, 77])
+sample loss: epoch:2, batch:480, time:55.28s, batch_loss:3395.1102
+sentence_shape: torch.Size([61, 81])
+sample loss: epoch:2, batch:520, time:52.81s, batch_loss:3567.2551
+sentence_shape: torch.Size([5, 85])
+sample loss: epoch:2, batch:560, time:46.18s, batch_loss:2126.4320
+sentence_shape: torch.Size([38, 74])
+sample loss: epoch:2, batch:600, time:53.60s, batch_loss:3483.0113
+sentence_shape: torch.Size([11, 121])
+sample loss: epoch:2, batch:640, time:52.02s, batch_loss:2876.2264
+sentence_shape: torch.Size([13, 58])
+sample loss: epoch:2, batch:680, time:53.29s, batch_loss:2808.1070
+sentence_shape: torch.Size([62, 28])
+sample loss: epoch:2, batch:720, time:48.43s, batch_loss:2322.3189
+sentence_shape: torch.Size([8, 67])
+sample loss: epoch:2, batch:760, time:48.78s, batch_loss:3076.8314
+sentence_shape: torch.Size([15, 85])
+sample loss: epoch:2, batch:800, time:47.08s, batch_loss:2691.5031
+sentence_shape: torch.Size([29, 96])
+sample loss: epoch:2, batch:840, time:49.97s, batch_loss:2853.6029
+sentence_shape: torch.Size([10, 99])
+sample loss: epoch:2, batch:880, time:52.42s, batch_loss:3004.4551
+sentence_shape: torch.Size([9, 53])
+sample loss: epoch:2, batch:920, time:43.56s, batch_loss:1961.0816
+sentence_shape: torch.Size([9, 70])
+sample loss: epoch:2, batch:960, time:51.88s, batch_loss:3169.8730
+sentence_shape: torch.Size([6, 47])
+sample loss: epoch:2, batch:1000, time:48.06s, batch_loss:2382.3045
+sentence_shape: torch.Size([38, 55])
+sample loss: epoch:2, batch:1040, time:51.38s, batch_loss:3528.3172
+sentence_shape: torch.Size([69, 93])
+sample loss: epoch:2, batch:1080, time:53.20s, batch_loss:3344.1863
+sentence_shape: torch.Size([19, 92])
+sample loss: epoch:2, batch:1120, time:48.65s, batch_loss:2616.1266
+sentence_shape: torch.Size([8, 86])
+sample loss: epoch:2, batch:1160, time:44.96s, batch_loss:1686.3410
+sentence_shape: torch.Size([10, 117])
+sample loss: epoch:2, batch:1200, time:43.42s, batch_loss:2429.8506
+sentence_shape: torch.Size([15, 99])
+sample loss: epoch:2, batch:1240, time:50.42s, batch_loss:3345.3492
+sentence_shape: torch.Size([21, 51])
+sample loss: epoch:2, batch:1280, time:50.31s, batch_loss:3167.9682
+sentence_shape: torch.Size([32, 180])
+sample loss: epoch:2, batch:1320, time:55.61s, batch_loss:3897.9578
+sentence_shape: torch.Size([5, 85])
+sample loss: epoch:2, batch:1360, time:46.16s, batch_loss:2464.2139
+sentence_shape: torch.Size([34, 68])
+sample loss: epoch:2, batch:1400, time:54.84s, batch_loss:4426.5250
+sentence_shape: torch.Size([10, 72])
+sample loss: epoch:2, batch:1440, time:41.97s, batch_loss:1794.4090
+sentence_shape: torch.Size([30, 46])
+sample loss: epoch:2, batch:1480, time:46.51s, batch_loss:2705.7059
+sentence_shape: torch.Size([1, 334])
+sample loss: epoch:2, batch:1520, time:46.24s, batch_loss:3011.6840
+sentence_shape: torch.Size([123, 58])
+sample loss: epoch:2, batch:1560, time:47.53s, batch_loss:2970.6410
+sentence_shape: torch.Size([9, 135])
+sample loss: epoch:2, batch:1600, time:53.13s, batch_loss:3636.1660
+sentence_shape: torch.Size([5, 87])
+sample loss: epoch:2, batch:1640, time:50.69s, batch_loss:2889.6598
+sentence_shape: torch.Size([41, 30])
+sample loss: epoch:2, batch:1680, time:55.19s, batch_loss:3437.1004
+sentence_shape: torch.Size([19, 131])
+sample loss: epoch:2, batch:1720, time:49.68s, batch_loss:2994.7504
+sentence_shape: torch.Size([37, 105])
+sample loss: epoch:2, batch:1760, time:53.49s, batch_loss:3575.6094
+sentence_shape: torch.Size([17, 64])
+sample loss: epoch:2, batch:1800, time:56.46s, batch_loss:3693.8711
+sentence_shape: torch.Size([51, 44])
+sample loss: epoch:2, batch:1840, time:50.95s, batch_loss:3118.0424
+sentence_shape: torch.Size([21, 105])
+sample loss: epoch:2, batch:1880, time:52.33s, batch_loss:3387.8707
+Epoch:2 training finished. Time: 2374.69s, speed: 1.26s/instance, total loss:5648833.5000
+Epoch_train_result: epoch:2, accuracy:0.9308, precision:0.5178, recall:0.3353, f_measure:0.4070 
+dev_result: epoch:2, time:136.88, accuracy:0.9326, precision:0.5750, recall:0.3554, f_measure:0.4393 
+epoch:2 dev set exceed best f score0.2486
+training epoch: 3
+ Learning rate is setted as: 0.0009801
+训练数据总量： 1889
+sentence_shape: torch.Size([9, 64])
+sample loss: epoch:3, batch:40, time:49.30s, batch_loss:2997.7799
+sentence_shape: torch.Size([29, 118])
+sample loss: epoch:3, batch:80, time:53.38s, batch_loss:3475.6828
+sentence_shape: torch.Size([5, 222])
+sample loss: epoch:3, batch:120, time:53.78s, batch_loss:3050.1143
+sentence_shape: torch.Size([25, 55])
+sample loss: epoch:3, batch:160, time:48.16s, batch_loss:2859.3346
+sentence_shape: torch.Size([8, 88])
+sample loss: epoch:3, batch:200, time:51.70s, batch_loss:2955.5293
+sentence_shape: torch.Size([20, 115])
+sample loss: epoch:3, batch:240, time:51.59s, batch_loss:2510.6840
+sentence_shape: torch.Size([6, 112])
+sample loss: epoch:3, batch:280, time:48.98s, batch_loss:2334.9016
+sentence_shape: torch.Size([10, 104])
+sample loss: epoch:3, batch:320, time:55.56s, batch_loss:3061.4187
+sentence_shape: torch.Size([21, 53])
+sample loss: epoch:3, batch:360, time:52.81s, batch_loss:3486.7238
+sentence_shape: torch.Size([7, 89])
+sample loss: epoch:3, batch:400, time:50.03s, batch_loss:3302.6219
+sentence_shape: torch.Size([5, 140])
+sample loss: epoch:3, batch:440, time:49.81s, batch_loss:2970.5199
+sentence_shape: torch.Size([53, 81])
+sample loss: epoch:3, batch:480, time:45.84s, batch_loss:2476.8055
+sentence_shape: torch.Size([16, 115])
+sample loss: epoch:3, batch:520, time:53.54s, batch_loss:3188.5180
+sentence_shape: torch.Size([10, 146])
+sample loss: epoch:3, batch:560, time:50.67s, batch_loss:3334.9289
+sentence_shape: torch.Size([26, 121])
+sample loss: epoch:3, batch:600, time:42.96s, batch_loss:1937.5320
+sentence_shape: torch.Size([40, 156])
+sample loss: epoch:3, batch:640, time:50.93s, batch_loss:3149.4904
+sentence_shape: torch.Size([8, 73])
+sample loss: epoch:3, batch:680, time:55.02s, batch_loss:3547.0605
+sentence_shape: torch.Size([23, 42])
+sample loss: epoch:3, batch:720, time:42.82s, batch_loss:2830.3752
+sentence_shape: torch.Size([33, 53])
+sample loss: epoch:3, batch:760, time:35.08s, batch_loss:3496.0570
+sentence_shape: torch.Size([30, 110])
+sample loss: epoch:3, batch:800, time:40.06s, batch_loss:2928.8027
+sentence_shape: torch.Size([6, 43])
+sample loss: epoch:3, batch:840, time:34.20s, batch_loss:2249.3260
+sentence_shape: torch.Size([11, 74])
+sample loss: epoch:3, batch:880, time:38.65s, batch_loss:2916.3799
+sentence_shape: torch.Size([13, 210])
+sample loss: epoch:3, batch:920, time:31.36s, batch_loss:1958.2125
+sentence_shape: torch.Size([6, 69])
+sample loss: epoch:3, batch:960, time:39.09s, batch_loss:3850.3824
+sentence_shape: torch.Size([19, 71])
+sample loss: epoch:3, batch:1000, time:40.36s, batch_loss:3499.3094
+sentence_shape: torch.Size([5, 51])
+sample loss: epoch:3, batch:1040, time:33.44s, batch_loss:2018.2174
+sentence_shape: torch.Size([10, 75])
+sample loss: epoch:3, batch:1080, time:44.80s, batch_loss:4454.5652
+sentence_shape: torch.Size([3, 81])
+sample loss: epoch:3, batch:1120, time:34.77s, batch_loss:2403.3043
+sentence_shape: torch.Size([65, 30])
+sample loss: epoch:3, batch:1160, time:39.58s, batch_loss:3348.9047
+sentence_shape: torch.Size([14, 61])
+sample loss: epoch:3, batch:1200, time:34.34s, batch_loss:2425.5041
+sentence_shape: torch.Size([26, 96])
+sample loss: epoch:3, batch:1240, time:34.94s, batch_loss:2403.0100
+sentence_shape: torch.Size([30, 102])
+sample loss: epoch:3, batch:1280, time:31.77s, batch_loss:2793.5092
+sentence_shape: torch.Size([9, 73])
+sample loss: epoch:3, batch:1320, time:35.14s, batch_loss:2995.9029
+sentence_shape: torch.Size([27, 147])
+sample loss: epoch:3, batch:1360, time:42.18s, batch_loss:3222.9846
+sentence_shape: torch.Size([41, 69])
+sample loss: epoch:3, batch:1400, time:31.74s, batch_loss:2236.1191
+sentence_shape: torch.Size([42, 67])
+sample loss: epoch:3, batch:1440, time:40.15s, batch_loss:3485.7320
+sentence_shape: torch.Size([40, 49])
+sample loss: epoch:3, batch:1480, time:38.90s, batch_loss:3011.7312
+sentence_shape: torch.Size([3, 72])
+sample loss: epoch:3, batch:1520, time:32.83s, batch_loss:2316.6102
+sentence_shape: torch.Size([9, 97])
+sample loss: epoch:3, batch:1560, time:40.79s, batch_loss:3154.3721
+sentence_shape: torch.Size([16, 63])
+sample loss: epoch:3, batch:1600, time:42.31s, batch_loss:3588.9895
+sentence_shape: torch.Size([21, 156])
+sample loss: epoch:3, batch:1640, time:35.75s, batch_loss:2442.5533
+sentence_shape: torch.Size([4, 78])
+sample loss: epoch:3, batch:1680, time:35.49s, batch_loss:3482.7332
+sentence_shape: torch.Size([3, 57])
+sample loss: epoch:3, batch:1720, time:42.72s, batch_loss:3759.4238
+sentence_shape: torch.Size([52, 69])
+sample loss: epoch:3, batch:1760, time:39.34s, batch_loss:3591.0840
+sentence_shape: torch.Size([1, 155])
+sample loss: epoch:3, batch:1800, time:38.47s, batch_loss:2672.3734
+sentence_shape: torch.Size([3, 119])
+sample loss: epoch:3, batch:1840, time:31.27s, batch_loss:2563.6482
+sentence_shape: torch.Size([12, 111])
+sample loss: epoch:3, batch:1880, time:37.16s, batch_loss:2904.7937
+Epoch:3 training finished. Time: 1991.15s, speed: 1.05s/instance, total loss:5605485.5000
+Epoch_train_result: epoch:3, accuracy:0.9383, precision:0.6059, recall:0.4157, f_measure:0.4931 
+dev_result: epoch:3, time:119.68, accuracy:0.9317, precision:0.5902, recall:0.3520, f_measure:0.4410 
+epoch:3 dev set exceed best f score0.4393
+training epoch: 4
+ Learning rate is setted as: 0.0009702990000000001
+训练数据总量： 1889
+sentence_shape: torch.Size([41, 61])
+sample loss: epoch:4, batch:40, time:34.57s, batch_loss:3137.9996
+sentence_shape: torch.Size([10, 113])
+sample loss: epoch:4, batch:80, time:38.31s, batch_loss:2663.9650
+sentence_shape: torch.Size([58, 120])
+sample loss: epoch:4, batch:120, time:32.82s, batch_loss:2675.3199
+sentence_shape: torch.Size([2, 84])
+sample loss: epoch:4, batch:160, time:33.66s, batch_loss:2824.5775
+sentence_shape: torch.Size([26, 43])
+sample loss: epoch:4, batch:200, time:39.11s, batch_loss:2863.9852
+sentence_shape: torch.Size([19, 99])
+sample loss: epoch:4, batch:240, time:45.96s, batch_loss:4036.8160
+sentence_shape: torch.Size([14, 248])
+sample loss: epoch:4, batch:280, time:35.85s, batch_loss:2053.2311
+sentence_shape: torch.Size([5, 42])
+sample loss: epoch:4, batch:320, time:34.84s, batch_loss:2752.9244
+sentence_shape: torch.Size([2, 53])
+sample loss: epoch:4, batch:360, time:31.45s, batch_loss:2084.0881
+sentence_shape: torch.Size([18, 96])
+sample loss: epoch:4, batch:400, time:42.94s, batch_loss:3562.2184
+sentence_shape: torch.Size([15, 96])
+sample loss: epoch:4, batch:440, time:39.84s, batch_loss:3440.6961
+sentence_shape: torch.Size([57, 56])
+sample loss: epoch:4, batch:480, time:34.53s, batch_loss:2545.0045
+sentence_shape: torch.Size([4, 101])
+sample loss: epoch:4, batch:520, time:35.82s, batch_loss:2141.4150
+sentence_shape: torch.Size([6, 88])
+sample loss: epoch:4, batch:560, time:35.12s, batch_loss:2869.3119
+sentence_shape: torch.Size([11, 63])
+sample loss: epoch:4, batch:600, time:37.45s, batch_loss:3870.4934
+sentence_shape: torch.Size([8, 61])
+sample loss: epoch:4, batch:640, time:28.77s, batch_loss:1650.6967
+sentence_shape: torch.Size([18, 107])
+sample loss: epoch:4, batch:680, time:42.85s, batch_loss:3388.0445
+sentence_shape: torch.Size([5, 54])
+sample loss: epoch:4, batch:720, time:42.74s, batch_loss:3319.1859
+sentence_shape: torch.Size([5, 41])
+sample loss: epoch:4, batch:760, time:42.66s, batch_loss:4147.6332
+sentence_shape: torch.Size([38, 272])
+sample loss: epoch:4, batch:800, time:41.73s, batch_loss:3821.1633
+sentence_shape: torch.Size([7, 108])
+sample loss: epoch:4, batch:840, time:39.00s, batch_loss:3330.1398
+sentence_shape: torch.Size([7, 90])
+sample loss: epoch:4, batch:880, time:32.95s, batch_loss:2175.5377
+sentence_shape: torch.Size([14, 53])
+sample loss: epoch:4, batch:920, time:33.71s, batch_loss:2508.1098
+sentence_shape: torch.Size([37, 45])
+sample loss: epoch:4, batch:960, time:35.15s, batch_loss:2566.9262
+sentence_shape: torch.Size([40, 53])
+sample loss: epoch:4, batch:1000, time:29.92s, batch_loss:1928.7250
+sentence_shape: torch.Size([14, 86])
+sample loss: epoch:4, batch:1040, time:39.51s, batch_loss:2644.5797
+sentence_shape: torch.Size([12, 68])
+sample loss: epoch:4, batch:1080, time:38.58s, batch_loss:3157.7174
+sentence_shape: torch.Size([11, 83])
+sample loss: epoch:4, batch:1120, time:34.66s, batch_loss:2791.5885
+sentence_shape: torch.Size([7, 70])
+sample loss: epoch:4, batch:1160, time:34.79s, batch_loss:2332.5898
+sentence_shape: torch.Size([5, 137])
+sample loss: epoch:4, batch:1200, time:39.43s, batch_loss:3671.8898
+sentence_shape: torch.Size([4, 98])
+sample loss: epoch:4, batch:1240, time:32.27s, batch_loss:2511.1783
+sentence_shape: torch.Size([5, 115])
+sample loss: epoch:4, batch:1280, time:45.30s, batch_loss:3866.4379
+sentence_shape: torch.Size([8, 52])
+sample loss: epoch:4, batch:1320, time:39.72s, batch_loss:3309.5879
+sentence_shape: torch.Size([41, 104])
+sample loss: epoch:4, batch:1360, time:38.01s, batch_loss:3081.5869
+sentence_shape: torch.Size([49, 105])
+sample loss: epoch:4, batch:1400, time:38.80s, batch_loss:2725.1391
+sentence_shape: torch.Size([9, 46])
+sample loss: epoch:4, batch:1440, time:38.73s, batch_loss:2963.3650
+sentence_shape: torch.Size([14, 73])
+sample loss: epoch:4, batch:1480, time:37.05s, batch_loss:2663.3111
+sentence_shape: torch.Size([28, 36])
+sample loss: epoch:4, batch:1520, time:42.01s, batch_loss:3206.2967
+sentence_shape: torch.Size([6, 65])
+sample loss: epoch:4, batch:1560, time:43.56s, batch_loss:3924.0891
+sentence_shape: torch.Size([9, 103])
+sample loss: epoch:4, batch:1600, time:35.23s, batch_loss:2768.8896
+sentence_shape: torch.Size([22, 70])
+sample loss: epoch:4, batch:1640, time:46.05s, batch_loss:3768.8063
+sentence_shape: torch.Size([4, 39])
+sample loss: epoch:4, batch:1680, time:41.40s, batch_loss:3872.3613
+sentence_shape: torch.Size([3, 102])
+sample loss: epoch:4, batch:1720, time:33.04s, batch_loss:2235.1037
+sentence_shape: torch.Size([10, 92])
+sample loss: epoch:4, batch:1760, time:34.75s, batch_loss:2173.0129
+sentence_shape: torch.Size([34, 47])
+sample loss: epoch:4, batch:1800, time:39.50s, batch_loss:3341.7293
+sentence_shape: torch.Size([12, 72])
+sample loss: epoch:4, batch:1840, time:33.40s, batch_loss:2854.6756
+sentence_shape: torch.Size([38, 37])
+sample loss: epoch:4, batch:1880, time:36.50s, batch_loss:2610.3145
+Epoch:4 training finished. Time: 1772.82s, speed: 0.94s/instance, total loss:5587042.0000
+Epoch_train_result: epoch:4, accuracy:0.9413, precision:0.6218, recall:0.4541, f_measure:0.5248 
+dev_result: epoch:4, time:118.72, accuracy:0.9330, precision:0.6263, recall:0.3395, f_measure:0.4403 
+training epoch: 5
+ Learning rate is setted as: 0.0009605960099999999
+训练数据总量： 1889
+sentence_shape: torch.Size([4, 78])
+sample loss: epoch:5, batch:40, time:41.47s, batch_loss:3244.4750
+sentence_shape: torch.Size([17, 66])
+sample loss: epoch:5, batch:80, time:32.96s, batch_loss:2314.0186
+sentence_shape: torch.Size([34, 29])
+sample loss: epoch:5, batch:120, time:37.06s, batch_loss:2549.9000
+sentence_shape: torch.Size([3, 158])
+sample loss: epoch:5, batch:160, time:32.52s, batch_loss:2075.6217
+sentence_shape: torch.Size([17, 105])
+sample loss: epoch:5, batch:200, time:36.44s, batch_loss:2676.3547
+sentence_shape: torch.Size([10, 78])
+sample loss: epoch:5, batch:240, time:38.88s, batch_loss:3625.7531
+sentence_shape: torch.Size([5, 58])
+sample loss: epoch:5, batch:280, time:32.53s, batch_loss:2377.1699
+sentence_shape: torch.Size([18, 87])
+sample loss: epoch:5, batch:320, time:37.80s, batch_loss:2571.3301
+sentence_shape: torch.Size([17, 55])
+sample loss: epoch:5, batch:360, time:35.72s, batch_loss:2629.6730
+sentence_shape: torch.Size([38, 90])
+sample loss: epoch:5, batch:400, time:36.14s, batch_loss:2775.6408
+sentence_shape: torch.Size([16, 73])
+sample loss: epoch:5, batch:440, time:34.34s, batch_loss:2620.2553
+sentence_shape: torch.Size([30, 131])
+sample loss: epoch:5, batch:480, time:41.15s, batch_loss:2931.0398
+sentence_shape: torch.Size([16, 127])
+sample loss: epoch:5, batch:520, time:29.16s, batch_loss:1888.1832
+sentence_shape: torch.Size([72, 103])
+sample loss: epoch:5, batch:560, time:34.89s, batch_loss:3352.3492
+sentence_shape: torch.Size([4, 135])
+sample loss: epoch:5, batch:600, time:41.04s, batch_loss:3222.3775
+sentence_shape: torch.Size([3, 65])
+sample loss: epoch:5, batch:640, time:39.36s, batch_loss:3605.5586
+sentence_shape: torch.Size([2, 84])
+sample loss: epoch:5, batch:680, time:36.19s, batch_loss:2830.5502
+sentence_shape: torch.Size([14, 121])
+sample loss: epoch:5, batch:720, time:40.04s, batch_loss:3653.9859
+sentence_shape: torch.Size([13, 155])
+sample loss: epoch:5, batch:760, time:38.45s, batch_loss:3280.8016
+sentence_shape: torch.Size([42, 134])
+sample loss: epoch:5, batch:800, time:38.41s, batch_loss:3460.7883
+sentence_shape: torch.Size([11, 106])
+sample loss: epoch:5, batch:840, time:42.79s, batch_loss:3261.1193
+sentence_shape: torch.Size([7, 84])
+sample loss: epoch:5, batch:880, time:44.03s, batch_loss:3580.7020
+sentence_shape: torch.Size([14, 58])
+sample loss: epoch:5, batch:920, time:40.24s, batch_loss:3206.3381
+sentence_shape: torch.Size([9, 53])
+sample loss: epoch:5, batch:960, time:35.27s, batch_loss:2799.2258
+sentence_shape: torch.Size([21, 56])
+sample loss: epoch:5, batch:1000, time:37.72s, batch_loss:2712.6652
+sentence_shape: torch.Size([14, 82])
+sample loss: epoch:5, batch:1040, time:42.95s, batch_loss:4420.5078
+sentence_shape: torch.Size([24, 44])
+sample loss: epoch:5, batch:1080, time:31.64s, batch_loss:2161.0152
+sentence_shape: torch.Size([12, 101])
+sample loss: epoch:5, batch:1120, time:37.93s, batch_loss:3485.9621
+sentence_shape: torch.Size([4, 57])
+sample loss: epoch:5, batch:1160, time:38.59s, batch_loss:3052.5719
+sentence_shape: torch.Size([25, 27])
+sample loss: epoch:5, batch:1200, time:35.42s, batch_loss:2287.1891
+sentence_shape: torch.Size([3, 82])
+sample loss: epoch:5, batch:1240, time:33.65s, batch_loss:2706.8441
+sentence_shape: torch.Size([2, 58])
+sample loss: epoch:5, batch:1280, time:39.91s, batch_loss:3710.1383
+sentence_shape: torch.Size([16, 95])
+sample loss: epoch:5, batch:1320, time:39.19s, batch_loss:3316.3965
+sentence_shape: torch.Size([7, 104])
+sample loss: epoch:5, batch:1360, time:36.10s, batch_loss:2311.0982
+sentence_shape: torch.Size([12, 142])
+sample loss: epoch:5, batch:1400, time:32.00s, batch_loss:2192.1373
+sentence_shape: torch.Size([17, 63])
+sample loss: epoch:5, batch:1440, time:34.32s, batch_loss:2543.6514
+sentence_shape: torch.Size([41, 64])
+sample loss: epoch:5, batch:1480, time:37.67s, batch_loss:3789.1320
+sentence_shape: torch.Size([13, 84])
+sample loss: epoch:5, batch:1520, time:38.23s, batch_loss:3381.0453
+sentence_shape: torch.Size([4, 81])
+sample loss: epoch:5, batch:1560, time:37.55s, batch_loss:3184.3285
+sentence_shape: torch.Size([7, 68])
+sample loss: epoch:5, batch:1600, time:37.43s, batch_loss:2580.4676
+sentence_shape: torch.Size([9, 118])
+sample loss: epoch:5, batch:1640, time:33.93s, batch_loss:2338.1809
+sentence_shape: torch.Size([20, 115])
+sample loss: epoch:5, batch:1680, time:38.01s, batch_loss:3155.4424
+sentence_shape: torch.Size([5, 66])
+sample loss: epoch:5, batch:1720, time:38.12s, batch_loss:3046.2686
+sentence_shape: torch.Size([22, 86])
+sample loss: epoch:5, batch:1760, time:34.05s, batch_loss:2527.6828
+sentence_shape: torch.Size([31, 96])
+sample loss: epoch:5, batch:1800, time:41.90s, batch_loss:4005.2688
+sentence_shape: torch.Size([34, 49])
+sample loss: epoch:5, batch:1840, time:40.10s, batch_loss:2739.2961
+sentence_shape: torch.Size([4, 67])
+sample loss: epoch:5, batch:1880, time:32.14s, batch_loss:2444.6795
+Epoch:5 training finished. Time: 1754.62s, speed: 0.93s/instance, total loss:5578137.5000
+Epoch_train_result: epoch:5, accuracy:0.9438, precision:0.6328, recall:0.4737, f_measure:0.5418 
+dev_result: epoch:5, time:120.57, accuracy:0.9395, precision:0.6144, recall:0.4337, f_measure:0.5085 
+epoch:5 dev set exceed best f score0.4410
+training epoch: 6
+ Learning rate is setted as: 0.0009509900498999999
+训练数据总量： 1889
+sentence_shape: torch.Size([7, 112])
+sample loss: epoch:6, batch:40, time:33.60s, batch_loss:2537.6398
+sentence_shape: torch.Size([40, 125])
+sample loss: epoch:6, batch:80, time:34.31s, batch_loss:2474.2418
+sentence_shape: torch.Size([27, 68])
+sample loss: epoch:6, batch:120, time:34.44s, batch_loss:2795.0500
+sentence_shape: torch.Size([6, 113])
+sample loss: epoch:6, batch:160, time:39.95s, batch_loss:3492.0371
+sentence_shape: torch.Size([7, 54])
+sample loss: epoch:6, batch:200, time:29.22s, batch_loss:1863.6773
+sentence_shape: torch.Size([20, 130])
+sample loss: epoch:6, batch:240, time:40.89s, batch_loss:3813.6543
+sentence_shape: torch.Size([6, 52])
+sample loss: epoch:6, batch:280, time:40.66s, batch_loss:3807.3660
+sentence_shape: torch.Size([10, 110])
+sample loss: epoch:6, batch:320, time:36.25s, batch_loss:2773.0689
+sentence_shape: torch.Size([21, 50])
+sample loss: epoch:6, batch:360, time:38.13s, batch_loss:3161.5545
+sentence_shape: torch.Size([4, 87])
+sample loss: epoch:6, batch:400, time:35.11s, batch_loss:3027.3807
+sentence_shape: torch.Size([20, 71])
+sample loss: epoch:6, batch:440, time:39.00s, batch_loss:3394.0312
+sentence_shape: torch.Size([39, 80])
+sample loss: epoch:6, batch:480, time:36.87s, batch_loss:2424.9814
+sentence_shape: torch.Size([19, 77])
+sample loss: epoch:6, batch:520, time:31.12s, batch_loss:1660.3457
+sentence_shape: torch.Size([13, 155])
+sample loss: epoch:6, batch:560, time:35.60s, batch_loss:2910.3668
+sentence_shape: torch.Size([7, 163])
+sample loss: epoch:6, batch:600, time:37.88s, batch_loss:2737.0697
+sentence_shape: torch.Size([41, 134])
+sample loss: epoch:6, batch:640, time:37.65s, batch_loss:3442.7418
+sentence_shape: torch.Size([6, 143])
+sample loss: epoch:6, batch:680, time:42.00s, batch_loss:2874.9342
+sentence_shape: torch.Size([15, 61])
+sample loss: epoch:6, batch:720, time:37.86s, batch_loss:3110.7100
+sentence_shape: torch.Size([5, 53])
+sample loss: epoch:6, batch:760, time:36.75s, batch_loss:2813.8096
+sentence_shape: torch.Size([1, 143])
+sample loss: epoch:6, batch:800, time:40.28s, batch_loss:3051.6486
+sentence_shape: torch.Size([32, 74])
+sample loss: epoch:6, batch:840, time:38.94s, batch_loss:3143.7773
+sentence_shape: torch.Size([3, 50])
+sample loss: epoch:6, batch:880, time:33.00s, batch_loss:2552.6834
+sentence_shape: torch.Size([29, 97])
+sample loss: epoch:6, batch:920, time:37.29s, batch_loss:2708.2396
+sentence_shape: torch.Size([40, 111])
+sample loss: epoch:6, batch:960, time:39.30s, batch_loss:3025.4367
+sentence_shape: torch.Size([8, 99])
+sample loss: epoch:6, batch:1000, time:44.29s, batch_loss:3834.6406
+sentence_shape: torch.Size([23, 108])
+sample loss: epoch:6, batch:1040, time:35.95s, batch_loss:2587.5064
+sentence_shape: torch.Size([8, 112])
+sample loss: epoch:6, batch:1080, time:36.06s, batch_loss:3115.3416
+sentence_shape: torch.Size([1, 198])
+sample loss: epoch:6, batch:1120, time:32.43s, batch_loss:2976.9088
+sentence_shape: torch.Size([35, 19])
+sample loss: epoch:6, batch:1160, time:36.95s, batch_loss:2808.3812
+sentence_shape: torch.Size([49, 87])
+sample loss: epoch:6, batch:1200, time:36.35s, batch_loss:3119.7781
+sentence_shape: torch.Size([10, 146])
+sample loss: epoch:6, batch:1240, time:37.32s, batch_loss:3356.0336
+sentence_shape: torch.Size([11, 143])
+sample loss: epoch:6, batch:1280, time:34.50s, batch_loss:2927.4812
+sentence_shape: torch.Size([3, 73])
+sample loss: epoch:6, batch:1320, time:33.43s, batch_loss:2407.5666
+sentence_shape: torch.Size([9, 137])
+sample loss: epoch:6, batch:1360, time:39.33s, batch_loss:3202.9828
+sentence_shape: torch.Size([5, 80])
+sample loss: epoch:6, batch:1400, time:36.49s, batch_loss:2372.2312
+sentence_shape: torch.Size([27, 86])
+sample loss: epoch:6, batch:1440, time:41.91s, batch_loss:3276.0184
+sentence_shape: torch.Size([4, 134])
+sample loss: epoch:6, batch:1480, time:36.26s, batch_loss:2783.9502
+sentence_shape: torch.Size([20, 127])
+sample loss: epoch:6, batch:1520, time:36.47s, batch_loss:3419.3414
+sentence_shape: torch.Size([13, 67])
+sample loss: epoch:6, batch:1560, time:36.83s, batch_loss:3357.0094
+sentence_shape: torch.Size([34, 70])
+sample loss: epoch:6, batch:1600, time:36.21s, batch_loss:3133.7463
+sentence_shape: torch.Size([18, 113])
+sample loss: epoch:6, batch:1640, time:39.12s, batch_loss:2967.2574
+sentence_shape: torch.Size([11, 106])
+sample loss: epoch:6, batch:1680, time:34.43s, batch_loss:2761.3068
+sentence_shape: torch.Size([22, 92])
+sample loss: epoch:6, batch:1720, time:35.34s, batch_loss:2631.1355
+sentence_shape: torch.Size([42, 65])
+sample loss: epoch:6, batch:1760, time:38.97s, batch_loss:2476.0912
+sentence_shape: torch.Size([23, 28])
+sample loss: epoch:6, batch:1800, time:39.12s, batch_loss:3136.4389
+sentence_shape: torch.Size([4, 76])
+sample loss: epoch:6, batch:1840, time:37.36s, batch_loss:3269.6330
+sentence_shape: torch.Size([48, 33])
+sample loss: epoch:6, batch:1880, time:35.15s, batch_loss:3118.6520
+Epoch:6 training finished. Time: 1745.86s, speed: 0.92s/instance, total loss:5572131.0000
+Epoch_train_result: epoch:6, accuracy:0.9449, precision:0.6454, recall:0.4899, f_measure:0.5570 
+dev_result: epoch:6, time:115.27, accuracy:0.9423, precision:0.6079, recall:0.5046, f_measure:0.5515 
+epoch:6 dev set exceed best f score0.5085
+training epoch: 7
+ Learning rate is setted as: 0.000941480149401
+训练数据总量： 1889
+sentence_shape: torch.Size([17, 99])
+sample loss: epoch:7, batch:40, time:36.80s, batch_loss:2938.2604
+sentence_shape: torch.Size([68, 43])
+sample loss: epoch:7, batch:80, time:38.90s, batch_loss:3695.0770
+sentence_shape: torch.Size([8, 285])
+sample loss: epoch:7, batch:120, time:52.81s, batch_loss:5232.6496
+sentence_shape: torch.Size([21, 73])
+sample loss: epoch:7, batch:160, time:39.94s, batch_loss:3171.3080
+sentence_shape: torch.Size([37, 45])
+sample loss: epoch:7, batch:200, time:42.30s, batch_loss:3795.5496
+sentence_shape: torch.Size([12, 65])
+sample loss: epoch:7, batch:240, time:38.24s, batch_loss:2609.8414
+sentence_shape: torch.Size([12, 142])
+sample loss: epoch:7, batch:280, time:30.73s, batch_loss:2661.1842
+sentence_shape: torch.Size([24, 61])
+sample loss: epoch:7, batch:320, time:33.72s, batch_loss:2335.6836
+sentence_shape: torch.Size([13, 134])
+sample loss: epoch:7, batch:360, time:36.67s, batch_loss:2422.6713
+sentence_shape: torch.Size([21, 155])
+sample loss: epoch:7, batch:400, time:37.81s, batch_loss:2812.5596
+sentence_shape: torch.Size([12, 113])
+sample loss: epoch:7, batch:440, time:32.86s, batch_loss:2137.4387
+sentence_shape: torch.Size([30, 48])
+sample loss: epoch:7, batch:480, time:46.33s, batch_loss:3771.5031
+sentence_shape: torch.Size([11, 121])
+sample loss: epoch:7, batch:520, time:37.33s, batch_loss:2907.7174
+sentence_shape: torch.Size([8, 138])
+sample loss: epoch:7, batch:560, time:36.41s, batch_loss:2610.2104
+sentence_shape: torch.Size([22, 64])
+sample loss: epoch:7, batch:600, time:39.87s, batch_loss:3343.1164
+sentence_shape: torch.Size([4, 77])
+sample loss: epoch:7, batch:640, time:33.94s, batch_loss:2559.3240
+sentence_shape: torch.Size([10, 68])
+sample loss: epoch:7, batch:680, time:33.91s, batch_loss:2415.9057
+sentence_shape: torch.Size([3, 87])
+sample loss: epoch:7, batch:720, time:35.39s, batch_loss:2965.5740
+sentence_shape: torch.Size([13, 88])
+sample loss: epoch:7, batch:760, time:44.91s, batch_loss:4253.4875
+sentence_shape: torch.Size([4, 75])
+sample loss: epoch:7, batch:800, time:40.98s, batch_loss:3305.3371
+sentence_shape: torch.Size([8, 80])
+sample loss: epoch:7, batch:840, time:38.86s, batch_loss:2394.6180
+sentence_shape: torch.Size([44, 37])
+sample loss: epoch:7, batch:880, time:29.02s, batch_loss:2363.2396
+sentence_shape: torch.Size([4, 74])
+sample loss: epoch:7, batch:920, time:33.11s, batch_loss:2271.0979
+sentence_shape: torch.Size([55, 73])
+sample loss: epoch:7, batch:960, time:37.41s, batch_loss:2755.3549
+sentence_shape: torch.Size([6, 67])
+sample loss: epoch:7, batch:1000, time:34.58s, batch_loss:2864.3693
+sentence_shape: torch.Size([16, 132])
+sample loss: epoch:7, batch:1040, time:33.49s, batch_loss:2224.3713
+sentence_shape: torch.Size([67, 102])
+sample loss: epoch:7, batch:1080, time:41.47s, batch_loss:3534.9270
+sentence_shape: torch.Size([3, 125])
+sample loss: epoch:7, batch:1120, time:32.28s, batch_loss:2066.4014
+sentence_shape: torch.Size([34, 66])
+sample loss: epoch:7, batch:1160, time:39.61s, batch_loss:3491.5930
+sentence_shape: torch.Size([6, 54])
+sample loss: epoch:7, batch:1200, time:36.37s, batch_loss:2335.5486
+sentence_shape: torch.Size([15, 129])
+sample loss: epoch:7, batch:1240, time:41.30s, batch_loss:2764.6719
+sentence_shape: torch.Size([4, 131])
+sample loss: epoch:7, batch:1280, time:32.96s, batch_loss:2702.3236
+sentence_shape: torch.Size([11, 64])
+sample loss: epoch:7, batch:1320, time:52.32s, batch_loss:4149.1000
+sentence_shape: torch.Size([22, 70])
+sample loss: epoch:7, batch:1360, time:50.68s, batch_loss:2707.7377
+sentence_shape: torch.Size([7, 145])
+sample loss: epoch:7, batch:1400, time:53.90s, batch_loss:3618.9738
+sentence_shape: torch.Size([10, 77])
+sample loss: epoch:7, batch:1440, time:57.55s, batch_loss:3629.6090
+sentence_shape: torch.Size([31, 97])
+sample loss: epoch:7, batch:1480, time:46.73s, batch_loss:2544.2520
+sentence_shape: torch.Size([34, 150])
+sample loss: epoch:7, batch:1520, time:53.61s, batch_loss:2909.3117
+sentence_shape: torch.Size([4, 87])
+sample loss: epoch:7, batch:1560, time:47.01s, batch_loss:2260.0998
+sentence_shape: torch.Size([13, 59])
+sample loss: epoch:7, batch:1600, time:52.27s, batch_loss:3018.5305
+sentence_shape: torch.Size([43, 113])
+sample loss: epoch:7, batch:1640, time:50.67s, batch_loss:3006.0121
+sentence_shape: torch.Size([50, 69])
+sample loss: epoch:7, batch:1680, time:50.83s, batch_loss:2899.8738
+sentence_shape: torch.Size([24, 44])
+sample loss: epoch:7, batch:1720, time:56.11s, batch_loss:3240.7408
+sentence_shape: torch.Size([36, 59])
+sample loss: epoch:7, batch:1760, time:51.41s, batch_loss:3371.3277
+sentence_shape: torch.Size([10, 146])
+sample loss: epoch:7, batch:1800, time:49.37s, batch_loss:2829.7527
+sentence_shape: torch.Size([7, 126])
+sample loss: epoch:7, batch:1840, time:52.90s, batch_loss:2784.4182
+sentence_shape: torch.Size([21, 68])
+sample loss: epoch:7, batch:1880, time:46.70s, batch_loss:2235.7146
+Epoch:7 training finished. Time: 1981.65s, speed: 1.05s/instance, total loss:5568520.5000
+Epoch_train_result: epoch:7, accuracy:0.9466, precision:0.6633, recall:0.5032, f_measure:0.5723 
+dev_result: epoch:7, time:149.48, accuracy:0.9419, precision:0.5973, recall:0.5024, f_measure:0.5457 
+training epoch: 8
+ Learning rate is setted as: 0.0009320653479069899
+训练数据总量： 1889
+sentence_shape: torch.Size([23, 85])
+sample loss: epoch:8, batch:40, time:45.16s, batch_loss:2235.4992
+sentence_shape: torch.Size([2, 112])
+sample loss: epoch:8, batch:80, time:49.86s, batch_loss:2775.6744
+sentence_shape: torch.Size([59, 81])
+sample loss: epoch:8, batch:120, time:55.35s, batch_loss:3337.2789
+sentence_shape: torch.Size([23, 43])
+sample loss: epoch:8, batch:160, time:48.48s, batch_loss:2612.8811
+sentence_shape: torch.Size([43, 92])
+sample loss: epoch:8, batch:200, time:51.42s, batch_loss:2877.3250
+sentence_shape: torch.Size([9, 106])
+sample loss: epoch:8, batch:240, time:54.43s, batch_loss:3393.8629
+sentence_shape: torch.Size([16, 115])
+sample loss: epoch:8, batch:280, time:48.16s, batch_loss:2329.8611
+sentence_shape: torch.Size([5, 137])
+sample loss: epoch:8, batch:320, time:52.58s, batch_loss:2821.6600
+sentence_shape: torch.Size([17, 113])
+sample loss: epoch:8, batch:360, time:49.58s, batch_loss:2628.1559
+sentence_shape: torch.Size([20, 115])
+sample loss: epoch:8, batch:400, time:65.07s, batch_loss:4665.1969
+sentence_shape: torch.Size([49, 74])
+sample loss: epoch:8, batch:440, time:52.87s, batch_loss:2667.9303
+sentence_shape: torch.Size([7, 134])
+sample loss: epoch:8, batch:480, time:52.91s, batch_loss:3233.1725
+sentence_shape: torch.Size([7, 78])
+sample loss: epoch:8, batch:520, time:51.16s, batch_loss:2832.2857
+sentence_shape: torch.Size([5, 46])
+sample loss: epoch:8, batch:560, time:49.16s, batch_loss:2970.5338
+sentence_shape: torch.Size([4, 50])
+sample loss: epoch:8, batch:600, time:46.22s, batch_loss:2343.3850
+sentence_shape: torch.Size([5, 38])
+sample loss: epoch:8, batch:640, time:44.77s, batch_loss:2143.8865
+sentence_shape: torch.Size([10, 215])
+sample loss: epoch:8, batch:680, time:52.34s, batch_loss:2382.7986
+sentence_shape: torch.Size([17, 116])
+sample loss: epoch:8, batch:720, time:55.76s, batch_loss:3402.0992
+sentence_shape: torch.Size([9, 61])
+sample loss: epoch:8, batch:760, time:57.94s, batch_loss:2981.5053
+sentence_shape: torch.Size([25, 96])
+sample loss: epoch:8, batch:800, time:57.90s, batch_loss:3557.2711
+sentence_shape: torch.Size([56, 42])
+sample loss: epoch:8, batch:840, time:55.29s, batch_loss:3406.5168
+sentence_shape: torch.Size([26, 76])
+sample loss: epoch:8, batch:880, time:50.72s, batch_loss:3480.7117
+sentence_shape: torch.Size([36, 44])
+sample loss: epoch:8, batch:920, time:50.54s, batch_loss:2688.7156
+sentence_shape: torch.Size([43, 113])
+sample loss: epoch:8, batch:960, time:52.10s, batch_loss:2827.6418
+sentence_shape: torch.Size([2, 68])
+sample loss: epoch:8, batch:1000, time:48.83s, batch_loss:2937.6371
+sentence_shape: torch.Size([25, 67])
+sample loss: epoch:8, batch:1040, time:43.92s, batch_loss:2226.1477
+sentence_shape: torch.Size([6, 62])
+sample loss: epoch:8, batch:1080, time:51.74s, batch_loss:2905.8104
+sentence_shape: torch.Size([40, 86])
+sample loss: epoch:8, batch:1120, time:48.35s, batch_loss:2415.5602
+sentence_shape: torch.Size([10, 76])
+sample loss: epoch:8, batch:1160, time:54.16s, batch_loss:3314.1664
+sentence_shape: torch.Size([44, 44])
+sample loss: epoch:8, batch:1200, time:48.04s, batch_loss:2599.1383
+sentence_shape: torch.Size([2, 97])
+sample loss: epoch:8, batch:1240, time:46.70s, batch_loss:2550.5002
+sentence_shape: torch.Size([24, 67])
+sample loss: epoch:8, batch:1280, time:51.29s, batch_loss:3090.5822
+sentence_shape: torch.Size([32, 75])
+sample loss: epoch:8, batch:1320, time:50.99s, batch_loss:2784.6918
+sentence_shape: torch.Size([7, 71])
+sample loss: epoch:8, batch:1360, time:52.14s, batch_loss:3057.2143
+sentence_shape: torch.Size([9, 143])
+sample loss: epoch:8, batch:1400, time:53.43s, batch_loss:2639.9816
+sentence_shape: torch.Size([4, 67])
+sample loss: epoch:8, batch:1440, time:53.55s, batch_loss:2963.4410
+sentence_shape: torch.Size([14, 93])
+sample loss: epoch:8, batch:1480, time:48.30s, batch_loss:2430.0947
+sentence_shape: torch.Size([5, 101])
+sample loss: epoch:8, batch:1520, time:49.26s, batch_loss:2718.5709
+sentence_shape: torch.Size([44, 32])
+sample loss: epoch:8, batch:1560, time:51.26s, batch_loss:3416.0680
+sentence_shape: torch.Size([12, 99])
+sample loss: epoch:8, batch:1600, time:54.53s, batch_loss:2845.8443
+sentence_shape: torch.Size([6, 76])
+sample loss: epoch:8, batch:1640, time:55.23s, batch_loss:3536.5184
+sentence_shape: torch.Size([80, 139])
+sample loss: epoch:8, batch:1680, time:56.14s, batch_loss:4230.8238
+sentence_shape: torch.Size([7, 223])
+sample loss: epoch:8, batch:1720, time:41.49s, batch_loss:2680.7896
+sentence_shape: torch.Size([21, 158])
+sample loss: epoch:8, batch:1760, time:45.03s, batch_loss:3523.5633
+sentence_shape: torch.Size([15, 88])
+sample loss: epoch:8, batch:1800, time:45.52s, batch_loss:3010.8391
+sentence_shape: torch.Size([59, 57])
+sample loss: epoch:8, batch:1840, time:45.05s, batch_loss:3224.4328
+sentence_shape: torch.Size([15, 103])
+sample loss: epoch:8, batch:1880, time:43.19s, batch_loss:2686.9859
+Epoch:8 training finished. Time: 2400.11s, speed: 1.27s/instance, total loss:5566320.5000
+Epoch_train_result: epoch:8, accuracy:0.9468, precision:0.6660, recall:0.5090, f_measure:0.5770 
+dev_result: epoch:8, time:119.98, accuracy:0.9398, precision:0.6388, recall:0.4418, f_measure:0.5224 
+training epoch: 9
+ Learning rate is setted as: 0.0009227446944279201
+训练数据总量： 1889
+sentence_shape: torch.Size([19, 64])
+sample loss: epoch:9, batch:40, time:41.02s, batch_loss:2339.1937
+sentence_shape: torch.Size([10, 72])
+sample loss: epoch:9, batch:80, time:47.36s, batch_loss:3645.0969
+sentence_shape: torch.Size([61, 26])
+sample loss: epoch:9, batch:120, time:44.46s, batch_loss:2427.5391
+sentence_shape: torch.Size([4, 49])
+sample loss: epoch:9, batch:160, time:45.52s, batch_loss:3442.4141
+sentence_shape: torch.Size([3, 102])
+sample loss: epoch:9, batch:200, time:43.94s, batch_loss:2419.6152
+sentence_shape: torch.Size([9, 70])
+sample loss: epoch:9, batch:240, time:40.42s, batch_loss:2256.0387
+sentence_shape: torch.Size([15, 93])
+sample loss: epoch:9, batch:280, time:46.02s, batch_loss:3201.8320
+sentence_shape: torch.Size([43, 46])
+sample loss: epoch:9, batch:320, time:44.91s, batch_loss:3336.7934
+sentence_shape: torch.Size([27, 115])
+sample loss: epoch:9, batch:360, time:57.07s, batch_loss:4112.4969
+sentence_shape: torch.Size([11, 64])
+sample loss: epoch:9, batch:400, time:38.95s, batch_loss:2001.8877
+sentence_shape: torch.Size([5, 80])
+sample loss: epoch:9, batch:440, time:44.49s, batch_loss:3300.9578
+sentence_shape: torch.Size([53, 81])
+sample loss: epoch:9, batch:480, time:39.61s, batch_loss:2492.3637
+sentence_shape: torch.Size([19, 84])
+sample loss: epoch:9, batch:520, time:49.98s, batch_loss:3298.1742
+sentence_shape: torch.Size([37, 111])
+sample loss: epoch:9, batch:560, time:56.29s, batch_loss:3533.5250
+sentence_shape: torch.Size([3, 63])
+sample loss: epoch:9, batch:600, time:48.92s, batch_loss:2831.4119
+sentence_shape: torch.Size([1, 113])
+sample loss: epoch:9, batch:640, time:53.47s, batch_loss:3084.2445
+sentence_shape: torch.Size([11, 78])
+sample loss: epoch:9, batch:680, time:46.39s, batch_loss:2875.7375
+sentence_shape: torch.Size([94, 75])
+sample loss: epoch:9, batch:720, time:51.19s, batch_loss:3322.5250
+sentence_shape: torch.Size([7, 70])
+sample loss: epoch:9, batch:760, time:54.71s, batch_loss:3389.7641
+sentence_shape: torch.Size([17, 123])
+sample loss: epoch:9, batch:800, time:52.38s, batch_loss:3848.1840
+sentence_shape: torch.Size([7, 84])
+sample loss: epoch:9, batch:840, time:50.66s, batch_loss:3548.7320
+sentence_shape: torch.Size([45, 47])
+sample loss: epoch:9, batch:880, time:45.16s, batch_loss:2348.9129
+sentence_shape: torch.Size([3, 73])
+sample loss: epoch:9, batch:920, time:54.23s, batch_loss:3022.7119
+sentence_shape: torch.Size([2, 133])
+sample loss: epoch:9, batch:960, time:49.65s, batch_loss:3293.2660
+sentence_shape: torch.Size([16, 56])
+sample loss: epoch:9, batch:1000, time:50.29s, batch_loss:2947.1596
+sentence_shape: torch.Size([15, 80])
+sample loss: epoch:9, batch:1040, time:44.92s, batch_loss:2128.7430
+sentence_shape: torch.Size([4, 55])
+sample loss: epoch:9, batch:1080, time:48.79s, batch_loss:2178.1840
+sentence_shape: torch.Size([10, 76])
+sample loss: epoch:9, batch:1120, time:55.78s, batch_loss:3720.2035
+sentence_shape: torch.Size([36, 118])
+sample loss: epoch:9, batch:1160, time:56.39s, batch_loss:3233.6025
+sentence_shape: torch.Size([10, 68])
+sample loss: epoch:9, batch:1200, time:50.06s, batch_loss:3050.2410
+sentence_shape: torch.Size([26, 72])
+sample loss: epoch:9, batch:1240, time:52.06s, batch_loss:2741.8336
+sentence_shape: torch.Size([35, 197])
+sample loss: epoch:9, batch:1280, time:50.99s, batch_loss:2910.0049
+sentence_shape: torch.Size([36, 36])
+sample loss: epoch:9, batch:1320, time:48.74s, batch_loss:2640.0385
+sentence_shape: torch.Size([50, 83])
+sample loss: epoch:9, batch:1360, time:58.17s, batch_loss:3764.1375
+sentence_shape: torch.Size([6, 75])
+sample loss: epoch:9, batch:1400, time:48.22s, batch_loss:2356.7445
+sentence_shape: torch.Size([69, 93])
+sample loss: epoch:9, batch:1440, time:49.37s, batch_loss:2613.9691
+sentence_shape: torch.Size([11, 145])
+sample loss: epoch:9, batch:1480, time:57.51s, batch_loss:4095.2312
+sentence_shape: torch.Size([34, 121])
+sample loss: epoch:9, batch:1520, time:46.41s, batch_loss:2114.1203
+sentence_shape: torch.Size([7, 120])
+sample loss: epoch:9, batch:1560, time:51.73s, batch_loss:2557.7734
+sentence_shape: torch.Size([21, 38])
+sample loss: epoch:9, batch:1600, time:44.75s, batch_loss:2558.5244
+sentence_shape: torch.Size([22, 86])
+sample loss: epoch:9, batch:1640, time:49.84s, batch_loss:3156.6332
+sentence_shape: torch.Size([10, 72])
+sample loss: epoch:9, batch:1680, time:47.32s, batch_loss:2796.6865
+sentence_shape: torch.Size([4, 64])
+sample loss: epoch:9, batch:1720, time:53.17s, batch_loss:3460.4812
+sentence_shape: torch.Size([55, 119])
+sample loss: epoch:9, batch:1760, time:47.95s, batch_loss:2764.5660
+sentence_shape: torch.Size([52, 69])
+sample loss: epoch:9, batch:1800, time:51.00s, batch_loss:2848.1775
+sentence_shape: torch.Size([13, 34])
+sample loss: epoch:9, batch:1840, time:44.68s, batch_loss:1791.9818
+sentence_shape: torch.Size([15, 99])
+sample loss: epoch:9, batch:1880, time:50.10s, batch_loss:2779.2232
+Epoch:9 training finished. Time: 2316.61s, speed: 1.23s/instance, total loss:5564399.5000
+Epoch_train_result: epoch:9, accuracy:0.9473, precision:0.6711, recall:0.5149, f_measure:0.5827 
+dev_result: epoch:9, time:143.72, accuracy:0.9385, precision:0.6496, recall:0.4190, f_measure:0.5094 
+training epoch: 10
+ Learning rate is setted as: 0.0009135172474836409
+训练数据总量： 1889
+sentence_shape: torch.Size([10, 86])
+sample loss: epoch:10, batch:40, time:48.81s, batch_loss:2389.9418
+sentence_shape: torch.Size([6, 41])
+sample loss: epoch:10, batch:80, time:50.02s, batch_loss:3300.5457
+sentence_shape: torch.Size([26, 66])
+sample loss: epoch:10, batch:120, time:51.23s, batch_loss:2752.2199
+sentence_shape: torch.Size([16, 80])
+sample loss: epoch:10, batch:160, time:54.80s, batch_loss:3235.3221
+sentence_shape: torch.Size([6, 67])
+sample loss: epoch:10, batch:200, time:50.78s, batch_loss:3051.1178
+sentence_shape: torch.Size([34, 79])
+sample loss: epoch:10, batch:240, time:48.33s, batch_loss:2685.9701
+sentence_shape: torch.Size([9, 101])
+sample loss: epoch:10, batch:280, time:47.70s, batch_loss:2495.9342
+sentence_shape: torch.Size([54, 48])
+sample loss: epoch:10, batch:320, time:47.54s, batch_loss:2506.8385
+sentence_shape: torch.Size([4, 72])
+sample loss: epoch:10, batch:360, time:47.13s, batch_loss:2920.1656
+sentence_shape: torch.Size([50, 95])
+sample loss: epoch:10, batch:400, time:46.35s, batch_loss:2297.9838
+sentence_shape: torch.Size([7, 49])
+sample loss: epoch:10, batch:440, time:52.96s, batch_loss:2942.7834
+sentence_shape: torch.Size([20, 61])
+sample loss: epoch:10, batch:480, time:49.43s, batch_loss:2512.9512
+sentence_shape: torch.Size([7, 134])
+sample loss: epoch:10, batch:520, time:48.89s, batch_loss:2697.1115
+sentence_shape: torch.Size([5, 67])
+sample loss: epoch:10, batch:560, time:45.04s, batch_loss:2146.0404
+sentence_shape: torch.Size([33, 127])
+sample loss: epoch:10, batch:600, time:48.41s, batch_loss:2564.5113
+sentence_shape: torch.Size([10, 74])
+sample loss: epoch:10, batch:640, time:51.61s, batch_loss:2884.8934
+sentence_shape: torch.Size([15, 91])
+sample loss: epoch:10, batch:680, time:43.19s, batch_loss:1798.5244
+sentence_shape: torch.Size([3, 140])
+sample loss: epoch:10, batch:720, time:48.71s, batch_loss:2862.8525
+sentence_shape: torch.Size([18, 93])
+sample loss: epoch:10, batch:760, time:57.91s, batch_loss:4385.5031
+sentence_shape: torch.Size([3, 38])
+sample loss: epoch:10, batch:800, time:40.99s, batch_loss:1790.4480
+sentence_shape: torch.Size([38, 125])
+sample loss: epoch:10, batch:840, time:57.34s, batch_loss:3871.6020
+sentence_shape: torch.Size([8, 119])
+sample loss: epoch:10, batch:880, time:41.15s, batch_loss:2262.1340
+sentence_shape: torch.Size([7, 75])
+sample loss: epoch:10, batch:920, time:50.92s, batch_loss:2991.9945
+sentence_shape: torch.Size([37, 56])
+sample loss: epoch:10, batch:960, time:61.72s, batch_loss:3546.1402
+sentence_shape: torch.Size([34, 156])
+sample loss: epoch:10, batch:1000, time:54.02s, batch_loss:3241.6443
+sentence_shape: torch.Size([40, 69])
+sample loss: epoch:10, batch:1040, time:52.18s, batch_loss:3016.2688
+sentence_shape: torch.Size([22, 70])
+sample loss: epoch:10, batch:1080, time:47.20s, batch_loss:2353.3863
+sentence_shape: torch.Size([8, 128])
+sample loss: epoch:10, batch:1120, time:59.26s, batch_loss:3781.4691
+sentence_shape: torch.Size([18, 107])
+sample loss: epoch:10, batch:1160, time:53.84s, batch_loss:2653.6717
+sentence_shape: torch.Size([3, 65])
+sample loss: epoch:10, batch:1200, time:57.09s, batch_loss:4637.0199
+sentence_shape: torch.Size([34, 66])
+sample loss: epoch:10, batch:1240, time:52.34s, batch_loss:3275.4869
+sentence_shape: torch.Size([2, 85])
+sample loss: epoch:10, batch:1280, time:53.68s, batch_loss:3118.6479
+sentence_shape: torch.Size([15, 57])
+sample loss: epoch:10, batch:1320, time:49.39s, batch_loss:2794.0334
+sentence_shape: torch.Size([42, 29])
+sample loss: epoch:10, batch:1360, time:42.88s, batch_loss:1805.1221
+sentence_shape: torch.Size([7, 70])
+sample loss: epoch:10, batch:1400, time:55.44s, batch_loss:3668.5082
+sentence_shape: torch.Size([57, 93])
+sample loss: epoch:10, batch:1440, time:45.98s, batch_loss:3113.4469
+sentence_shape: torch.Size([20, 70])
+sample loss: epoch:10, batch:1480, time:50.56s, batch_loss:2978.0621
+sentence_shape: torch.Size([8, 82])
+sample loss: epoch:10, batch:1520, time:49.04s, batch_loss:2544.2029
+sentence_shape: torch.Size([18, 42])
+sample loss: epoch:10, batch:1560, time:50.64s, batch_loss:2738.1193
+sentence_shape: torch.Size([8, 86])
+sample loss: epoch:10, batch:1600, time:50.60s, batch_loss:2845.8209
+sentence_shape: torch.Size([12, 86])
+sample loss: epoch:10, batch:1640, time:48.97s, batch_loss:2991.0164
+sentence_shape: torch.Size([6, 90])
+sample loss: epoch:10, batch:1680, time:56.91s, batch_loss:3625.7566
+sentence_shape: torch.Size([12, 65])
+sample loss: epoch:10, batch:1720, time:50.07s, batch_loss:3056.5744
+sentence_shape: torch.Size([3, 57])
+sample loss: epoch:10, batch:1760, time:56.62s, batch_loss:3390.8992
+sentence_shape: torch.Size([8, 72])
+sample loss: epoch:10, batch:1800, time:56.40s, batch_loss:3193.8187
+sentence_shape: torch.Size([34, 150])
+sample loss: epoch:10, batch:1840, time:56.11s, batch_loss:3843.7312
+sentence_shape: torch.Size([41, 72])
+sample loss: epoch:10, batch:1880, time:54.37s, batch_loss:2686.4678
+Epoch:10 training finished. Time: 2406.49s, speed: 1.27s/instance, total loss:5561286.5000
+Epoch_train_result: epoch:10, accuracy:0.9488, precision:0.6828, recall:0.5250, f_measure:0.5936 
+dev_result: epoch:10, time:141.92, accuracy:0.9418, precision:0.6225, recall:0.4797, f_measure:0.5418 
+training epoch: 11
+ Learning rate is setted as: 0.0009043820750088044
+训练数据总量： 1889
+sentence_shape: torch.Size([5, 65])
+sample loss: epoch:11, batch:40, time:42.39s, batch_loss:1942.9561
+sentence_shape: torch.Size([9, 77])
+sample loss: epoch:11, batch:80, time:49.62s, batch_loss:3413.7375
+sentence_shape: torch.Size([54, 67])
+sample loss: epoch:11, batch:120, time:52.65s, batch_loss:3132.3482
+sentence_shape: torch.Size([12, 63])
+sample loss: epoch:11, batch:160, time:51.87s, batch_loss:3254.8320
+sentence_shape: torch.Size([4, 61])
+sample loss: epoch:11, batch:200, time:43.71s, batch_loss:2391.3674
+sentence_shape: torch.Size([4, 134])
+sample loss: epoch:11, batch:240, time:42.00s, batch_loss:2993.4164
+sentence_shape: torch.Size([14, 109])
+sample loss: epoch:11, batch:280, time:42.07s, batch_loss:3514.0848
+sentence_shape: torch.Size([12, 76])
+sample loss: epoch:11, batch:320, time:35.63s, batch_loss:2697.4236
+sentence_shape: torch.Size([35, 88])
+sample loss: epoch:11, batch:360, time:41.83s, batch_loss:3049.6309
+sentence_shape: torch.Size([33, 43])
+sample loss: epoch:11, batch:400, time:40.93s, batch_loss:2189.7072
+sentence_shape: torch.Size([39, 160])
+sample loss: epoch:11, batch:440, time:42.25s, batch_loss:2838.6687
+sentence_shape: torch.Size([6, 52])
+sample loss: epoch:11, batch:480, time:37.70s, batch_loss:2999.6469
+sentence_shape: torch.Size([87, 123])
+sample loss: epoch:11, batch:520, time:36.91s, batch_loss:2540.0738
+sentence_shape: torch.Size([21, 73])
+sample loss: epoch:11, batch:560, time:44.27s, batch_loss:3443.7871
+sentence_shape: torch.Size([2, 84])
+sample loss: epoch:11, batch:600, time:37.65s, batch_loss:3315.2023
+sentence_shape: torch.Size([41, 60])
+sample loss: epoch:11, batch:640, time:34.07s, batch_loss:2232.3848
+sentence_shape: torch.Size([9, 143])
+sample loss: epoch:11, batch:680, time:40.01s, batch_loss:3428.4430
+sentence_shape: torch.Size([51, 58])
+sample loss: epoch:11, batch:720, time:38.64s, batch_loss:2952.0008
+sentence_shape: torch.Size([31, 97])
+sample loss: epoch:11, batch:760, time:35.51s, batch_loss:2442.7479
+sentence_shape: torch.Size([23, 61])
+sample loss: epoch:11, batch:800, time:38.58s, batch_loss:3037.7852
+sentence_shape: torch.Size([17, 59])
+sample loss: epoch:11, batch:840, time:37.88s, batch_loss:2283.3313
+sentence_shape: torch.Size([34, 102])
+sample loss: epoch:11, batch:880, time:41.88s, batch_loss:2890.5186
+sentence_shape: torch.Size([5, 92])
+sample loss: epoch:11, batch:920, time:38.92s, batch_loss:2730.6605
+sentence_shape: torch.Size([20, 126])
+sample loss: epoch:11, batch:960, time:39.29s, batch_loss:3247.8301
+sentence_shape: torch.Size([65, 30])
+sample loss: epoch:11, batch:1000, time:45.58s, batch_loss:4440.1578
+sentence_shape: torch.Size([40, 128])
+sample loss: epoch:11, batch:1040, time:36.11s, batch_loss:2152.5389
+sentence_shape: torch.Size([5, 75])
+sample loss: epoch:11, batch:1080, time:45.25s, batch_loss:3254.4793
+sentence_shape: torch.Size([6, 56])
+sample loss: epoch:11, batch:1120, time:37.47s, batch_loss:2557.3223
+sentence_shape: torch.Size([45, 100])
+sample loss: epoch:11, batch:1160, time:44.28s, batch_loss:3384.3637
+sentence_shape: torch.Size([41, 109])
+sample loss: epoch:11, batch:1200, time:39.74s, batch_loss:2444.6051
+sentence_shape: torch.Size([22, 78])
+sample loss: epoch:11, batch:1240, time:39.89s, batch_loss:3362.6828
+sentence_shape: torch.Size([28, 66])
+sample loss: epoch:11, batch:1280, time:37.58s, batch_loss:2877.2713
+sentence_shape: torch.Size([17, 87])
+sample loss: epoch:11, batch:1320, time:43.65s, batch_loss:3184.3531
+sentence_shape: torch.Size([35, 47])
+sample loss: epoch:11, batch:1360, time:48.59s, batch_loss:3522.7387
+sentence_shape: torch.Size([68, 66])
+sample loss: epoch:11, batch:1400, time:47.28s, batch_loss:3603.4266
+sentence_shape: torch.Size([5, 61])
+sample loss: epoch:11, batch:1440, time:33.13s, batch_loss:2304.9426
+sentence_shape: torch.Size([40, 82])
+sample loss: epoch:11, batch:1480, time:38.56s, batch_loss:2910.6385
+sentence_shape: torch.Size([4, 79])
+sample loss: epoch:11, batch:1520, time:37.51s, batch_loss:2493.0219
+sentence_shape: torch.Size([29, 77])
+sample loss: epoch:11, batch:1560, time:40.74s, batch_loss:3130.4193
+sentence_shape: torch.Size([41, 61])
+sample loss: epoch:11, batch:1600, time:38.35s, batch_loss:3374.6840
+sentence_shape: torch.Size([14, 82])
+sample loss: epoch:11, batch:1640, time:35.62s, batch_loss:2194.7639
+sentence_shape: torch.Size([5, 73])
+sample loss: epoch:11, batch:1680, time:40.29s, batch_loss:2800.6869
+sentence_shape: torch.Size([45, 44])
+sample loss: epoch:11, batch:1720, time:43.97s, batch_loss:3208.3553
+sentence_shape: torch.Size([28, 106])
+sample loss: epoch:11, batch:1760, time:43.22s, batch_loss:3642.2086
+sentence_shape: torch.Size([22, 100])
+sample loss: epoch:11, batch:1800, time:39.78s, batch_loss:2935.1924
+sentence_shape: torch.Size([17, 103])
+sample loss: epoch:11, batch:1840, time:34.72s, batch_loss:2519.8350
+sentence_shape: torch.Size([49, 60])
+sample loss: epoch:11, batch:1880, time:42.66s, batch_loss:3048.6340
+Epoch:11 training finished. Time: 1930.01s, speed: 1.02s/instance, total loss:5559774.5000
+Epoch_train_result: epoch:11, accuracy:0.9490, precision:0.6801, recall:0.5273, f_measure:0.5940 
+dev_result: epoch:11, time:130.80, accuracy:0.9442, precision:0.6365, recall:0.4903, f_measure:0.5539 
+epoch:11 dev set exceed best f score0.5515
+training epoch: 12
+ Learning rate is setted as: 0.0008953382542587164
+训练数据总量： 1889
+sentence_shape: torch.Size([22, 61])
+sample loss: epoch:12, batch:40, time:38.95s, batch_loss:2315.1889
+sentence_shape: torch.Size([25, 68])
+sample loss: epoch:12, batch:80, time:37.74s, batch_loss:2855.9572
+sentence_shape: torch.Size([29, 207])
+sample loss: epoch:12, batch:120, time:44.09s, batch_loss:4210.5414
+sentence_shape: torch.Size([9, 56])
+sample loss: epoch:12, batch:160, time:44.81s, batch_loss:3428.3129
+sentence_shape: torch.Size([31, 96])
+sample loss: epoch:12, batch:200, time:45.85s, batch_loss:3916.8219
+sentence_shape: torch.Size([7, 50])
+sample loss: epoch:12, batch:240, time:38.96s, batch_loss:2890.3729
+sentence_shape: torch.Size([10, 152])
+sample loss: epoch:12, batch:280, time:43.84s, batch_loss:3076.2652
+sentence_shape: torch.Size([5, 61])
+sample loss: epoch:12, batch:320, time:41.41s, batch_loss:2333.8105
+sentence_shape: torch.Size([4, 182])
+sample loss: epoch:12, batch:360, time:36.90s, batch_loss:2336.7930
+sentence_shape: torch.Size([9, 53])
+sample loss: epoch:12, batch:400, time:38.97s, batch_loss:2780.6865
+sentence_shape: torch.Size([7, 111])
+sample loss: epoch:12, batch:440, time:39.53s, batch_loss:3595.5508
+sentence_shape: torch.Size([5, 48])
+sample loss: epoch:12, batch:480, time:36.00s, batch_loss:2665.7383
+sentence_shape: torch.Size([11, 97])
+sample loss: epoch:12, batch:520, time:36.31s, batch_loss:2340.0670
+sentence_shape: torch.Size([7, 126])
+sample loss: epoch:12, batch:560, time:35.30s, batch_loss:2230.6717
+sentence_shape: torch.Size([6, 77])
+sample loss: epoch:12, batch:600, time:42.34s, batch_loss:3632.0016
+sentence_shape: torch.Size([9, 64])
+sample loss: epoch:12, batch:640, time:39.87s, batch_loss:2596.2053
+sentence_shape: torch.Size([26, 60])
+sample loss: epoch:12, batch:680, time:46.68s, batch_loss:3871.3664
+sentence_shape: torch.Size([5, 66])
+sample loss: epoch:12, batch:720, time:35.65s, batch_loss:2157.3324
+sentence_shape: torch.Size([6, 58])
+sample loss: epoch:12, batch:760, time:38.40s, batch_loss:2899.7627
+sentence_shape: torch.Size([40, 156])
+sample loss: epoch:12, batch:800, time:38.39s, batch_loss:3220.7721
+sentence_shape: torch.Size([21, 127])
+sample loss: epoch:12, batch:840, time:43.75s, batch_loss:3202.7299
+sentence_shape: torch.Size([8, 92])
+sample loss: epoch:12, batch:880, time:37.89s, batch_loss:2104.9492
+sentence_shape: torch.Size([13, 210])
+sample loss: epoch:12, batch:920, time:40.37s, batch_loss:3437.5504
+sentence_shape: torch.Size([29, 81])
+sample loss: epoch:12, batch:960, time:46.88s, batch_loss:3905.8187
+sentence_shape: torch.Size([36, 30])
+sample loss: epoch:12, batch:1000, time:40.09s, batch_loss:2659.6975
+sentence_shape: torch.Size([3, 73])
+sample loss: epoch:12, batch:1040, time:35.97s, batch_loss:2599.1348
+sentence_shape: torch.Size([4, 159])
+sample loss: epoch:12, batch:1080, time:43.35s, batch_loss:3497.4563
+sentence_shape: torch.Size([7, 115])
+sample loss: epoch:12, batch:1120, time:36.46s, batch_loss:2478.4479
+sentence_shape: torch.Size([41, 52])
+sample loss: epoch:12, batch:1160, time:39.49s, batch_loss:2677.5066
+sentence_shape: torch.Size([44, 44])
+sample loss: epoch:12, batch:1200, time:39.15s, batch_loss:2527.8271
+sentence_shape: torch.Size([23, 170])
+sample loss: epoch:12, batch:1240, time:33.67s, batch_loss:2646.9266
+sentence_shape: torch.Size([5, 102])
+sample loss: epoch:12, batch:1280, time:32.64s, batch_loss:2255.7551
+sentence_shape: torch.Size([41, 69])
+sample loss: epoch:12, batch:1320, time:41.70s, batch_loss:3111.0791
+sentence_shape: torch.Size([19, 77])
+sample loss: epoch:12, batch:1360, time:35.19s, batch_loss:2335.8668
+sentence_shape: torch.Size([10, 145])
+sample loss: epoch:12, batch:1400, time:38.47s, batch_loss:2736.1523
+sentence_shape: torch.Size([8, 150])
+sample loss: epoch:12, batch:1440, time:41.62s, batch_loss:3536.5172
+sentence_shape: torch.Size([5, 79])
+sample loss: epoch:12, batch:1480, time:41.10s, batch_loss:2704.5209
+sentence_shape: torch.Size([4, 47])
+sample loss: epoch:12, batch:1520, time:39.24s, batch_loss:3010.2498
+sentence_shape: torch.Size([9, 70])
+sample loss: epoch:12, batch:1560, time:45.47s, batch_loss:4280.0957
+sentence_shape: torch.Size([4, 134])
+sample loss: epoch:12, batch:1600, time:35.42s, batch_loss:2597.2297
+sentence_shape: torch.Size([1, 126])
+sample loss: epoch:12, batch:1640, time:38.56s, batch_loss:3125.7707
+sentence_shape: torch.Size([41, 61])
+sample loss: epoch:12, batch:1680, time:40.48s, batch_loss:3170.4660
+sentence_shape: torch.Size([29, 70])
+sample loss: epoch:12, batch:1720, time:37.36s, batch_loss:2411.0057
+sentence_shape: torch.Size([13, 96])
+sample loss: epoch:12, batch:1760, time:42.82s, batch_loss:3378.2383
+sentence_shape: torch.Size([19, 67])
+sample loss: epoch:12, batch:1800, time:38.85s, batch_loss:2393.1861
+sentence_shape: torch.Size([25, 101])
+sample loss: epoch:12, batch:1840, time:40.51s, batch_loss:3284.3766
+sentence_shape: torch.Size([26, 59])
+sample loss: epoch:12, batch:1880, time:39.20s, batch_loss:3045.3281
+Epoch:12 training finished. Time: 1872.57s, speed: 0.99s/instance, total loss:5557319.5000
+Epoch_train_result: epoch:12, accuracy:0.9499, precision:0.6841, recall:0.5338, f_measure:0.5997 
+dev_result: epoch:12, time:129.22, accuracy:0.9442, precision:0.6322, recall:0.4944, f_measure:0.5549 
+epoch:12 dev set exceed best f score0.5539
+training epoch: 13
+ Learning rate is setted as: 0.0008863848717161292
+训练数据总量： 1889
+sentence_shape: torch.Size([6, 106])
+sample loss: epoch:13, batch:40, time:40.95s, batch_loss:3453.1316
+sentence_shape: torch.Size([6, 52])
+sample loss: epoch:13, batch:80, time:41.35s, batch_loss:3417.7754
+sentence_shape: torch.Size([4, 74])
+sample loss: epoch:13, batch:120, time:41.53s, batch_loss:3177.2463
+sentence_shape: torch.Size([6, 58])
+sample loss: epoch:13, batch:160, time:39.92s, batch_loss:2950.6984
+sentence_shape: torch.Size([17, 115])
+sample loss: epoch:13, batch:200, time:41.54s, batch_loss:3248.5535
+sentence_shape: torch.Size([22, 61])
+sample loss: epoch:13, batch:240, time:37.30s, batch_loss:2795.5465
+sentence_shape: torch.Size([5, 114])
+sample loss: epoch:13, batch:280, time:36.27s, batch_loss:2430.5447
+sentence_shape: torch.Size([15, 99])
+sample loss: epoch:13, batch:320, time:36.95s, batch_loss:2278.2232
+sentence_shape: torch.Size([14, 69])
+sample loss: epoch:13, batch:360, time:38.01s, batch_loss:3045.2227
+sentence_shape: torch.Size([56, 71])
+sample loss: epoch:13, batch:400, time:35.09s, batch_loss:2939.7760
+sentence_shape: torch.Size([7, 70])
+sample loss: epoch:13, batch:440, time:38.59s, batch_loss:2908.3039
+sentence_shape: torch.Size([10, 58])
+sample loss: epoch:13, batch:480, time:33.05s, batch_loss:2061.6199
+sentence_shape: torch.Size([19, 77])
+sample loss: epoch:13, batch:520, time:46.91s, batch_loss:4703.0355
+sentence_shape: torch.Size([35, 67])
+sample loss: epoch:13, batch:560, time:35.46s, batch_loss:2266.0311
+sentence_shape: torch.Size([20, 30])
+sample loss: epoch:13, batch:600, time:35.62s, batch_loss:2388.6178
+sentence_shape: torch.Size([2, 57])
+sample loss: epoch:13, batch:640, time:46.06s, batch_loss:3782.7590
+sentence_shape: torch.Size([6, 67])
+sample loss: epoch:13, batch:680, time:43.25s, batch_loss:3276.5055
+sentence_shape: torch.Size([29, 271])
+sample loss: epoch:13, batch:720, time:42.86s, batch_loss:4013.1687
+sentence_shape: torch.Size([3, 72])
+sample loss: epoch:13, batch:760, time:40.06s, batch_loss:2734.0266
+sentence_shape: torch.Size([39, 109])
+sample loss: epoch:13, batch:800, time:43.32s, batch_loss:2992.7459
+sentence_shape: torch.Size([9, 87])
+sample loss: epoch:13, batch:840, time:40.39s, batch_loss:3701.1352
+sentence_shape: torch.Size([8, 139])
+sample loss: epoch:13, batch:880, time:40.46s, batch_loss:2857.3498
+sentence_shape: torch.Size([9, 97])
+sample loss: epoch:13, batch:920, time:35.93s, batch_loss:2020.1002
+sentence_shape: torch.Size([15, 85])
+sample loss: epoch:13, batch:960, time:39.44s, batch_loss:3482.0375
+sentence_shape: torch.Size([6, 122])
+sample loss: epoch:13, batch:1000, time:49.94s, batch_loss:3642.3434
+sentence_shape: torch.Size([6, 77])
+sample loss: epoch:13, batch:1040, time:33.71s, batch_loss:2235.2486
+sentence_shape: torch.Size([13, 90])
+sample loss: epoch:13, batch:1080, time:37.49s, batch_loss:2950.9457
+sentence_shape: torch.Size([3, 97])
+sample loss: epoch:13, batch:1120, time:38.37s, batch_loss:2384.2422
+sentence_shape: torch.Size([40, 54])
+sample loss: epoch:13, batch:1160, time:35.85s, batch_loss:2600.6289
+sentence_shape: torch.Size([6, 70])
+sample loss: epoch:13, batch:1200, time:43.83s, batch_loss:3435.1496
+sentence_shape: torch.Size([23, 85])
+sample loss: epoch:13, batch:1240, time:31.57s, batch_loss:2176.5299
+sentence_shape: torch.Size([5, 131])
+sample loss: epoch:13, batch:1280, time:40.94s, batch_loss:3248.4410
+sentence_shape: torch.Size([42, 65])
+sample loss: epoch:13, batch:1320, time:37.56s, batch_loss:2247.1789
+sentence_shape: torch.Size([38, 39])
+sample loss: epoch:13, batch:1360, time:34.91s, batch_loss:2539.5877
+sentence_shape: torch.Size([35, 77])
+sample loss: epoch:13, batch:1400, time:46.60s, batch_loss:3722.6012
+sentence_shape: torch.Size([56, 74])
+sample loss: epoch:13, batch:1440, time:42.01s, batch_loss:3113.7311
+sentence_shape: torch.Size([11, 121])
+sample loss: epoch:13, batch:1480, time:37.08s, batch_loss:2892.5109
+sentence_shape: torch.Size([36, 97])
+sample loss: epoch:13, batch:1520, time:38.68s, batch_loss:2450.2789
+sentence_shape: torch.Size([4, 57])
+sample loss: epoch:13, batch:1560, time:36.73s, batch_loss:2328.0004
+sentence_shape: torch.Size([14, 100])
+sample loss: epoch:13, batch:1600, time:40.46s, batch_loss:3080.6881
+sentence_shape: torch.Size([14, 73])
+sample loss: epoch:13, batch:1640, time:36.33s, batch_loss:2146.9105
+sentence_shape: torch.Size([7, 95])
+sample loss: epoch:13, batch:1680, time:37.41s, batch_loss:2052.0309
+sentence_shape: torch.Size([16, 115])
+sample loss: epoch:13, batch:1720, time:42.40s, batch_loss:2952.6719
+sentence_shape: torch.Size([4, 60])
+sample loss: epoch:13, batch:1760, time:39.24s, batch_loss:2678.3148
+sentence_shape: torch.Size([4, 66])
+sample loss: epoch:13, batch:1800, time:41.87s, batch_loss:4100.5684
+sentence_shape: torch.Size([8, 82])
+sample loss: epoch:13, batch:1840, time:46.52s, batch_loss:4015.9289
+sentence_shape: torch.Size([4, 112])
+sample loss: epoch:13, batch:1880, time:39.61s, batch_loss:2393.2674
+Epoch:13 training finished. Time: 1867.81s, speed: 0.99s/instance, total loss:5556321.5000
+Epoch_train_result: epoch:13, accuracy:0.9501, precision:0.6859, recall:0.5370, f_measure:0.6024 
+dev_result: epoch:13, time:133.58, accuracy:0.9444, precision:0.6259, recall:0.5166, f_measure:0.5660 
+epoch:13 dev set exceed best f score0.5549
+training epoch: 14
+ Learning rate is setted as: 0.0008775210229989679
+训练数据总量： 1889
+sentence_shape: torch.Size([30, 131])
+sample loss: epoch:14, batch:40, time:39.75s, batch_loss:2972.3463
+sentence_shape: torch.Size([20, 71])
+sample loss: epoch:14, batch:80, time:37.15s, batch_loss:2745.5609
+sentence_shape: torch.Size([25, 100])
+sample loss: epoch:14, batch:120, time:46.07s, batch_loss:3218.8209
+sentence_shape: torch.Size([5, 114])
+sample loss: epoch:14, batch:160, time:36.70s, batch_loss:2749.0613
+sentence_shape: torch.Size([16, 95])
+sample loss: epoch:14, batch:200, time:44.34s, batch_loss:3185.9041
+sentence_shape: torch.Size([31, 46])
+sample loss: epoch:14, batch:240, time:41.47s, batch_loss:3301.7602
+sentence_shape: torch.Size([3, 46])
+sample loss: epoch:14, batch:280, time:38.38s, batch_loss:2213.8131
+sentence_shape: torch.Size([8, 72])
+sample loss: epoch:14, batch:320, time:38.62s, batch_loss:2597.0822
+sentence_shape: torch.Size([22, 95])
+sample loss: epoch:14, batch:360, time:38.92s, batch_loss:3095.1994
+sentence_shape: torch.Size([14, 73])
+sample loss: epoch:14, batch:400, time:43.33s, batch_loss:3627.3805
+sentence_shape: torch.Size([22, 87])
+sample loss: epoch:14, batch:440, time:39.96s, batch_loss:3117.0016
+sentence_shape: torch.Size([24, 128])
+sample loss: epoch:14, batch:480, time:42.96s, batch_loss:2685.6850
+sentence_shape: torch.Size([9, 120])
+sample loss: epoch:14, batch:520, time:43.50s, batch_loss:3249.3758
+sentence_shape: torch.Size([26, 68])
+sample loss: epoch:14, batch:560, time:35.62s, batch_loss:3270.5135
+sentence_shape: torch.Size([22, 106])
+sample loss: epoch:14, batch:600, time:47.82s, batch_loss:3627.9422
+sentence_shape: torch.Size([29, 100])
+sample loss: epoch:14, batch:640, time:41.01s, batch_loss:2788.1855
+sentence_shape: torch.Size([5, 207])
+sample loss: epoch:14, batch:680, time:37.12s, batch_loss:2767.9928
+sentence_shape: torch.Size([2, 97])
+sample loss: epoch:14, batch:720, time:40.50s, batch_loss:3324.0223
+sentence_shape: torch.Size([8, 100])
+sample loss: epoch:14, batch:760, time:41.76s, batch_loss:3386.7629
+sentence_shape: torch.Size([8, 115])
+sample loss: epoch:14, batch:800, time:34.28s, batch_loss:2137.4619
+sentence_shape: torch.Size([4, 91])
+sample loss: epoch:14, batch:840, time:46.64s, batch_loss:3513.5367
+sentence_shape: torch.Size([38, 106])
+sample loss: epoch:14, batch:880, time:39.90s, batch_loss:3264.5623
+sentence_shape: torch.Size([22, 90])
+sample loss: epoch:14, batch:920, time:38.34s, batch_loss:2569.5285
+sentence_shape: torch.Size([2, 106])
+sample loss: epoch:14, batch:960, time:44.29s, batch_loss:3444.7152
+sentence_shape: torch.Size([12, 68])
+sample loss: epoch:14, batch:1000, time:35.08s, batch_loss:2117.6709
+sentence_shape: torch.Size([10, 66])
+sample loss: epoch:14, batch:1040, time:42.81s, batch_loss:3221.5387
+sentence_shape: torch.Size([12, 82])
+sample loss: epoch:14, batch:1080, time:31.12s, batch_loss:1923.0270
+sentence_shape: torch.Size([5, 80])
+sample loss: epoch:14, batch:1120, time:39.38s, batch_loss:3547.8484
+sentence_shape: torch.Size([3, 58])
+sample loss: epoch:14, batch:1160, time:33.89s, batch_loss:2390.6922
+sentence_shape: torch.Size([28, 133])
+sample loss: epoch:14, batch:1200, time:41.03s, batch_loss:2898.2893
+sentence_shape: torch.Size([37, 129])
+sample loss: epoch:14, batch:1240, time:40.93s, batch_loss:3105.1564
+sentence_shape: torch.Size([23, 30])
+sample loss: epoch:14, batch:1280, time:40.18s, batch_loss:3268.2959
+sentence_shape: torch.Size([9, 53])
+sample loss: epoch:14, batch:1320, time:41.17s, batch_loss:3511.0516
+sentence_shape: torch.Size([7, 134])
+sample loss: epoch:14, batch:1360, time:40.04s, batch_loss:3126.9705
+sentence_shape: torch.Size([53, 85])
+sample loss: epoch:14, batch:1400, time:43.11s, batch_loss:3044.7383
+sentence_shape: torch.Size([14, 33])
+sample loss: epoch:14, batch:1440, time:38.53s, batch_loss:3130.9211
+sentence_shape: torch.Size([10, 110])
+sample loss: epoch:14, batch:1480, time:37.77s, batch_loss:2310.2363
+sentence_shape: torch.Size([6, 78])
+sample loss: epoch:14, batch:1520, time:35.71s, batch_loss:2454.7658
+sentence_shape: torch.Size([31, 101])
+sample loss: epoch:14, batch:1560, time:44.47s, batch_loss:3390.8438
+sentence_shape: torch.Size([4, 86])
+sample loss: epoch:14, batch:1600, time:43.47s, batch_loss:3030.5105
+sentence_shape: torch.Size([2, 87])
+sample loss: epoch:14, batch:1640, time:33.52s, batch_loss:1799.0621
+sentence_shape: torch.Size([6, 78])
+sample loss: epoch:14, batch:1680, time:39.14s, batch_loss:2909.3004
+sentence_shape: torch.Size([3, 73])
+sample loss: epoch:14, batch:1720, time:38.01s, batch_loss:2537.7389
+sentence_shape: torch.Size([10, 51])
+sample loss: epoch:14, batch:1760, time:40.83s, batch_loss:2957.7865
+sentence_shape: torch.Size([9, 106])
+sample loss: epoch:14, batch:1800, time:32.96s, batch_loss:1708.8457
+sentence_shape: torch.Size([45, 26])
+sample loss: epoch:14, batch:1840, time:39.16s, batch_loss:3121.2906
+sentence_shape: torch.Size([13, 87])
+sample loss: epoch:14, batch:1880, time:42.16s, batch_loss:3844.0738
+Epoch:14 training finished. Time: 1882.35s, speed: 1.00s/instance, total loss:5555225.0000
+Epoch_train_result: epoch:14, accuracy:0.9502, precision:0.6909, recall:0.5389, f_measure:0.6055 
+dev_result: epoch:14, time:132.67, accuracy:0.9444, precision:0.6487, recall:0.4967, f_measure:0.5626 
+training epoch: 15
+ Learning rate is setted as: 0.0008687458127689783
+训练数据总量： 1889
+sentence_shape: torch.Size([4, 116])
+sample loss: epoch:15, batch:40, time:39.51s, batch_loss:2812.6824
+sentence_shape: torch.Size([34, 68])
+sample loss: epoch:15, batch:80, time:33.61s, batch_loss:1934.4342
+sentence_shape: torch.Size([40, 119])
+sample loss: epoch:15, batch:120, time:40.04s, batch_loss:3034.1168
+sentence_shape: torch.Size([21, 51])
+sample loss: epoch:15, batch:160, time:37.14s, batch_loss:2377.4250
+sentence_shape: torch.Size([40, 111])
+sample loss: epoch:15, batch:200, time:35.45s, batch_loss:2549.0912
+sentence_shape: torch.Size([14, 93])
+sample loss: epoch:15, batch:240, time:39.43s, batch_loss:2450.7074
+sentence_shape: torch.Size([6, 97])
+sample loss: epoch:15, batch:280, time:39.88s, batch_loss:2552.3758
+sentence_shape: torch.Size([23, 218])
+sample loss: epoch:15, batch:320, time:46.16s, batch_loss:3958.5809
+sentence_shape: torch.Size([47, 116])
+sample loss: epoch:15, batch:360, time:40.02s, batch_loss:3463.4707
+sentence_shape: torch.Size([8, 92])
+sample loss: epoch:15, batch:400, time:36.32s, batch_loss:2170.0676
+sentence_shape: torch.Size([34, 102])
+sample loss: epoch:15, batch:440, time:44.24s, batch_loss:3608.0602
+sentence_shape: torch.Size([22, 78])
+sample loss: epoch:15, batch:480, time:40.68s, batch_loss:2278.5268
+sentence_shape: torch.Size([4, 55])
+sample loss: epoch:15, batch:520, time:39.99s, batch_loss:3120.1000
+sentence_shape: torch.Size([9, 106])
+sample loss: epoch:15, batch:560, time:43.79s, batch_loss:3322.2523
+sentence_shape: torch.Size([3, 82])
+sample loss: epoch:15, batch:600, time:35.79s, batch_loss:2784.6318
+sentence_shape: torch.Size([5, 89])
+sample loss: epoch:15, batch:640, time:25.36s, batch_loss:2006.5904
+sentence_shape: torch.Size([13, 59])
+sample loss: epoch:15, batch:680, time:27.31s, batch_loss:2838.5371
+sentence_shape: torch.Size([8, 86])
+sample loss: epoch:15, batch:720, time:22.73s, batch_loss:2412.9512
+sentence_shape: torch.Size([7, 84])
+sample loss: epoch:15, batch:760, time:28.66s, batch_loss:2743.7748
+sentence_shape: torch.Size([46, 73])
+sample loss: epoch:15, batch:800, time:29.76s, batch_loss:3823.8094
+sentence_shape: torch.Size([41, 69])
+sample loss: epoch:15, batch:840, time:30.68s, batch_loss:2757.3248
+sentence_shape: torch.Size([4, 66])
+sample loss: epoch:15, batch:880, time:26.50s, batch_loss:3453.3609
+sentence_shape: torch.Size([5, 186])
+sample loss: epoch:15, batch:920, time:28.00s, batch_loss:2844.7084
+sentence_shape: torch.Size([33, 42])
+sample loss: epoch:15, batch:960, time:27.96s, batch_loss:3140.4738
+sentence_shape: torch.Size([6, 72])
+sample loss: epoch:15, batch:1000, time:28.67s, batch_loss:3367.5922
+sentence_shape: torch.Size([45, 97])
+sample loss: epoch:15, batch:1040, time:24.68s, batch_loss:2762.0570
+sentence_shape: torch.Size([15, 94])
+sample loss: epoch:15, batch:1080, time:26.68s, batch_loss:2638.4008
+sentence_shape: torch.Size([18, 80])
+sample loss: epoch:15, batch:1120, time:25.86s, batch_loss:2890.2424
+sentence_shape: torch.Size([14, 58])
+sample loss: epoch:15, batch:1160, time:28.56s, batch_loss:3454.4402
+sentence_shape: torch.Size([17, 114])
+sample loss: epoch:15, batch:1200, time:27.00s, batch_loss:2680.5719
+sentence_shape: torch.Size([4, 67])
+sample loss: epoch:15, batch:1240, time:31.23s, batch_loss:3677.4543
+sentence_shape: torch.Size([10, 104])
+sample loss: epoch:15, batch:1280, time:31.74s, batch_loss:3095.8324
+sentence_shape: torch.Size([31, 31])
+sample loss: epoch:15, batch:1320, time:29.93s, batch_loss:3146.7732
+sentence_shape: torch.Size([36, 65])
+sample loss: epoch:15, batch:1360, time:40.23s, batch_loss:3266.9307
+sentence_shape: torch.Size([43, 106])
+sample loss: epoch:15, batch:1400, time:45.38s, batch_loss:4082.0199
+sentence_shape: torch.Size([68, 43])
+sample loss: epoch:15, batch:1440, time:33.63s, batch_loss:2848.8896
+sentence_shape: torch.Size([6, 89])
+sample loss: epoch:15, batch:1480, time:34.89s, batch_loss:2991.3973
+sentence_shape: torch.Size([13, 81])
+sample loss: epoch:15, batch:1520, time:42.97s, batch_loss:3876.8211
+sentence_shape: torch.Size([7, 151])
+sample loss: epoch:15, batch:1560, time:44.48s, batch_loss:3380.7234
+sentence_shape: torch.Size([3, 122])
+sample loss: epoch:15, batch:1600, time:41.02s, batch_loss:2324.1420
+sentence_shape: torch.Size([12, 65])
+sample loss: epoch:15, batch:1640, time:40.18s, batch_loss:2640.1645
+sentence_shape: torch.Size([7, 56])
+sample loss: epoch:15, batch:1680, time:36.64s, batch_loss:2583.7969
+sentence_shape: torch.Size([7, 273])
+sample loss: epoch:15, batch:1720, time:36.61s, batch_loss:2655.3621
+sentence_shape: torch.Size([10, 63])
+sample loss: epoch:15, batch:1760, time:37.11s, batch_loss:2575.7457
+sentence_shape: torch.Size([7, 142])
+sample loss: epoch:15, batch:1800, time:38.63s, batch_loss:2466.3068
+sentence_shape: torch.Size([9, 134])
+sample loss: epoch:15, batch:1840, time:42.54s, batch_loss:2937.1150
+sentence_shape: torch.Size([13, 90])
+sample loss: epoch:15, batch:1880, time:42.77s, batch_loss:2872.3896
+Epoch:15 training finished. Time: 1661.10s, speed: 0.88s/instance, total loss:5554090.0000
+Epoch_train_result: epoch:15, accuracy:0.9506, precision:0.6874, recall:0.5421, f_measure:0.6061 
+dev_result: epoch:15, time:135.16, accuracy:0.9452, precision:0.6165, recall:0.5400, f_measure:0.5757 
+epoch:15 dev set exceed best f score0.5660
+training epoch: 16
+ Learning rate is setted as: 0.0008600583546412885
+训练数据总量： 1889
+sentence_shape: torch.Size([29, 99])
+sample loss: epoch:16, batch:40, time:44.62s, batch_loss:3613.4277
+sentence_shape: torch.Size([40, 69])
+sample loss: epoch:16, batch:80, time:39.72s, batch_loss:3174.8639
+sentence_shape: torch.Size([37, 118])
+sample loss: epoch:16, batch:120, time:46.76s, batch_loss:3943.5426
+sentence_shape: torch.Size([7, 53])
+sample loss: epoch:16, batch:160, time:36.86s, batch_loss:2451.9773
+sentence_shape: torch.Size([8, 150])
+sample loss: epoch:16, batch:200, time:36.96s, batch_loss:2434.9525
+sentence_shape: torch.Size([5, 73])
+sample loss: epoch:16, batch:240, time:39.83s, batch_loss:3522.1215
+sentence_shape: torch.Size([6, 39])
+sample loss: epoch:16, batch:280, time:42.01s, batch_loss:2804.2248
+sentence_shape: torch.Size([29, 134])
+sample loss: epoch:16, batch:320, time:39.84s, batch_loss:3199.3135
+sentence_shape: torch.Size([39, 85])
+sample loss: epoch:16, batch:360, time:40.84s, batch_loss:3079.4617
+sentence_shape: torch.Size([1, 250])
+sample loss: epoch:16, batch:400, time:42.02s, batch_loss:2552.3973
+sentence_shape: torch.Size([21, 119])
+sample loss: epoch:16, batch:440, time:37.87s, batch_loss:2952.6150
+sentence_shape: torch.Size([39, 29])
+sample loss: epoch:16, batch:480, time:37.93s, batch_loss:2140.2572
+sentence_shape: torch.Size([15, 57])
+sample loss: epoch:16, batch:520, time:39.99s, batch_loss:3113.5885
+sentence_shape: torch.Size([3, 93])
+sample loss: epoch:16, batch:560, time:38.17s, batch_loss:3051.4459
+sentence_shape: torch.Size([5, 75])
+sample loss: epoch:16, batch:600, time:43.35s, batch_loss:2820.6160
+sentence_shape: torch.Size([40, 65])
+sample loss: epoch:16, batch:640, time:42.53s, batch_loss:3815.4676
+sentence_shape: torch.Size([27, 86])
+sample loss: epoch:16, batch:680, time:44.13s, batch_loss:3364.6391
+sentence_shape: torch.Size([52, 111])
+sample loss: epoch:16, batch:720, time:36.10s, batch_loss:2716.4369
+sentence_shape: torch.Size([2, 84])
+sample loss: epoch:16, batch:760, time:36.46s, batch_loss:2639.6102
+sentence_shape: torch.Size([44, 134])
+sample loss: epoch:16, batch:800, time:40.62s, batch_loss:2926.3021
+sentence_shape: torch.Size([14, 69])
+sample loss: epoch:16, batch:840, time:43.50s, batch_loss:3316.0402
+sentence_shape: torch.Size([42, 78])
+sample loss: epoch:16, batch:880, time:34.23s, batch_loss:1897.1518
+sentence_shape: torch.Size([18, 78])
+sample loss: epoch:16, batch:920, time:42.38s, batch_loss:3094.4221
+sentence_shape: torch.Size([39, 111])
+sample loss: epoch:16, batch:960, time:35.39s, batch_loss:2568.5008
+sentence_shape: torch.Size([18, 70])
+sample loss: epoch:16, batch:1000, time:42.64s, batch_loss:3604.0285
+sentence_shape: torch.Size([4, 57])
+sample loss: epoch:16, batch:1040, time:38.32s, batch_loss:2606.3996
+sentence_shape: torch.Size([5, 51])
+sample loss: epoch:16, batch:1080, time:41.31s, batch_loss:3308.6422
+sentence_shape: torch.Size([10, 78])
+sample loss: epoch:16, batch:1120, time:38.49s, batch_loss:3771.2598
+sentence_shape: torch.Size([7, 111])
+sample loss: epoch:16, batch:1160, time:41.55s, batch_loss:3559.6090
+sentence_shape: torch.Size([8, 86])
+sample loss: epoch:16, batch:1200, time:36.13s, batch_loss:1860.7514
+sentence_shape: torch.Size([4, 67])
+sample loss: epoch:16, batch:1240, time:38.87s, batch_loss:3246.7564
+sentence_shape: torch.Size([42, 61])
+sample loss: epoch:16, batch:1280, time:46.20s, batch_loss:3387.4414
+sentence_shape: torch.Size([33, 148])
+sample loss: epoch:16, batch:1320, time:45.49s, batch_loss:3647.3187
+sentence_shape: torch.Size([23, 218])
+sample loss: epoch:16, batch:1360, time:38.48s, batch_loss:3011.4607
+sentence_shape: torch.Size([25, 86])
+sample loss: epoch:16, batch:1400, time:37.00s, batch_loss:2242.2828
+sentence_shape: torch.Size([4, 77])
+sample loss: epoch:16, batch:1440, time:36.35s, batch_loss:2233.3777
+sentence_shape: torch.Size([3, 57])
+sample loss: epoch:16, batch:1480, time:33.88s, batch_loss:2227.0133
+sentence_shape: torch.Size([8, 72])
+sample loss: epoch:16, batch:1520, time:40.95s, batch_loss:3306.6914
+sentence_shape: torch.Size([53, 81])
+sample loss: epoch:16, batch:1560, time:39.04s, batch_loss:2516.1303
+sentence_shape: torch.Size([54, 57])
+sample loss: epoch:16, batch:1600, time:40.66s, batch_loss:2831.8133
+sentence_shape: torch.Size([14, 58])
+sample loss: epoch:16, batch:1640, time:33.98s, batch_loss:2578.6307
+sentence_shape: torch.Size([4, 72])
+sample loss: epoch:16, batch:1680, time:38.28s, batch_loss:2685.4531
+sentence_shape: torch.Size([55, 119])
+sample loss: epoch:16, batch:1720, time:37.88s, batch_loss:3001.4775
+sentence_shape: torch.Size([8, 125])
+sample loss: epoch:16, batch:1760, time:40.99s, batch_loss:3045.8313
+sentence_shape: torch.Size([79, 63])
+sample loss: epoch:16, batch:1800, time:36.93s, batch_loss:3114.9691
+sentence_shape: torch.Size([5, 62])
+sample loss: epoch:16, batch:1840, time:37.59s, batch_loss:2618.2479
+sentence_shape: torch.Size([58, 120])
+sample loss: epoch:16, batch:1880, time:34.60s, batch_loss:2803.4965
+Epoch:16 training finished. Time: 1867.19s, speed: 0.99s/instance, total loss:5552461.5000
+Epoch_train_result: epoch:16, accuracy:0.9510, precision:0.6977, recall:0.5469, f_measure:0.6131 
+dev_result: epoch:16, time:131.98, accuracy:0.9422, precision:0.6217, recall:0.5105, f_measure:0.5607 
+training epoch: 17
+ Learning rate is setted as: 0.0008514577710948756
+训练数据总量： 1889
+sentence_shape: torch.Size([4, 109])
+sample loss: epoch:17, batch:40, time:42.48s, batch_loss:3557.3008
+sentence_shape: torch.Size([8, 84])
+sample loss: epoch:17, batch:80, time:39.69s, batch_loss:3120.9945
+sentence_shape: torch.Size([14, 141])
+sample loss: epoch:17, batch:120, time:42.53s, batch_loss:3389.0965
+sentence_shape: torch.Size([11, 54])
+sample loss: epoch:17, batch:160, time:40.89s, batch_loss:2881.5572
+sentence_shape: torch.Size([12, 71])
+sample loss: epoch:17, batch:200, time:37.82s, batch_loss:2467.7826
+sentence_shape: torch.Size([2, 54])
+sample loss: epoch:17, batch:240, time:37.34s, batch_loss:2204.5930
+sentence_shape: torch.Size([2, 409])
+sample loss: epoch:17, batch:280, time:35.09s, batch_loss:2309.5559
+sentence_shape: torch.Size([21, 94])
+sample loss: epoch:17, batch:320, time:40.62s, batch_loss:3677.3047
+sentence_shape: torch.Size([15, 80])
+sample loss: epoch:17, batch:360, time:43.78s, batch_loss:3863.0660
+sentence_shape: torch.Size([12, 77])
+sample loss: epoch:17, batch:400, time:36.70s, batch_loss:2526.1637
+sentence_shape: torch.Size([8, 57])
+sample loss: epoch:17, batch:440, time:40.16s, batch_loss:3564.6445
+sentence_shape: torch.Size([94, 61])
+sample loss: epoch:17, batch:480, time:41.05s, batch_loss:3173.3178
+sentence_shape: torch.Size([7, 72])
+sample loss: epoch:17, batch:520, time:39.78s, batch_loss:2872.5549
+sentence_shape: torch.Size([49, 102])
+sample loss: epoch:17, batch:560, time:50.30s, batch_loss:4201.9906
+sentence_shape: torch.Size([6, 145])
+sample loss: epoch:17, batch:600, time:33.68s, batch_loss:2344.2578
+sentence_shape: torch.Size([7, 62])
+sample loss: epoch:17, batch:640, time:45.62s, batch_loss:3690.3621
+sentence_shape: torch.Size([40, 41])
+sample loss: epoch:17, batch:680, time:36.83s, batch_loss:2681.6180
+sentence_shape: torch.Size([11, 85])
+sample loss: epoch:17, batch:720, time:42.17s, batch_loss:3034.6172
+sentence_shape: torch.Size([13, 88])
+sample loss: epoch:17, batch:760, time:36.45s, batch_loss:2654.1875
+sentence_shape: torch.Size([2, 125])
+sample loss: epoch:17, batch:800, time:35.88s, batch_loss:2627.1291
+sentence_shape: torch.Size([21, 68])
+sample loss: epoch:17, batch:840, time:38.47s, batch_loss:2753.0365
+sentence_shape: torch.Size([56, 37])
+sample loss: epoch:17, batch:880, time:42.25s, batch_loss:2904.4240
+sentence_shape: torch.Size([33, 127])
+sample loss: epoch:17, batch:920, time:35.68s, batch_loss:2048.4480
+sentence_shape: torch.Size([3, 89])
+sample loss: epoch:17, batch:960, time:31.98s, batch_loss:2102.0318
+sentence_shape: torch.Size([9, 88])
+sample loss: epoch:17, batch:1000, time:43.13s, batch_loss:3072.8762
+sentence_shape: torch.Size([37, 66])
+sample loss: epoch:17, batch:1040, time:40.86s, batch_loss:3026.3633
+sentence_shape: torch.Size([10, 85])
+sample loss: epoch:17, batch:1080, time:40.99s, batch_loss:3402.2410
+sentence_shape: torch.Size([5, 46])
+sample loss: epoch:17, batch:1120, time:39.30s, batch_loss:2570.6420
+sentence_shape: torch.Size([8, 115])
+sample loss: epoch:17, batch:1160, time:41.24s, batch_loss:3172.7188
+sentence_shape: torch.Size([11, 95])
+sample loss: epoch:17, batch:1200, time:36.58s, batch_loss:2540.2383
+sentence_shape: torch.Size([15, 156])
+sample loss: epoch:17, batch:1240, time:42.84s, batch_loss:2934.3574
+sentence_shape: torch.Size([22, 151])
+sample loss: epoch:17, batch:1280, time:38.65s, batch_loss:2732.7951
+sentence_shape: torch.Size([56, 74])
+sample loss: epoch:17, batch:1320, time:39.83s, batch_loss:3423.5730
+sentence_shape: torch.Size([6, 106])
+sample loss: epoch:17, batch:1360, time:40.53s, batch_loss:3343.7469
+sentence_shape: torch.Size([81, 42])
+sample loss: epoch:17, batch:1400, time:40.90s, batch_loss:2935.6252
+sentence_shape: torch.Size([80, 139])
+sample loss: epoch:17, batch:1440, time:37.42s, batch_loss:2849.7676
+sentence_shape: torch.Size([4, 159])
+sample loss: epoch:17, batch:1480, time:45.71s, batch_loss:3670.6402
+sentence_shape: torch.Size([3, 73])
+sample loss: epoch:17, batch:1520, time:42.29s, batch_loss:3596.2500
+sentence_shape: torch.Size([1, 126])
+sample loss: epoch:17, batch:1560, time:37.59s, batch_loss:2397.1064
+sentence_shape: torch.Size([7, 80])
+sample loss: epoch:17, batch:1600, time:40.06s, batch_loss:2976.0111
+sentence_shape: torch.Size([5, 47])
+sample loss: epoch:17, batch:1640, time:34.11s, batch_loss:2188.2293
+sentence_shape: torch.Size([6, 43])
+sample loss: epoch:17, batch:1680, time:39.65s, batch_loss:2651.3590
+sentence_shape: torch.Size([12, 81])
+sample loss: epoch:17, batch:1720, time:34.12s, batch_loss:2985.4262
+sentence_shape: torch.Size([37, 40])
+sample loss: epoch:17, batch:1760, time:31.53s, batch_loss:2338.8211
+sentence_shape: torch.Size([9, 59])
+sample loss: epoch:17, batch:1800, time:36.62s, batch_loss:2764.6166
+sentence_shape: torch.Size([7, 39])
+sample loss: epoch:17, batch:1840, time:32.19s, batch_loss:2687.5490
+sentence_shape: torch.Size([9, 172])
+sample loss: epoch:17, batch:1880, time:36.03s, batch_loss:3417.6402
+Epoch:17 training finished. Time: 1847.02s, speed: 0.98s/instance, total loss:5552786.5000
+Epoch_train_result: epoch:17, accuracy:0.9510, precision:0.6951, recall:0.5485, f_measure:0.6131 
+dev_result: epoch:17, time:99.27, accuracy:0.9383, precision:0.6980, recall:0.3891, f_measure:0.4996 
+training epoch: 18
+ Learning rate is setted as: 0.0008429431933839268
+训练数据总量： 1889
+sentence_shape: torch.Size([2, 92])
+sample loss: epoch:18, batch:40, time:32.78s, batch_loss:3343.4434
+sentence_shape: torch.Size([32, 91])
+sample loss: epoch:18, batch:80, time:41.03s, batch_loss:3541.7504
+sentence_shape: torch.Size([40, 110])
+sample loss: epoch:18, batch:120, time:35.51s, batch_loss:3000.5402
+sentence_shape: torch.Size([36, 51])
+sample loss: epoch:18, batch:160, time:40.74s, batch_loss:3311.6133
+sentence_shape: torch.Size([14, 93])
+sample loss: epoch:18, batch:200, time:36.60s, batch_loss:3630.3625
+sentence_shape: torch.Size([3, 93])
+sample loss: epoch:18, batch:240, time:40.92s, batch_loss:3946.2465
+sentence_shape: torch.Size([14, 120])
+sample loss: epoch:18, batch:280, time:34.08s, batch_loss:2637.7658
+sentence_shape: torch.Size([10, 82])
+sample loss: epoch:18, batch:320, time:34.54s, batch_loss:2788.5424
+sentence_shape: torch.Size([14, 69])
+sample loss: epoch:18, batch:360, time:34.63s, batch_loss:2689.5125
+sentence_shape: torch.Size([27, 66])
+sample loss: epoch:18, batch:400, time:37.22s, batch_loss:2695.8682
+sentence_shape: torch.Size([9, 78])
+sample loss: epoch:18, batch:440, time:35.57s, batch_loss:3709.0047
+sentence_shape: torch.Size([22, 70])
+sample loss: epoch:18, batch:480, time:31.60s, batch_loss:2469.9187
+sentence_shape: torch.Size([10, 86])
+sample loss: epoch:18, batch:520, time:29.59s, batch_loss:2803.3873
+sentence_shape: torch.Size([51, 34])
+sample loss: epoch:18, batch:560, time:39.13s, batch_loss:3643.0246
+sentence_shape: torch.Size([68, 63])
+sample loss: epoch:18, batch:600, time:31.47s, batch_loss:2749.9834
+sentence_shape: torch.Size([9, 86])
+sample loss: epoch:18, batch:640, time:37.54s, batch_loss:3327.3613
+sentence_shape: torch.Size([17, 63])
+sample loss: epoch:18, batch:680, time:34.52s, batch_loss:2359.7848
+sentence_shape: torch.Size([9, 56])
+sample loss: epoch:18, batch:720, time:32.99s, batch_loss:2588.6668
+sentence_shape: torch.Size([4, 67])
+sample loss: epoch:18, batch:760, time:29.56s, batch_loss:2825.3646
+sentence_shape: torch.Size([6, 81])
+sample loss: epoch:18, batch:800, time:29.97s, batch_loss:2526.4689
+sentence_shape: torch.Size([29, 188])
+sample loss: epoch:18, batch:840, time:34.87s, batch_loss:3724.8105
+sentence_shape: torch.Size([7, 77])
+sample loss: epoch:18, batch:880, time:28.20s, batch_loss:2127.5834
+sentence_shape: torch.Size([6, 34])
+sample loss: epoch:18, batch:920, time:37.12s, batch_loss:2622.1141
+sentence_shape: torch.Size([30, 50])
+sample loss: epoch:18, batch:960, time:32.96s, batch_loss:2698.5254
+sentence_shape: torch.Size([29, 97])
+sample loss: epoch:18, batch:1000, time:34.70s, batch_loss:2675.2174
+sentence_shape: torch.Size([7, 87])
+sample loss: epoch:18, batch:1040, time:32.68s, batch_loss:2846.9648
+sentence_shape: torch.Size([9, 53])
+sample loss: epoch:18, batch:1080, time:31.89s, batch_loss:2714.1979
+sentence_shape: torch.Size([17, 50])
+sample loss: epoch:18, batch:1120, time:35.44s, batch_loss:3075.7088
+sentence_shape: torch.Size([5, 140])
+sample loss: epoch:18, batch:1160, time:35.36s, batch_loss:2604.6043
+sentence_shape: torch.Size([31, 95])
+sample loss: epoch:18, batch:1200, time:35.27s, batch_loss:3182.0312
+sentence_shape: torch.Size([3, 68])
+sample loss: epoch:18, batch:1240, time:33.27s, batch_loss:2762.1039
+sentence_shape: torch.Size([26, 59])
+sample loss: epoch:18, batch:1280, time:33.81s, batch_loss:2262.1361
+sentence_shape: torch.Size([10, 82])
+sample loss: epoch:18, batch:1320, time:32.53s, batch_loss:2883.4967
+sentence_shape: torch.Size([6, 69])
+sample loss: epoch:18, batch:1360, time:32.34s, batch_loss:2462.7354
+sentence_shape: torch.Size([5, 48])
+sample loss: epoch:18, batch:1400, time:35.70s, batch_loss:3133.0139
+sentence_shape: torch.Size([17, 114])
+sample loss: epoch:18, batch:1440, time:35.23s, batch_loss:3774.4770
+sentence_shape: torch.Size([31, 133])
+sample loss: epoch:18, batch:1480, time:37.27s, batch_loss:3859.7195
+sentence_shape: torch.Size([21, 51])
+sample loss: epoch:18, batch:1520, time:30.71s, batch_loss:2462.4842
+sentence_shape: torch.Size([80, 139])
+sample loss: epoch:18, batch:1560, time:37.38s, batch_loss:3810.9406
+sentence_shape: torch.Size([48, 72])
+sample loss: epoch:18, batch:1600, time:29.25s, batch_loss:1980.5600
+sentence_shape: torch.Size([7, 62])
+sample loss: epoch:18, batch:1640, time:39.45s, batch_loss:3405.8426
+sentence_shape: torch.Size([5, 73])
+sample loss: epoch:18, batch:1680, time:29.79s, batch_loss:2345.8539
+sentence_shape: torch.Size([7, 49])
+sample loss: epoch:18, batch:1720, time:31.29s, batch_loss:2894.8822
+sentence_shape: torch.Size([31, 96])
+sample loss: epoch:18, batch:1760, time:34.39s, batch_loss:2745.5260
+sentence_shape: torch.Size([7, 112])
+sample loss: epoch:18, batch:1800, time:32.22s, batch_loss:2467.1084
+sentence_shape: torch.Size([4, 36])
+sample loss: epoch:18, batch:1840, time:36.51s, batch_loss:2881.8070
+sentence_shape: torch.Size([10, 62])
+sample loss: epoch:18, batch:1880, time:36.98s, batch_loss:2920.0436
+Epoch:18 training finished. Time: 1624.30s, speed: 0.86s/instance, total loss:5551290.5000
+Epoch_train_result: epoch:18, accuracy:0.9513, precision:0.6977, recall:0.5489, f_measure:0.6144 
+dev_result: epoch:18, time:99.20, accuracy:0.9434, precision:0.6230, recall:0.5058, f_measure:0.5583 
+training epoch: 19
+ Learning rate is setted as: 0.0008345137614500875
+训练数据总量： 1889
+sentence_shape: torch.Size([4, 160])
+sample loss: epoch:19, batch:40, time:35.43s, batch_loss:3067.7354
+sentence_shape: torch.Size([4, 92])
+sample loss: epoch:19, batch:80, time:35.02s, batch_loss:3011.2338
+sentence_shape: torch.Size([19, 61])
+sample loss: epoch:19, batch:120, time:32.87s, batch_loss:2752.9852
+sentence_shape: torch.Size([7, 49])
+sample loss: epoch:19, batch:160, time:36.39s, batch_loss:3593.8402
+sentence_shape: torch.Size([56, 37])
+sample loss: epoch:19, batch:200, time:32.22s, batch_loss:2440.8617
+sentence_shape: torch.Size([9, 53])
+sample loss: epoch:19, batch:240, time:29.47s, batch_loss:2139.8111
+sentence_shape: torch.Size([4, 47])
+sample loss: epoch:19, batch:280, time:37.24s, batch_loss:3540.2133
+sentence_shape: torch.Size([12, 90])
+sample loss: epoch:19, batch:320, time:32.00s, batch_loss:1747.8176
+sentence_shape: torch.Size([8, 61])
+sample loss: epoch:19, batch:360, time:36.09s, batch_loss:3158.8311
+sentence_shape: torch.Size([24, 126])
+sample loss: epoch:19, batch:400, time:33.99s, batch_loss:2695.1674
+sentence_shape: torch.Size([34, 54])
+sample loss: epoch:19, batch:440, time:30.72s, batch_loss:2921.8354
+sentence_shape: torch.Size([40, 110])
+sample loss: epoch:19, batch:480, time:40.14s, batch_loss:3772.7820
+sentence_shape: torch.Size([37, 170])
+sample loss: epoch:19, batch:520, time:37.54s, batch_loss:4263.2445
+sentence_shape: torch.Size([38, 39])
+sample loss: epoch:19, batch:560, time:37.65s, batch_loss:3940.5199
+sentence_shape: torch.Size([11, 87])
+sample loss: epoch:19, batch:600, time:33.01s, batch_loss:2906.6342
+sentence_shape: torch.Size([14, 85])
+sample loss: epoch:19, batch:640, time:36.94s, batch_loss:2662.2646
+sentence_shape: torch.Size([5, 137])
+sample loss: epoch:19, batch:680, time:31.56s, batch_loss:2599.1578
+sentence_shape: torch.Size([44, 134])
+sample loss: epoch:19, batch:720, time:34.66s, batch_loss:3014.8555
+sentence_shape: torch.Size([29, 96])
+sample loss: epoch:19, batch:760, time:36.82s, batch_loss:3134.9242
+sentence_shape: torch.Size([17, 66])
+sample loss: epoch:19, batch:800, time:29.96s, batch_loss:2258.6014
+sentence_shape: torch.Size([17, 59])
+sample loss: epoch:19, batch:840, time:37.70s, batch_loss:2764.8859
+sentence_shape: torch.Size([22, 141])
+sample loss: epoch:19, batch:880, time:31.88s, batch_loss:2281.6363
+sentence_shape: torch.Size([13, 84])
+sample loss: epoch:19, batch:920, time:33.35s, batch_loss:2833.1344
+sentence_shape: torch.Size([7, 139])
+sample loss: epoch:19, batch:960, time:30.51s, batch_loss:2751.5662
+sentence_shape: torch.Size([34, 51])
+sample loss: epoch:19, batch:1000, time:34.57s, batch_loss:2574.1232
+sentence_shape: torch.Size([19, 67])
+sample loss: epoch:19, batch:1040, time:35.59s, batch_loss:2562.0348
+sentence_shape: torch.Size([18, 96])
+sample loss: epoch:19, batch:1080, time:31.92s, batch_loss:2813.9504
+sentence_shape: torch.Size([11, 74])
+sample loss: epoch:19, batch:1120, time:32.20s, batch_loss:2533.7791
+sentence_shape: torch.Size([5, 92])
+sample loss: epoch:19, batch:1160, time:36.26s, batch_loss:3474.5305
+sentence_shape: torch.Size([19, 58])
+sample loss: epoch:19, batch:1200, time:35.55s, batch_loss:3104.1738
+sentence_shape: torch.Size([22, 92])
+sample loss: epoch:19, batch:1240, time:35.94s, batch_loss:3471.1051
+sentence_shape: torch.Size([4, 87])
+sample loss: epoch:19, batch:1280, time:33.48s, batch_loss:3760.3918
+sentence_shape: torch.Size([7, 50])
+sample loss: epoch:19, batch:1320, time:32.63s, batch_loss:2461.4437
+sentence_shape: torch.Size([9, 172])
+sample loss: epoch:19, batch:1360, time:35.20s, batch_loss:2903.9299
+sentence_shape: torch.Size([7, 113])
+sample loss: epoch:19, batch:1400, time:34.97s, batch_loss:3375.7520
+sentence_shape: torch.Size([50, 69])
+sample loss: epoch:19, batch:1440, time:30.43s, batch_loss:2467.9082
+sentence_shape: torch.Size([7, 50])
+sample loss: epoch:19, batch:1480, time:32.13s, batch_loss:2476.9268
+sentence_shape: torch.Size([5, 96])
+sample loss: epoch:19, batch:1520, time:41.37s, batch_loss:4644.1742
+sentence_shape: torch.Size([7, 77])
+sample loss: epoch:19, batch:1560, time:35.50s, batch_loss:2532.8441
+sentence_shape: torch.Size([7, 42])
+sample loss: epoch:19, batch:1600, time:32.61s, batch_loss:2649.4273
+sentence_shape: torch.Size([4, 74])
+sample loss: epoch:19, batch:1640, time:26.23s, batch_loss:1759.7660
+sentence_shape: torch.Size([1, 160])
+sample loss: epoch:19, batch:1680, time:42.72s, batch_loss:4112.6973
+sentence_shape: torch.Size([13, 102])
+sample loss: epoch:19, batch:1720, time:36.44s, batch_loss:3366.7438
+sentence_shape: torch.Size([5, 100])
+sample loss: epoch:19, batch:1760, time:32.03s, batch_loss:2841.3180
+sentence_shape: torch.Size([17, 63])
+sample loss: epoch:19, batch:1800, time:32.24s, batch_loss:2898.6387
+sentence_shape: torch.Size([6, 77])
+sample loss: epoch:19, batch:1840, time:33.79s, batch_loss:3118.1334
+sentence_shape: torch.Size([9, 72])
+sample loss: epoch:19, batch:1880, time:30.11s, batch_loss:2103.9207
+Epoch:19 training finished. Time: 1615.02s, speed: 0.85s/instance, total loss:5550550.5000
+Epoch_train_result: epoch:19, accuracy:0.9519, precision:0.7040, recall:0.5550, f_measure:0.6207 
+dev_result: epoch:19, time:98.77, accuracy:0.9460, precision:0.6372, recall:0.5196, f_measure:0.5724 
+training epoch: 20
+ Learning rate is setted as: 0.0008261686238355867
+训练数据总量： 1889
+sentence_shape: torch.Size([33, 119])
+sample loss: epoch:20, batch:40, time:35.25s, batch_loss:3078.4881
+sentence_shape: torch.Size([54, 107])
+sample loss: epoch:20, batch:80, time:39.63s, batch_loss:3820.0687
+sentence_shape: torch.Size([23, 218])
+sample loss: epoch:20, batch:120, time:41.32s, batch_loss:3522.3488
+sentence_shape: torch.Size([7, 139])
+sample loss: epoch:20, batch:160, time:36.86s, batch_loss:3463.5324
+sentence_shape: torch.Size([11, 57])
+sample loss: epoch:20, batch:200, time:35.89s, batch_loss:4404.4777
+sentence_shape: torch.Size([39, 70])
+sample loss: epoch:20, batch:240, time:38.49s, batch_loss:3209.9506
+sentence_shape: torch.Size([51, 50])
+sample loss: epoch:20, batch:280, time:31.32s, batch_loss:2123.3369
+sentence_shape: torch.Size([27, 134])
+sample loss: epoch:20, batch:320, time:30.79s, batch_loss:2422.9779
+sentence_shape: torch.Size([7, 104])
+sample loss: epoch:20, batch:360, time:29.61s, batch_loss:1766.4188
+sentence_shape: torch.Size([20, 137])
+sample loss: epoch:20, batch:400, time:32.83s, batch_loss:2714.5961
+sentence_shape: torch.Size([38, 110])
+sample loss: epoch:20, batch:440, time:36.31s, batch_loss:3389.5875
+sentence_shape: torch.Size([7, 70])
+sample loss: epoch:20, batch:480, time:32.05s, batch_loss:2659.7467
+sentence_shape: torch.Size([13, 65])
+sample loss: epoch:20, batch:520, time:28.33s, batch_loss:2805.7441
+sentence_shape: torch.Size([9, 58])
+sample loss: epoch:20, batch:560, time:33.14s, batch_loss:3347.5887
+sentence_shape: torch.Size([6, 84])
+sample loss: epoch:20, batch:600, time:32.43s, batch_loss:2359.8598
+sentence_shape: torch.Size([51, 34])
+sample loss: epoch:20, batch:640, time:39.14s, batch_loss:3335.3027
+sentence_shape: torch.Size([10, 86])
+sample loss: epoch:20, batch:680, time:35.15s, batch_loss:3099.2025
+sentence_shape: torch.Size([15, 93])
+sample loss: epoch:20, batch:720, time:34.71s, batch_loss:2639.6631
+sentence_shape: torch.Size([25, 61])
+sample loss: epoch:20, batch:760, time:29.85s, batch_loss:2144.4795
+sentence_shape: torch.Size([7, 107])
+sample loss: epoch:20, batch:800, time:31.19s, batch_loss:2822.4609
+sentence_shape: torch.Size([7, 76])
+sample loss: epoch:20, batch:840, time:31.79s, batch_loss:2287.0904
+sentence_shape: torch.Size([29, 77])
+sample loss: epoch:20, batch:880, time:29.47s, batch_loss:2358.4883
+sentence_shape: torch.Size([27, 106])
+sample loss: epoch:20, batch:920, time:33.32s, batch_loss:2817.4865
+sentence_shape: torch.Size([4, 61])
+sample loss: epoch:20, batch:960, time:32.64s, batch_loss:2526.9150
+sentence_shape: torch.Size([5, 59])
+sample loss: epoch:20, batch:1000, time:41.76s, batch_loss:4019.6215
+sentence_shape: torch.Size([41, 69])
+sample loss: epoch:20, batch:1040, time:39.13s, batch_loss:3676.1207
+sentence_shape: torch.Size([5, 92])
+sample loss: epoch:20, batch:1080, time:37.45s, batch_loss:3132.2176
+sentence_shape: torch.Size([10, 69])
+sample loss: epoch:20, batch:1120, time:39.25s, batch_loss:3186.1686
+sentence_shape: torch.Size([4, 39])
+sample loss: epoch:20, batch:1160, time:30.28s, batch_loss:2345.3719
+sentence_shape: torch.Size([8, 86])
+sample loss: epoch:20, batch:1200, time:32.06s, batch_loss:2860.7316
+sentence_shape: torch.Size([21, 158])
+sample loss: epoch:20, batch:1240, time:36.71s, batch_loss:3276.7676
+sentence_shape: torch.Size([11, 100])
+sample loss: epoch:20, batch:1280, time:32.13s, batch_loss:3431.4074
+sentence_shape: torch.Size([20, 65])
+sample loss: epoch:20, batch:1320, time:31.53s, batch_loss:2780.7273
+sentence_shape: torch.Size([42, 81])
+sample loss: epoch:20, batch:1360, time:33.91s, batch_loss:3211.0859
+sentence_shape: torch.Size([37, 170])
+sample loss: epoch:20, batch:1400, time:35.12s, batch_loss:2694.4594
+sentence_shape: torch.Size([16, 81])
+sample loss: epoch:20, batch:1440, time:30.35s, batch_loss:3276.5799
+sentence_shape: torch.Size([8, 91])
+sample loss: epoch:20, batch:1480, time:26.23s, batch_loss:3416.4484
+sentence_shape: torch.Size([30, 50])
+sample loss: epoch:20, batch:1520, time:24.58s, batch_loss:3294.6336
+sentence_shape: torch.Size([8, 77])
+sample loss: epoch:20, batch:1560, time:21.37s, batch_loss:2648.6328
+sentence_shape: torch.Size([16, 77])
+sample loss: epoch:20, batch:1600, time:23.52s, batch_loss:2950.6965
+sentence_shape: torch.Size([33, 45])
+sample loss: epoch:20, batch:1640, time:21.30s, batch_loss:2557.7465
+sentence_shape: torch.Size([5, 49])
+sample loss: epoch:20, batch:1680, time:21.69s, batch_loss:2420.0078
+sentence_shape: torch.Size([23, 144])
+sample loss: epoch:20, batch:1720, time:26.01s, batch_loss:3280.3617
+sentence_shape: torch.Size([31, 98])
+sample loss: epoch:20, batch:1760, time:21.58s, batch_loss:2714.1367
+sentence_shape: torch.Size([12, 61])
+sample loss: epoch:20, batch:1800, time:23.42s, batch_loss:2641.5561
+sentence_shape: torch.Size([5, 96])
+sample loss: epoch:20, batch:1840, time:21.36s, batch_loss:2417.8609
+sentence_shape: torch.Size([30, 71])
+sample loss: epoch:20, batch:1880, time:24.36s, batch_loss:3039.2127
+Epoch:20 training finished. Time: 1490.87s, speed: 0.79s/instance, total loss:5549592.5000
+Epoch_train_result: epoch:20, accuracy:0.9523, precision:0.7034, recall:0.5601, f_measure:0.6236 
+dev_result: epoch:20, time:40.71, accuracy:0.9442, precision:0.5981, recall:0.5415, f_measure:0.5684 
+training epoch: 21
+ Learning rate is setted as: 0.0008179069375972307
+训练数据总量： 1889
+sentence_shape: torch.Size([19, 64])
+sample loss: epoch:21, batch:40, time:25.16s, batch_loss:3452.0078
+sentence_shape: torch.Size([4, 134])
+sample loss: epoch:21, batch:80, time:24.93s, batch_loss:2920.4127
+sentence_shape: torch.Size([34, 150])
+sample loss: epoch:21, batch:120, time:24.87s, batch_loss:3146.6811
+sentence_shape: torch.Size([9, 64])
+sample loss: epoch:21, batch:160, time:21.38s, batch_loss:3084.7975
+sentence_shape: torch.Size([11, 77])
+sample loss: epoch:21, batch:200, time:24.19s, batch_loss:3302.2367
+sentence_shape: torch.Size([9, 89])
+sample loss: epoch:21, batch:240, time:21.23s, batch_loss:2455.3859
+sentence_shape: torch.Size([4, 130])
+sample loss: epoch:21, batch:280, time:23.01s, batch_loss:2795.5502
+sentence_shape: torch.Size([3, 93])
+sample loss: epoch:21, batch:320, time:20.68s, batch_loss:2715.6033
+sentence_shape: torch.Size([30, 131])
+sample loss: epoch:21, batch:360, time:21.55s, batch_loss:2822.4736
+sentence_shape: torch.Size([9, 137])
+sample loss: epoch:21, batch:400, time:24.46s, batch_loss:3302.1078
+sentence_shape: torch.Size([9, 97])
+sample loss: epoch:21, batch:440, time:23.16s, batch_loss:2561.3885
+sentence_shape: torch.Size([6, 77])
+sample loss: epoch:21, batch:480, time:20.45s, batch_loss:2451.2363
+sentence_shape: torch.Size([19, 109])
+sample loss: epoch:21, batch:520, time:20.74s, batch_loss:2329.7893
+sentence_shape: torch.Size([31, 152])
+sample loss: epoch:21, batch:560, time:25.57s, batch_loss:3412.7504
+sentence_shape: torch.Size([10, 78])
+sample loss: epoch:21, batch:600, time:24.72s, batch_loss:3021.6861
+sentence_shape: torch.Size([38, 74])
+sample loss: epoch:21, batch:640, time:23.93s, batch_loss:2687.3904
+sentence_shape: torch.Size([59, 59])
+sample loss: epoch:21, batch:680, time:23.97s, batch_loss:3585.5207
+sentence_shape: torch.Size([49, 87])
+sample loss: epoch:21, batch:720, time:27.63s, batch_loss:3877.2074
+sentence_shape: torch.Size([6, 73])
+sample loss: epoch:21, batch:760, time:24.23s, batch_loss:2667.8221
+sentence_shape: torch.Size([25, 190])
+sample loss: epoch:21, batch:800, time:24.52s, batch_loss:3008.8938
+sentence_shape: torch.Size([7, 140])
+sample loss: epoch:21, batch:840, time:23.84s, batch_loss:2366.3051
+sentence_shape: torch.Size([4, 74])
+sample loss: epoch:21, batch:880, time:24.79s, batch_loss:2916.1670
+sentence_shape: torch.Size([40, 65])
+sample loss: epoch:21, batch:920, time:25.95s, batch_loss:3166.1590
+sentence_shape: torch.Size([33, 126])
+sample loss: epoch:21, batch:960, time:26.23s, batch_loss:3425.9590
+sentence_shape: torch.Size([20, 139])
+sample loss: epoch:21, batch:1000, time:23.04s, batch_loss:2319.6324
+sentence_shape: torch.Size([54, 57])
+sample loss: epoch:21, batch:1040, time:23.67s, batch_loss:2689.9512
+sentence_shape: torch.Size([3, 50])
+sample loss: epoch:21, batch:1080, time:23.02s, batch_loss:3058.5020
+sentence_shape: torch.Size([13, 150])
+sample loss: epoch:21, batch:1120, time:22.55s, batch_loss:2841.1525
+sentence_shape: torch.Size([40, 82])
+sample loss: epoch:21, batch:1160, time:23.35s, batch_loss:2983.7367
+sentence_shape: torch.Size([7, 54])
+sample loss: epoch:21, batch:1200, time:27.31s, batch_loss:3488.0742
+sentence_shape: torch.Size([33, 44])
+sample loss: epoch:21, batch:1240, time:26.06s, batch_loss:3080.2664
+sentence_shape: torch.Size([40, 143])
+sample loss: epoch:21, batch:1280, time:25.59s, batch_loss:3234.0437
+sentence_shape: torch.Size([7, 97])
+sample loss: epoch:21, batch:1320, time:21.11s, batch_loss:2440.9631
+sentence_shape: torch.Size([10, 152])
+sample loss: epoch:21, batch:1360, time:20.25s, batch_loss:2119.6734
+sentence_shape: torch.Size([42, 46])
+sample loss: epoch:21, batch:1400, time:27.09s, batch_loss:3588.7539
+sentence_shape: torch.Size([3, 86])
+sample loss: epoch:21, batch:1440, time:22.00s, batch_loss:2532.4322
+sentence_shape: torch.Size([57, 31])
+sample loss: epoch:21, batch:1480, time:27.49s, batch_loss:4272.7379
+sentence_shape: torch.Size([60, 73])
+sample loss: epoch:21, batch:1520, time:21.14s, batch_loss:2524.8393
+sentence_shape: torch.Size([3, 72])
+sample loss: epoch:21, batch:1560, time:23.89s, batch_loss:3303.7773
+sentence_shape: torch.Size([5, 46])
+sample loss: epoch:21, batch:1600, time:25.92s, batch_loss:3090.7652
+sentence_shape: torch.Size([2, 61])
+sample loss: epoch:21, batch:1640, time:22.37s, batch_loss:3683.5777
+sentence_shape: torch.Size([22, 61])
+sample loss: epoch:21, batch:1680, time:22.38s, batch_loss:2595.9500
+sentence_shape: torch.Size([8, 150])
+sample loss: epoch:21, batch:1720, time:22.36s, batch_loss:2541.0383
+sentence_shape: torch.Size([8, 92])
+sample loss: epoch:21, batch:1760, time:19.99s, batch_loss:2035.7842
+sentence_shape: torch.Size([23, 85])
+sample loss: epoch:21, batch:1800, time:21.73s, batch_loss:2416.8199
+sentence_shape: torch.Size([5, 84])
+sample loss: epoch:21, batch:1840, time:23.01s, batch_loss:3267.5301
+sentence_shape: torch.Size([17, 55])
+sample loss: epoch:21, batch:1880, time:20.63s, batch_loss:2299.9215
+Epoch:21 training finished. Time: 1112.67s, speed: 0.59s/instance, total loss:5549734.5000
+Epoch_train_result: epoch:21, accuracy:0.9523, precision:0.7087, recall:0.5593, f_measure:0.6252 
+dev_result: epoch:21, time:40.66, accuracy:0.9433, precision:0.6807, recall:0.4475, f_measure:0.5400 
+training epoch: 22
+ Learning rate is setted as: 0.0008097278682212584
+训练数据总量： 1889
+sentence_shape: torch.Size([35, 41])
+sample loss: epoch:22, batch:40, time:22.91s, batch_loss:3026.7244
+sentence_shape: torch.Size([11, 145])
+sample loss: epoch:22, batch:80, time:25.50s, batch_loss:3373.9957
+sentence_shape: torch.Size([33, 167])
+sample loss: epoch:22, batch:120, time:27.02s, batch_loss:3123.8686
+sentence_shape: torch.Size([10, 117])
+sample loss: epoch:22, batch:160, time:23.50s, batch_loss:2649.0947
+sentence_shape: torch.Size([2, 61])
+sample loss: epoch:22, batch:200, time:24.29s, batch_loss:2921.0705
+sentence_shape: torch.Size([3, 81])
+sample loss: epoch:22, batch:240, time:25.49s, batch_loss:3523.9160
+sentence_shape: torch.Size([11, 183])
+sample loss: epoch:22, batch:280, time:22.99s, batch_loss:3077.0410
+sentence_shape: torch.Size([7, 111])
+sample loss: epoch:22, batch:320, time:19.80s, batch_loss:1840.9168
+sentence_shape: torch.Size([4, 104])
+sample loss: epoch:22, batch:360, time:24.08s, batch_loss:2621.5752
+sentence_shape: torch.Size([94, 61])
+sample loss: epoch:22, batch:400, time:24.12s, batch_loss:3466.0660
+sentence_shape: torch.Size([7, 64])
+sample loss: epoch:22, batch:440, time:28.45s, batch_loss:3810.5027
+sentence_shape: torch.Size([40, 58])
+sample loss: epoch:22, batch:480, time:24.33s, batch_loss:3249.4895
+sentence_shape: torch.Size([21, 156])
+sample loss: epoch:22, batch:520, time:23.93s, batch_loss:2734.4369
+sentence_shape: torch.Size([10, 78])
+sample loss: epoch:22, batch:560, time:25.16s, batch_loss:2789.4059
+sentence_shape: torch.Size([5, 66])
+sample loss: epoch:22, batch:600, time:19.94s, batch_loss:2190.1389
+sentence_shape: torch.Size([12, 29])
+sample loss: epoch:22, batch:640, time:27.57s, batch_loss:3498.0133
+sentence_shape: torch.Size([6, 106])
+sample loss: epoch:22, batch:680, time:21.27s, batch_loss:2354.6895
+sentence_shape: torch.Size([33, 48])
+sample loss: epoch:22, batch:720, time:23.44s, batch_loss:2752.9406
+sentence_shape: torch.Size([19, 47])
+sample loss: epoch:22, batch:760, time:22.10s, batch_loss:2201.0412
+sentence_shape: torch.Size([35, 88])
+sample loss: epoch:22, batch:800, time:23.10s, batch_loss:2986.1570
+sentence_shape: torch.Size([43, 86])
+sample loss: epoch:22, batch:840, time:25.65s, batch_loss:3500.6988
+sentence_shape: torch.Size([17, 112])
+sample loss: epoch:22, batch:880, time:23.99s, batch_loss:3106.1818
+sentence_shape: torch.Size([38, 34])
+sample loss: epoch:22, batch:920, time:21.85s, batch_loss:3024.0266
+sentence_shape: torch.Size([12, 66])
+sample loss: epoch:22, batch:960, time:26.09s, batch_loss:3624.8926
+sentence_shape: torch.Size([42, 81])
+sample loss: epoch:22, batch:1000, time:23.49s, batch_loss:2997.4891
+sentence_shape: torch.Size([5, 114])
+sample loss: epoch:22, batch:1040, time:25.01s, batch_loss:3214.3705
+sentence_shape: torch.Size([12, 62])
+sample loss: epoch:22, batch:1080, time:22.11s, batch_loss:2553.5861
+sentence_shape: torch.Size([6, 52])
+sample loss: epoch:22, batch:1120, time:21.81s, batch_loss:2769.9158
+sentence_shape: torch.Size([41, 31])
+sample loss: epoch:22, batch:1160, time:22.52s, batch_loss:2598.2256
+sentence_shape: torch.Size([7, 97])
+sample loss: epoch:22, batch:1200, time:25.31s, batch_loss:2835.8377
+sentence_shape: torch.Size([55, 47])
+sample loss: epoch:22, batch:1240, time:22.53s, batch_loss:3395.7855
+sentence_shape: torch.Size([8, 115])
+sample loss: epoch:22, batch:1280, time:22.36s, batch_loss:3141.8607
+sentence_shape: torch.Size([9, 74])
+sample loss: epoch:22, batch:1320, time:24.50s, batch_loss:2939.6121
+sentence_shape: torch.Size([4, 68])
+sample loss: epoch:22, batch:1360, time:29.92s, batch_loss:4353.0324
+sentence_shape: torch.Size([22, 130])
+sample loss: epoch:22, batch:1400, time:22.75s, batch_loss:2624.6170
+sentence_shape: torch.Size([7, 67])
+sample loss: epoch:22, batch:1440, time:20.60s, batch_loss:2546.7785
+sentence_shape: torch.Size([6, 81])
+sample loss: epoch:22, batch:1480, time:20.63s, batch_loss:2048.4885
+sentence_shape: torch.Size([2, 78])
+sample loss: epoch:22, batch:1520, time:24.30s, batch_loss:3058.0287
+sentence_shape: torch.Size([16, 115])
+sample loss: epoch:22, batch:1560, time:24.09s, batch_loss:2975.8633
+sentence_shape: torch.Size([22, 64])
+sample loss: epoch:22, batch:1600, time:30.84s, batch_loss:3964.3227
+sentence_shape: torch.Size([17, 97])
+sample loss: epoch:22, batch:1640, time:22.38s, batch_loss:2373.5783
+sentence_shape: torch.Size([9, 143])
+sample loss: epoch:22, batch:1680, time:23.73s, batch_loss:3055.4609
+sentence_shape: torch.Size([12, 65])
+sample loss: epoch:22, batch:1720, time:22.60s, batch_loss:2697.6789
+sentence_shape: torch.Size([49, 74])
+sample loss: epoch:22, batch:1760, time:22.28s, batch_loss:3033.3486
+sentence_shape: torch.Size([37, 45])
+sample loss: epoch:22, batch:1800, time:22.54s, batch_loss:2210.6459
+sentence_shape: torch.Size([7, 68])
+sample loss: epoch:22, batch:1840, time:32.81s, batch_loss:2896.3244
+sentence_shape: torch.Size([11, 79])
+sample loss: epoch:22, batch:1880, time:30.03s, batch_loss:2533.8938
+Epoch:22 training finished. Time: 1141.88s, speed: 0.60s/instance, total loss:5549243.0000
+Epoch_train_result: epoch:22, accuracy:0.9520, precision:0.7025, recall:0.5576, f_measure:0.6218 
+dev_result: epoch:22, time:100.43, accuracy:0.9445, precision:0.6438, recall:0.5101, f_measure:0.5692 
+training epoch: 23
+ Learning rate is setted as: 0.0008016305895390458
+训练数据总量： 1889
+sentence_shape: torch.Size([4, 74])
+sample loss: epoch:23, batch:40, time:36.42s, batch_loss:3412.9750
+sentence_shape: torch.Size([53, 85])
+sample loss: epoch:23, batch:80, time:32.01s, batch_loss:2638.7779
+sentence_shape: torch.Size([27, 86])
+sample loss: epoch:23, batch:120, time:28.42s, batch_loss:2066.7838
+sentence_shape: torch.Size([9, 135])
+sample loss: epoch:23, batch:160, time:34.11s, batch_loss:2653.3934
+sentence_shape: torch.Size([9, 74])
+sample loss: epoch:23, batch:200, time:27.84s, batch_loss:1905.8262
+sentence_shape: torch.Size([18, 88])
+sample loss: epoch:23, batch:240, time:30.13s, batch_loss:2378.8984
+sentence_shape: torch.Size([2, 136])
+sample loss: epoch:23, batch:280, time:35.18s, batch_loss:2625.5898
+sentence_shape: torch.Size([32, 66])
+sample loss: epoch:23, batch:320, time:34.10s, batch_loss:2760.0307
+sentence_shape: torch.Size([17, 82])
+sample loss: epoch:23, batch:360, time:32.61s, batch_loss:3265.7705
+sentence_shape: torch.Size([36, 130])
+sample loss: epoch:23, batch:400, time:35.13s, batch_loss:2826.6123
+sentence_shape: torch.Size([41, 116])
+sample loss: epoch:23, batch:440, time:30.45s, batch_loss:2692.6180
+sentence_shape: torch.Size([17, 72])
+sample loss: epoch:23, batch:480, time:32.25s, batch_loss:2562.2885
+sentence_shape: torch.Size([3, 73])
+sample loss: epoch:23, batch:520, time:33.66s, batch_loss:3060.0658
+sentence_shape: torch.Size([8, 60])
+sample loss: epoch:23, batch:560, time:37.25s, batch_loss:3839.3930
+sentence_shape: torch.Size([40, 101])
+sample loss: epoch:23, batch:600, time:35.16s, batch_loss:2894.2648
+sentence_shape: torch.Size([7, 50])
+sample loss: epoch:23, batch:640, time:35.53s, batch_loss:3464.6355
+sentence_shape: torch.Size([36, 59])
+sample loss: epoch:23, batch:680, time:31.67s, batch_loss:2339.5002
+sentence_shape: torch.Size([35, 87])
+sample loss: epoch:23, batch:720, time:32.79s, batch_loss:2443.5928
+sentence_shape: torch.Size([8, 66])
+sample loss: epoch:23, batch:760, time:34.36s, batch_loss:2860.1834
+sentence_shape: torch.Size([29, 96])
+sample loss: epoch:23, batch:800, time:30.42s, batch_loss:1966.0322
+sentence_shape: torch.Size([19, 77])
+sample loss: epoch:23, batch:840, time:32.45s, batch_loss:2880.7139
+sentence_shape: torch.Size([7, 82])
+sample loss: epoch:23, batch:880, time:41.25s, batch_loss:3542.0656
+sentence_shape: torch.Size([6, 97])
+sample loss: epoch:23, batch:920, time:34.07s, batch_loss:2846.6516
+sentence_shape: torch.Size([13, 72])
+sample loss: epoch:23, batch:960, time:33.00s, batch_loss:2724.8408
+sentence_shape: torch.Size([49, 151])
+sample loss: epoch:23, batch:1000, time:31.13s, batch_loss:2671.9662
+sentence_shape: torch.Size([60, 73])
+sample loss: epoch:23, batch:1040, time:33.86s, batch_loss:2893.1266
+sentence_shape: torch.Size([29, 77])
+sample loss: epoch:23, batch:1080, time:33.11s, batch_loss:2761.3254
+sentence_shape: torch.Size([14, 162])
+sample loss: epoch:23, batch:1120, time:31.85s, batch_loss:2710.9090
+sentence_shape: torch.Size([61, 71])
+sample loss: epoch:23, batch:1160, time:37.98s, batch_loss:4288.5633
+sentence_shape: torch.Size([5, 109])
+sample loss: epoch:23, batch:1200, time:36.24s, batch_loss:3325.1234
+sentence_shape: torch.Size([9, 172])
+sample loss: epoch:23, batch:1240, time:32.14s, batch_loss:2718.0092
+sentence_shape: torch.Size([15, 103])
+sample loss: epoch:23, batch:1280, time:29.67s, batch_loss:2272.8578
+sentence_shape: torch.Size([8, 66])
+sample loss: epoch:23, batch:1320, time:36.97s, batch_loss:3201.9078
+sentence_shape: torch.Size([28, 68])
+sample loss: epoch:23, batch:1360, time:37.15s, batch_loss:3665.0414
+sentence_shape: torch.Size([5, 41])
+sample loss: epoch:23, batch:1400, time:35.04s, batch_loss:2800.3219
+sentence_shape: torch.Size([33, 148])
+sample loss: epoch:23, batch:1440, time:39.77s, batch_loss:3495.3297
+sentence_shape: torch.Size([4, 116])
+sample loss: epoch:23, batch:1480, time:36.99s, batch_loss:3765.6078
+sentence_shape: torch.Size([37, 109])
+sample loss: epoch:23, batch:1520, time:32.76s, batch_loss:2430.2672
+sentence_shape: torch.Size([10, 215])
+sample loss: epoch:23, batch:1560, time:35.98s, batch_loss:3259.3521
+sentence_shape: torch.Size([6, 47])
+sample loss: epoch:23, batch:1600, time:41.60s, batch_loss:3756.3828
+sentence_shape: torch.Size([17, 114])
+sample loss: epoch:23, batch:1640, time:33.88s, batch_loss:2574.9672
+sentence_shape: torch.Size([26, 43])
+sample loss: epoch:23, batch:1680, time:33.27s, batch_loss:3433.2125
+sentence_shape: torch.Size([3, 110])
+sample loss: epoch:23, batch:1720, time:30.37s, batch_loss:2301.2021
+sentence_shape: torch.Size([9, 96])
+sample loss: epoch:23, batch:1760, time:37.31s, batch_loss:4012.9148
+sentence_shape: torch.Size([3, 239])
+sample loss: epoch:23, batch:1800, time:33.48s, batch_loss:2815.8764
+sentence_shape: torch.Size([27, 80])
+sample loss: epoch:23, batch:1840, time:34.45s, batch_loss:2793.2771
+sentence_shape: torch.Size([18, 107])
+sample loss: epoch:23, batch:1880, time:37.05s, batch_loss:2939.7018
+Epoch:23 training finished. Time: 1611.11s, speed: 0.85s/instance, total loss:5548741.0000
+Epoch_train_result: epoch:23, accuracy:0.9526, precision:0.7084, recall:0.5633, f_measure:0.6276 
+dev_result: epoch:23, time:102.05, accuracy:0.9446, precision:0.6913, recall:0.4719, f_measure:0.5609 
+training epoch: 24
+ Learning rate is setted as: 0.0007936142836436554
+训练数据总量： 1889
+sentence_shape: torch.Size([9, 53])
+sample loss: epoch:24, batch:40, time:35.70s, batch_loss:3753.6367
+sentence_shape: torch.Size([8, 64])
+sample loss: epoch:24, batch:80, time:30.73s, batch_loss:1753.8551
+sentence_shape: torch.Size([19, 58])
+sample loss: epoch:24, batch:120, time:37.45s, batch_loss:3499.7750
+sentence_shape: torch.Size([5, 77])
+sample loss: epoch:24, batch:160, time:40.15s, batch_loss:4582.0285
+sentence_shape: torch.Size([4, 36])
+sample loss: epoch:24, batch:200, time:38.27s, batch_loss:3747.9078
+sentence_shape: torch.Size([17, 72])
+sample loss: epoch:24, batch:240, time:38.57s, batch_loss:3526.0711
+sentence_shape: torch.Size([45, 75])
+sample loss: epoch:24, batch:280, time:36.88s, batch_loss:3252.3598
+sentence_shape: torch.Size([10, 117])
+sample loss: epoch:24, batch:320, time:30.98s, batch_loss:2132.6641
+sentence_shape: torch.Size([15, 93])
+sample loss: epoch:24, batch:360, time:29.17s, batch_loss:1972.7395
+sentence_shape: torch.Size([4, 97])
+sample loss: epoch:24, batch:400, time:32.48s, batch_loss:2588.6154
+sentence_shape: torch.Size([11, 106])
+sample loss: epoch:24, batch:440, time:31.99s, batch_loss:3029.5432
+sentence_shape: torch.Size([4, 113])
+sample loss: epoch:24, batch:480, time:36.87s, batch_loss:3475.5859
+sentence_shape: torch.Size([4, 57])
+sample loss: epoch:24, batch:520, time:33.26s, batch_loss:2540.7930
+sentence_shape: torch.Size([12, 108])
+sample loss: epoch:24, batch:560, time:31.73s, batch_loss:3045.9566
+sentence_shape: torch.Size([51, 67])
+sample loss: epoch:24, batch:600, time:38.66s, batch_loss:3433.7086
+sentence_shape: torch.Size([34, 88])
+sample loss: epoch:24, batch:640, time:33.97s, batch_loss:3199.5717
+sentence_shape: torch.Size([2, 97])
+sample loss: epoch:24, batch:680, time:35.84s, batch_loss:2943.7832
+sentence_shape: torch.Size([27, 99])
+sample loss: epoch:24, batch:720, time:32.83s, batch_loss:3099.8285
+sentence_shape: torch.Size([42, 81])
+sample loss: epoch:24, batch:760, time:31.52s, batch_loss:3259.7266
+sentence_shape: torch.Size([6, 69])
+sample loss: epoch:24, batch:800, time:34.21s, batch_loss:3163.9625
+sentence_shape: torch.Size([40, 110])
+sample loss: epoch:24, batch:840, time:39.53s, batch_loss:3128.4688
+sentence_shape: torch.Size([27, 52])
+sample loss: epoch:24, batch:880, time:33.57s, batch_loss:2809.9510
+sentence_shape: torch.Size([3, 35])
+sample loss: epoch:24, batch:920, time:37.10s, batch_loss:3250.3260
+sentence_shape: torch.Size([3, 143])
+sample loss: epoch:24, batch:960, time:34.68s, batch_loss:3024.9955
+sentence_shape: torch.Size([25, 157])
+sample loss: epoch:24, batch:1000, time:37.24s, batch_loss:3233.9389
+sentence_shape: torch.Size([38, 90])
+sample loss: epoch:24, batch:1040, time:31.49s, batch_loss:2173.5336
+sentence_shape: torch.Size([52, 102])
+sample loss: epoch:24, batch:1080, time:35.43s, batch_loss:3503.8719
+sentence_shape: torch.Size([22, 172])
+sample loss: epoch:24, batch:1120, time:35.40s, batch_loss:2817.7320
+sentence_shape: torch.Size([10, 90])
+sample loss: epoch:24, batch:1160, time:32.99s, batch_loss:2677.1381
+sentence_shape: torch.Size([5, 137])
+sample loss: epoch:24, batch:1200, time:32.75s, batch_loss:2975.9232
+sentence_shape: torch.Size([10, 94])
+sample loss: epoch:24, batch:1240, time:33.21s, batch_loss:2786.3684
+sentence_shape: torch.Size([17, 187])
+sample loss: epoch:24, batch:1280, time:29.82s, batch_loss:2382.0813
+sentence_shape: torch.Size([26, 60])
+sample loss: epoch:24, batch:1320, time:29.16s, batch_loss:1863.7006
+sentence_shape: torch.Size([32, 78])
+sample loss: epoch:24, batch:1360, time:27.58s, batch_loss:1951.1539
+sentence_shape: torch.Size([63, 74])
+sample loss: epoch:24, batch:1400, time:35.79s, batch_loss:2852.7559
+sentence_shape: torch.Size([56, 71])
+sample loss: epoch:24, batch:1440, time:33.89s, batch_loss:3204.3422
+sentence_shape: torch.Size([3, 72])
+sample loss: epoch:24, batch:1480, time:34.52s, batch_loss:3027.6695
+sentence_shape: torch.Size([5, 53])
+sample loss: epoch:24, batch:1520, time:31.08s, batch_loss:2372.1635
+sentence_shape: torch.Size([23, 88])
+sample loss: epoch:24, batch:1560, time:30.24s, batch_loss:2189.5129
+sentence_shape: torch.Size([54, 57])
+sample loss: epoch:24, batch:1600, time:32.77s, batch_loss:2321.7566
+sentence_shape: torch.Size([29, 188])
+sample loss: epoch:24, batch:1640, time:37.93s, batch_loss:3589.7480
+sentence_shape: torch.Size([28, 136])
+sample loss: epoch:24, batch:1680, time:31.42s, batch_loss:2431.3514
+sentence_shape: torch.Size([5, 85])
+sample loss: epoch:24, batch:1720, time:32.39s, batch_loss:2744.6367
+sentence_shape: torch.Size([44, 146])
+sample loss: epoch:24, batch:1760, time:39.63s, batch_loss:3649.5070
+sentence_shape: torch.Size([10, 68])
+sample loss: epoch:24, batch:1800, time:33.39s, batch_loss:2824.7141
+sentence_shape: torch.Size([13, 58])
+sample loss: epoch:24, batch:1840, time:34.74s, batch_loss:3189.4469
+sentence_shape: torch.Size([9, 86])
+sample loss: epoch:24, batch:1880, time:34.81s, batch_loss:3127.6213
+Epoch:24 training finished. Time: 1610.79s, speed: 0.85s/instance, total loss:5548790.5000
+Epoch_train_result: epoch:24, accuracy:0.9527, precision:0.7070, recall:0.5609, f_measure:0.6255 
+dev_result: epoch:24, time:100.77, accuracy:0.9448, precision:0.6562, recall:0.5105, f_measure:0.5743 
+training epoch: 25
+ Learning rate is setted as: 0.0007856781408072188
+训练数据总量： 1889
+sentence_shape: torch.Size([6, 72])
+sample loss: epoch:25, batch:40, time:32.69s, batch_loss:2892.3307
+sentence_shape: torch.Size([50, 64])
+sample loss: epoch:25, batch:80, time:35.85s, batch_loss:3407.2352
+sentence_shape: torch.Size([11, 170])
+sample loss: epoch:25, batch:120, time:29.49s, batch_loss:2019.8729
+sentence_shape: torch.Size([12, 111])
+sample loss: epoch:25, batch:160, time:32.54s, batch_loss:2567.4762
+sentence_shape: torch.Size([36, 130])
+sample loss: epoch:25, batch:200, time:38.61s, batch_loss:3859.8730
+sentence_shape: torch.Size([44, 32])
+sample loss: epoch:25, batch:240, time:34.93s, batch_loss:2691.1191
+sentence_shape: torch.Size([9, 82])
+sample loss: epoch:25, batch:280, time:35.67s, batch_loss:2840.5412
+sentence_shape: torch.Size([11, 72])
+sample loss: epoch:25, batch:320, time:34.65s, batch_loss:2956.4045
+sentence_shape: torch.Size([8, 91])
+sample loss: epoch:25, batch:360, time:28.91s, batch_loss:1945.3693
+sentence_shape: torch.Size([4, 231])
+sample loss: epoch:25, batch:400, time:33.73s, batch_loss:2613.5561
+sentence_shape: torch.Size([5, 77])
+sample loss: epoch:25, batch:440, time:32.97s, batch_loss:2799.8936
+sentence_shape: torch.Size([26, 43])
+sample loss: epoch:25, batch:480, time:40.57s, batch_loss:3659.0477
+sentence_shape: torch.Size([10, 111])
+sample loss: epoch:25, batch:520, time:30.40s, batch_loss:2552.4809
+sentence_shape: torch.Size([17, 67])
+sample loss: epoch:25, batch:560, time:31.12s, batch_loss:1852.7455
+sentence_shape: torch.Size([33, 51])
+sample loss: epoch:25, batch:600, time:39.75s, batch_loss:3423.8426
+sentence_shape: torch.Size([25, 79])
+sample loss: epoch:25, batch:640, time:36.84s, batch_loss:2862.4967
+sentence_shape: torch.Size([16, 156])
+sample loss: epoch:25, batch:680, time:32.90s, batch_loss:2631.6418
+sentence_shape: torch.Size([10, 117])
+sample loss: epoch:25, batch:720, time:34.74s, batch_loss:3175.0748
+sentence_shape: torch.Size([29, 81])
+sample loss: epoch:25, batch:760, time:31.29s, batch_loss:2247.0437
+sentence_shape: torch.Size([19, 64])
+sample loss: epoch:25, batch:800, time:38.86s, batch_loss:3823.1664
+sentence_shape: torch.Size([43, 86])
+sample loss: epoch:25, batch:840, time:34.17s, batch_loss:3480.8945
+sentence_shape: torch.Size([41, 57])
+sample loss: epoch:25, batch:880, time:27.65s, batch_loss:2085.6184
+sentence_shape: torch.Size([40, 89])
+sample loss: epoch:25, batch:920, time:37.47s, batch_loss:2547.5896
+sentence_shape: torch.Size([5, 222])
+sample loss: epoch:25, batch:960, time:39.80s, batch_loss:2940.7525
+sentence_shape: torch.Size([6, 65])
+sample loss: epoch:25, batch:1000, time:37.41s, batch_loss:3133.1346
+sentence_shape: torch.Size([12, 85])
+sample loss: epoch:25, batch:1040, time:40.72s, batch_loss:3263.4863
+sentence_shape: torch.Size([10, 88])
+sample loss: epoch:25, batch:1080, time:36.48s, batch_loss:2290.1730
+sentence_shape: torch.Size([32, 78])
+sample loss: epoch:25, batch:1120, time:40.47s, batch_loss:3288.8160
+sentence_shape: torch.Size([21, 119])
+sample loss: epoch:25, batch:1160, time:40.14s, batch_loss:2947.1975
+sentence_shape: torch.Size([49, 87])
+sample loss: epoch:25, batch:1200, time:38.25s, batch_loss:2455.4252
+sentence_shape: torch.Size([6, 58])
+sample loss: epoch:25, batch:1240, time:43.50s, batch_loss:3403.3477
+sentence_shape: torch.Size([13, 134])
+sample loss: epoch:25, batch:1280, time:46.66s, batch_loss:4328.7824
+sentence_shape: torch.Size([24, 79])
+sample loss: epoch:25, batch:1320, time:34.47s, batch_loss:2013.1922
+sentence_shape: torch.Size([12, 59])
+sample loss: epoch:25, batch:1360, time:35.72s, batch_loss:3184.4326
+sentence_shape: torch.Size([32, 98])
+sample loss: epoch:25, batch:1400, time:42.84s, batch_loss:3425.4547
+sentence_shape: torch.Size([20, 92])
+sample loss: epoch:25, batch:1440, time:40.55s, batch_loss:2848.2273
+sentence_shape: torch.Size([6, 95])
+sample loss: epoch:25, batch:1480, time:38.51s, batch_loss:3400.7203
+sentence_shape: torch.Size([3, 121])
+sample loss: epoch:25, batch:1520, time:33.17s, batch_loss:2365.1691
+sentence_shape: torch.Size([11, 97])
+sample loss: epoch:25, batch:1560, time:44.70s, batch_loss:4160.4930
+sentence_shape: torch.Size([39, 59])
+sample loss: epoch:25, batch:1600, time:42.16s, batch_loss:3879.3645
+sentence_shape: torch.Size([11, 62])
+sample loss: epoch:25, batch:1640, time:35.06s, batch_loss:2661.7584
+sentence_shape: torch.Size([17, 114])
+sample loss: epoch:25, batch:1680, time:37.72s, batch_loss:2770.0193
+sentence_shape: torch.Size([9, 143])
+sample loss: epoch:25, batch:1720, time:36.15s, batch_loss:2806.8656
+sentence_shape: torch.Size([36, 67])
+sample loss: epoch:25, batch:1760, time:42.05s, batch_loss:3369.2016
+sentence_shape: torch.Size([15, 93])
+sample loss: epoch:25, batch:1800, time:38.00s, batch_loss:2923.3654
+sentence_shape: torch.Size([9, 58])
+sample loss: epoch:25, batch:1840, time:36.67s, batch_loss:2485.1861
+sentence_shape: torch.Size([7, 95])
+sample loss: epoch:25, batch:1880, time:39.50s, batch_loss:2551.4090
+Epoch:25 training finished. Time: 1738.00s, speed: 0.92s/instance, total loss:5547988.0000
+Epoch_train_result: epoch:25, accuracy:0.9528, precision:0.7108, recall:0.5658, f_measure:0.6301 
+dev_result: epoch:25, time:120.12, accuracy:0.9463, precision:0.6745, recall:0.5243, f_measure:0.5900 
+epoch:25 dev set exceed best f score0.5757
+training epoch: 26
+ Learning rate is setted as: 0.0007778213593991467
+训练数据总量： 1889
+sentence_shape: torch.Size([6, 74])
+sample loss: epoch:26, batch:40, time:38.59s, batch_loss:2667.2578
+sentence_shape: torch.Size([8, 65])
+sample loss: epoch:26, batch:80, time:43.32s, batch_loss:3034.9744
+sentence_shape: torch.Size([11, 106])
+sample loss: epoch:26, batch:120, time:45.05s, batch_loss:3192.1521
+sentence_shape: torch.Size([37, 86])
+sample loss: epoch:26, batch:160, time:42.54s, batch_loss:3256.2033
+sentence_shape: torch.Size([27, 36])
+sample loss: epoch:26, batch:200, time:33.00s, batch_loss:1941.2199
+sentence_shape: torch.Size([54, 48])
+sample loss: epoch:26, batch:240, time:41.53s, batch_loss:3196.6012
+sentence_shape: torch.Size([21, 68])
+sample loss: epoch:26, batch:280, time:34.61s, batch_loss:2301.6951
+sentence_shape: torch.Size([5, 89])
+sample loss: epoch:26, batch:320, time:34.32s, batch_loss:2282.2264
+sentence_shape: torch.Size([8, 84])
+sample loss: epoch:26, batch:360, time:40.67s, batch_loss:3196.1578
+sentence_shape: torch.Size([5, 102])
+sample loss: epoch:26, batch:400, time:36.78s, batch_loss:2829.1885
+sentence_shape: torch.Size([36, 36])
+sample loss: epoch:26, batch:440, time:50.00s, batch_loss:4176.3043
+sentence_shape: torch.Size([51, 44])
+sample loss: epoch:26, batch:480, time:38.80s, batch_loss:2706.0160
+sentence_shape: torch.Size([59, 57])
+sample loss: epoch:26, batch:520, time:36.46s, batch_loss:2479.5625
+sentence_shape: torch.Size([42, 33])
+sample loss: epoch:26, batch:560, time:37.61s, batch_loss:2677.3561
+sentence_shape: torch.Size([38, 159])
+sample loss: epoch:26, batch:600, time:47.41s, batch_loss:4308.5957
+sentence_shape: torch.Size([4, 90])
+sample loss: epoch:26, batch:640, time:39.42s, batch_loss:2890.3209
+sentence_shape: torch.Size([1, 198])
+sample loss: epoch:26, batch:680, time:39.52s, batch_loss:2863.7027
+sentence_shape: torch.Size([39, 51])
+sample loss: epoch:26, batch:720, time:34.46s, batch_loss:2118.8432
+sentence_shape: torch.Size([6, 76])
+sample loss: epoch:26, batch:760, time:38.65s, batch_loss:2788.8654
+sentence_shape: torch.Size([5, 89])
+sample loss: epoch:26, batch:800, time:34.48s, batch_loss:2465.4977
+sentence_shape: torch.Size([8, 68])
+sample loss: epoch:26, batch:840, time:36.39s, batch_loss:2484.5988
+sentence_shape: torch.Size([5, 52])
+sample loss: epoch:26, batch:880, time:42.03s, batch_loss:3452.1492
+sentence_shape: torch.Size([11, 143])
+sample loss: epoch:26, batch:920, time:38.07s, batch_loss:3171.3602
+sentence_shape: torch.Size([22, 109])
+sample loss: epoch:26, batch:960, time:36.68s, batch_loss:2576.6461
+sentence_shape: torch.Size([21, 73])
+sample loss: epoch:26, batch:1000, time:39.35s, batch_loss:3169.0883
+sentence_shape: torch.Size([9, 81])
+sample loss: epoch:26, batch:1040, time:41.86s, batch_loss:2823.9732
+sentence_shape: torch.Size([15, 96])
+sample loss: epoch:26, batch:1080, time:35.97s, batch_loss:2681.9146
+sentence_shape: torch.Size([4, 53])
+sample loss: epoch:26, batch:1120, time:35.60s, batch_loss:2428.7490
+sentence_shape: torch.Size([14, 33])
+sample loss: epoch:26, batch:1160, time:36.14s, batch_loss:2866.1801
+sentence_shape: torch.Size([53, 107])
+sample loss: epoch:26, batch:1200, time:36.52s, batch_loss:2435.9426
+sentence_shape: torch.Size([7, 65])
+sample loss: epoch:26, batch:1240, time:46.73s, batch_loss:3584.3422
+sentence_shape: torch.Size([2, 143])
+sample loss: epoch:26, batch:1280, time:36.20s, batch_loss:2843.7674
+sentence_shape: torch.Size([3, 86])
+sample loss: epoch:26, batch:1320, time:36.08s, batch_loss:2667.3920
+sentence_shape: torch.Size([32, 59])
+sample loss: epoch:26, batch:1360, time:42.99s, batch_loss:4254.5383
+sentence_shape: torch.Size([10, 47])
+sample loss: epoch:26, batch:1400, time:42.44s, batch_loss:3637.4586
+sentence_shape: torch.Size([3, 93])
+sample loss: epoch:26, batch:1440, time:37.54s, batch_loss:3291.2805
+sentence_shape: torch.Size([5, 53])
+sample loss: epoch:26, batch:1480, time:34.19s, batch_loss:2219.0824
+sentence_shape: torch.Size([20, 73])
+sample loss: epoch:26, batch:1520, time:38.67s, batch_loss:3150.1164
+sentence_shape: torch.Size([4, 135])
+sample loss: epoch:26, batch:1560, time:37.61s, batch_loss:2971.7496
+sentence_shape: torch.Size([8, 81])
+sample loss: epoch:26, batch:1600, time:33.44s, batch_loss:2483.5379
+sentence_shape: torch.Size([21, 51])
+sample loss: epoch:26, batch:1640, time:46.64s, batch_loss:3791.5523
+sentence_shape: torch.Size([5, 73])
+sample loss: epoch:26, batch:1680, time:39.48s, batch_loss:2783.4791
+sentence_shape: torch.Size([5, 65])
+sample loss: epoch:26, batch:1720, time:40.26s, batch_loss:3296.1164
+sentence_shape: torch.Size([8, 106])
+sample loss: epoch:26, batch:1760, time:41.58s, batch_loss:3172.6494
+sentence_shape: torch.Size([17, 114])
+sample loss: epoch:26, batch:1800, time:36.66s, batch_loss:2132.4410
+sentence_shape: torch.Size([17, 74])
+sample loss: epoch:26, batch:1840, time:40.13s, batch_loss:3118.6141
+sentence_shape: torch.Size([38, 110])
+sample loss: epoch:26, batch:1880, time:37.17s, batch_loss:2762.6865
+Epoch:26 training finished. Time: 1844.91s, speed: 0.98s/instance, total loss:5547182.0000
+Epoch_train_result: epoch:26, accuracy:0.9532, precision:0.7115, recall:0.5681, f_measure:0.6318 
+dev_result: epoch:26, time:122.31, accuracy:0.9447, precision:0.6887, recall:0.4829, f_measure:0.5677 
+training epoch: 27
+ Learning rate is setted as: 0.0007700431458051552
+训练数据总量： 1889
+sentence_shape: torch.Size([11, 150])
+sample loss: epoch:27, batch:40, time:41.59s, batch_loss:3349.8508
+sentence_shape: torch.Size([7, 134])
+sample loss: epoch:27, batch:80, time:39.25s, batch_loss:3226.1311
+sentence_shape: torch.Size([22, 100])
+sample loss: epoch:27, batch:120, time:37.65s, batch_loss:2641.4699
+sentence_shape: torch.Size([16, 127])
+sample loss: epoch:27, batch:160, time:37.68s, batch_loss:2577.2092
+sentence_shape: torch.Size([6, 88])
+sample loss: epoch:27, batch:200, time:39.07s, batch_loss:2970.0297
+sentence_shape: torch.Size([11, 64])
+sample loss: epoch:27, batch:240, time:40.98s, batch_loss:3844.5824
+sentence_shape: torch.Size([36, 36])
+sample loss: epoch:27, batch:280, time:42.34s, batch_loss:3268.5893
+sentence_shape: torch.Size([26, 121])
+sample loss: epoch:27, batch:320, time:37.27s, batch_loss:2895.4262
+sentence_shape: torch.Size([28, 63])
+sample loss: epoch:27, batch:360, time:39.98s, batch_loss:3493.4434
+sentence_shape: torch.Size([42, 41])
+sample loss: epoch:27, batch:400, time:37.06s, batch_loss:2786.0375
+sentence_shape: torch.Size([7, 146])
+sample loss: epoch:27, batch:440, time:33.41s, batch_loss:2817.2645
+sentence_shape: torch.Size([3, 63])
+sample loss: epoch:27, batch:480, time:40.42s, batch_loss:2222.8645
+sentence_shape: torch.Size([33, 93])
+sample loss: epoch:27, batch:520, time:42.73s, batch_loss:2931.5961
+sentence_shape: torch.Size([11, 56])
+sample loss: epoch:27, batch:560, time:36.61s, batch_loss:2657.5721
+sentence_shape: torch.Size([22, 70])
+sample loss: epoch:27, batch:600, time:41.65s, batch_loss:3225.6029
+sentence_shape: torch.Size([62, 76])
+sample loss: epoch:27, batch:640, time:45.08s, batch_loss:3557.1531
+sentence_shape: torch.Size([55, 77])
+sample loss: epoch:27, batch:680, time:36.18s, batch_loss:2963.5422
+sentence_shape: torch.Size([5, 101])
+sample loss: epoch:27, batch:720, time:40.62s, batch_loss:2843.2453
+sentence_shape: torch.Size([59, 81])
+sample loss: epoch:27, batch:760, time:43.13s, batch_loss:3728.8945
+sentence_shape: torch.Size([12, 91])
+sample loss: epoch:27, batch:800, time:41.00s, batch_loss:3317.8586
+sentence_shape: torch.Size([14, 120])
+sample loss: epoch:27, batch:840, time:37.86s, batch_loss:3483.0914
+sentence_shape: torch.Size([8, 60])
+sample loss: epoch:27, batch:880, time:33.56s, batch_loss:2540.2895
+sentence_shape: torch.Size([22, 115])
+sample loss: epoch:27, batch:920, time:37.42s, batch_loss:2039.4473
+sentence_shape: torch.Size([13, 72])
+sample loss: epoch:27, batch:960, time:41.60s, batch_loss:4065.2469
+sentence_shape: torch.Size([17, 203])
+sample loss: epoch:27, batch:1000, time:34.99s, batch_loss:2303.5016
+sentence_shape: torch.Size([6, 77])
+sample loss: epoch:27, batch:1040, time:36.11s, batch_loss:2693.6570
+sentence_shape: torch.Size([66, 101])
+sample loss: epoch:27, batch:1080, time:38.28s, batch_loss:2574.4057
+sentence_shape: torch.Size([4, 50])
+sample loss: epoch:27, batch:1120, time:35.00s, batch_loss:2361.8320
+sentence_shape: torch.Size([5, 41])
+sample loss: epoch:27, batch:1160, time:38.19s, batch_loss:3176.2275
+sentence_shape: torch.Size([24, 61])
+sample loss: epoch:27, batch:1200, time:37.32s, batch_loss:2222.5314
+sentence_shape: torch.Size([6, 81])
+sample loss: epoch:27, batch:1240, time:42.01s, batch_loss:3140.5820
+sentence_shape: torch.Size([14, 65])
+sample loss: epoch:27, batch:1280, time:40.55s, batch_loss:3529.0062
+sentence_shape: torch.Size([31, 96])
+sample loss: epoch:27, batch:1320, time:37.25s, batch_loss:2598.7875
+sentence_shape: torch.Size([7, 62])
+sample loss: epoch:27, batch:1360, time:35.64s, batch_loss:2795.7596
+sentence_shape: torch.Size([60, 73])
+sample loss: epoch:27, batch:1400, time:38.05s, batch_loss:2420.0971
+sentence_shape: torch.Size([3, 83])
+sample loss: epoch:27, batch:1440, time:46.96s, batch_loss:3356.8766
+sentence_shape: torch.Size([34, 68])
+sample loss: epoch:27, batch:1480, time:38.80s, batch_loss:3126.6373
+sentence_shape: torch.Size([14, 85])
+sample loss: epoch:27, batch:1520, time:44.19s, batch_loss:2801.5461
+sentence_shape: torch.Size([19, 185])
+sample loss: epoch:27, batch:1560, time:38.71s, batch_loss:2506.4426
+sentence_shape: torch.Size([9, 74])
+sample loss: epoch:27, batch:1600, time:38.47s, batch_loss:2785.3439
+sentence_shape: torch.Size([11, 183])
+sample loss: epoch:27, batch:1640, time:41.54s, batch_loss:3254.4521
+sentence_shape: torch.Size([6, 60])
+sample loss: epoch:27, batch:1680, time:32.33s, batch_loss:2384.8090
+sentence_shape: torch.Size([26, 58])
+sample loss: epoch:27, batch:1720, time:38.18s, batch_loss:2645.0254
+sentence_shape: torch.Size([19, 64])
+sample loss: epoch:27, batch:1760, time:44.27s, batch_loss:3257.1672
+sentence_shape: torch.Size([47, 66])
+sample loss: epoch:27, batch:1800, time:39.75s, batch_loss:3127.1156
+sentence_shape: torch.Size([21, 156])
+sample loss: epoch:27, batch:1840, time:39.31s, batch_loss:2915.3816
+sentence_shape: torch.Size([3, 73])
+sample loss: epoch:27, batch:1880, time:36.33s, batch_loss:3026.9666
+Epoch:27 training finished. Time: 1842.07s, speed: 0.98s/instance, total loss:5547187.0000
+Epoch_train_result: epoch:27, accuracy:0.9530, precision:0.7128, recall:0.5687, f_measure:0.6327 
+dev_result: epoch:27, time:99.99, accuracy:0.9439, precision:0.6399, recall:0.5122, f_measure:0.5690 
+training epoch: 28
+ Learning rate is setted as: 0.0007623427143471036
+训练数据总量： 1889
+sentence_shape: torch.Size([10, 88])
+sample loss: epoch:28, batch:40, time:31.15s, batch_loss:2696.4418
+sentence_shape: torch.Size([61, 81])
+sample loss: epoch:28, batch:80, time:40.44s, batch_loss:2678.9748
+sentence_shape: torch.Size([65, 30])
+sample loss: epoch:28, batch:120, time:47.99s, batch_loss:2182.8406
+sentence_shape: torch.Size([4, 55])
+sample loss: epoch:28, batch:160, time:58.86s, batch_loss:3827.3266
+sentence_shape: torch.Size([3, 73])
+sample loss: epoch:28, batch:200, time:55.05s, batch_loss:3211.2057
+sentence_shape: torch.Size([94, 61])
+sample loss: epoch:28, batch:240, time:55.02s, batch_loss:3351.1703
+sentence_shape: torch.Size([52, 103])
+sample loss: epoch:28, batch:280, time:51.00s, batch_loss:2721.9617
+sentence_shape: torch.Size([9, 65])
+sample loss: epoch:28, batch:320, time:58.42s, batch_loss:3216.4455
+sentence_shape: torch.Size([3, 152])
+sample loss: epoch:28, batch:360, time:52.03s, batch_loss:2716.8355
+sentence_shape: torch.Size([8, 90])
+sample loss: epoch:28, batch:400, time:49.88s, batch_loss:2541.9504
+sentence_shape: torch.Size([24, 128])
+sample loss: epoch:28, batch:440, time:47.12s, batch_loss:2937.3291
+sentence_shape: torch.Size([29, 65])
+sample loss: epoch:28, batch:480, time:56.81s, batch_loss:3033.3428
+sentence_shape: torch.Size([41, 64])
+sample loss: epoch:28, batch:520, time:52.02s, batch_loss:3349.7438
+sentence_shape: torch.Size([8, 68])
+sample loss: epoch:28, batch:560, time:50.30s, batch_loss:2210.3340
+sentence_shape: torch.Size([34, 29])
+sample loss: epoch:28, batch:600, time:75.20s, batch_loss:3612.8898
+sentence_shape: torch.Size([5, 48])
+sample loss: epoch:28, batch:640, time:76.66s, batch_loss:3556.8074
+sentence_shape: torch.Size([4, 95])
+sample loss: epoch:28, batch:680, time:69.66s, batch_loss:2385.2930
+sentence_shape: torch.Size([17, 82])
+sample loss: epoch:28, batch:720, time:77.41s, batch_loss:3552.7754
+sentence_shape: torch.Size([15, 83])
+sample loss: epoch:28, batch:760, time:64.57s, batch_loss:1685.7199
+sentence_shape: torch.Size([50, 81])
+sample loss: epoch:28, batch:800, time:80.64s, batch_loss:3597.0398
+sentence_shape: torch.Size([9, 135])
+sample loss: epoch:28, batch:840, time:68.81s, batch_loss:2251.4955
+sentence_shape: torch.Size([11, 63])
+sample loss: epoch:28, batch:880, time:75.06s, batch_loss:3369.0715
+sentence_shape: torch.Size([2, 110])
+sample loss: epoch:28, batch:920, time:71.85s, batch_loss:3452.9043
+sentence_shape: torch.Size([9, 65])
+sample loss: epoch:28, batch:960, time:70.48s, batch_loss:3003.8695
+sentence_shape: torch.Size([31, 31])
+sample loss: epoch:28, batch:1000, time:72.61s, batch_loss:3371.6293
+sentence_shape: torch.Size([13, 72])
+sample loss: epoch:28, batch:1040, time:71.75s, batch_loss:2752.1594
+sentence_shape: torch.Size([12, 86])
+sample loss: epoch:28, batch:1080, time:74.77s, batch_loss:3515.1039
+sentence_shape: torch.Size([10, 67])
+sample loss: epoch:28, batch:1120, time:67.92s, batch_loss:2419.4588
+sentence_shape: torch.Size([17, 139])
+sample loss: epoch:28, batch:1160, time:72.74s, batch_loss:2907.9316
+sentence_shape: torch.Size([43, 49])
+sample loss: epoch:28, batch:1200, time:66.56s, batch_loss:2286.0938
+sentence_shape: torch.Size([18, 75])
+sample loss: epoch:28, batch:1240, time:72.90s, batch_loss:2785.7154
+sentence_shape: torch.Size([32, 91])
+sample loss: epoch:28, batch:1280, time:72.63s, batch_loss:3418.4211
+sentence_shape: torch.Size([6, 100])
+sample loss: epoch:28, batch:1320, time:68.77s, batch_loss:2876.5160
+sentence_shape: torch.Size([5, 45])
+sample loss: epoch:28, batch:1360, time:71.57s, batch_loss:2895.5137
+sentence_shape: torch.Size([9, 73])
+sample loss: epoch:28, batch:1400, time:71.77s, batch_loss:2767.2018
+sentence_shape: torch.Size([16, 107])
+sample loss: epoch:28, batch:1440, time:71.26s, batch_loss:2743.3143
+sentence_shape: torch.Size([36, 108])
+sample loss: epoch:28, batch:1480, time:65.24s, batch_loss:2678.2895
+sentence_shape: torch.Size([26, 43])
+sample loss: epoch:28, batch:1520, time:70.79s, batch_loss:2739.2535
+sentence_shape: torch.Size([3, 106])
+sample loss: epoch:28, batch:1560, time:71.12s, batch_loss:2744.6018
+sentence_shape: torch.Size([20, 61])
+sample loss: epoch:28, batch:1600, time:71.51s, batch_loss:2829.8029
+sentence_shape: torch.Size([18, 45])
+sample loss: epoch:28, batch:1640, time:72.87s, batch_loss:2932.8992
+sentence_shape: torch.Size([36, 67])
+sample loss: epoch:28, batch:1680, time:72.29s, batch_loss:2547.0504
+sentence_shape: torch.Size([33, 85])
+sample loss: epoch:28, batch:1720, time:72.43s, batch_loss:3184.7156
+sentence_shape: torch.Size([3, 142])
+sample loss: epoch:28, batch:1760, time:68.76s, batch_loss:3247.6717
+sentence_shape: torch.Size([43, 50])
+sample loss: epoch:28, batch:1800, time:71.82s, batch_loss:2722.6217
+sentence_shape: torch.Size([7, 352])
+sample loss: epoch:28, batch:1840, time:74.96s, batch_loss:2398.9146
+sentence_shape: torch.Size([7, 146])
+sample loss: epoch:28, batch:1880, time:62.15s, batch_loss:3775.1863
+Epoch:28 training finished. Time: 3080.18s, speed: 1.63s/instance, total loss:5546690.0000
+Epoch_train_result: epoch:28, accuracy:0.9535, precision:0.7161, recall:0.5731, f_measure:0.6366 
+dev_result: epoch:28, time:138.28, accuracy:0.9449, precision:0.6775, recall:0.4789, f_measure:0.5612 
+training epoch: 29
+ Learning rate is setted as: 0.0007547192872036326
+训练数据总量： 1889
+sentence_shape: torch.Size([14, 111])
+sample loss: epoch:29, batch:40, time:57.47s, batch_loss:3523.0410
+sentence_shape: torch.Size([6, 95])
+sample loss: epoch:29, batch:80, time:43.25s, batch_loss:1717.9506
+sentence_shape: torch.Size([45, 73])
+sample loss: epoch:29, batch:120, time:57.11s, batch_loss:3069.7518
+sentence_shape: torch.Size([9, 137])
+sample loss: epoch:29, batch:160, time:49.71s, batch_loss:3040.9014
+sentence_shape: torch.Size([15, 88])
+sample loss: epoch:29, batch:200, time:52.33s, batch_loss:2636.7621
+sentence_shape: torch.Size([20, 127])
+sample loss: epoch:29, batch:240, time:51.66s, batch_loss:2378.7906
+sentence_shape: torch.Size([50, 64])
+sample loss: epoch:29, batch:280, time:49.85s, batch_loss:2029.3625
+sentence_shape: torch.Size([6, 44])
+sample loss: epoch:29, batch:320, time:51.07s, batch_loss:2973.8256
+sentence_shape: torch.Size([59, 59])
+sample loss: epoch:29, batch:360, time:53.60s, batch_loss:2962.9439
+sentence_shape: torch.Size([16, 76])
+sample loss: epoch:29, batch:400, time:42.38s, batch_loss:1786.7506
+sentence_shape: torch.Size([8, 81])
+sample loss: epoch:29, batch:440, time:48.14s, batch_loss:2190.2459
+sentence_shape: torch.Size([9, 78])
+sample loss: epoch:29, batch:480, time:49.58s, batch_loss:3379.1281
+sentence_shape: torch.Size([43, 58])
+sample loss: epoch:29, batch:520, time:55.25s, batch_loss:3246.0246
+sentence_shape: torch.Size([6, 75])
+sample loss: epoch:29, batch:560, time:43.94s, batch_loss:2339.7584
+sentence_shape: torch.Size([5, 46])
+sample loss: epoch:29, batch:600, time:50.02s, batch_loss:3007.2893
+sentence_shape: torch.Size([43, 92])
+sample loss: epoch:29, batch:640, time:46.63s, batch_loss:2264.4568
+sentence_shape: torch.Size([1, 48])
+sample loss: epoch:29, batch:680, time:44.97s, batch_loss:2392.0467
+sentence_shape: torch.Size([6, 112])
+sample loss: epoch:29, batch:720, time:52.41s, batch_loss:2918.3502
+sentence_shape: torch.Size([37, 69])
+sample loss: epoch:29, batch:760, time:65.15s, batch_loss:5170.5906
+sentence_shape: torch.Size([4, 101])
+sample loss: epoch:29, batch:800, time:58.28s, batch_loss:3492.8578
+sentence_shape: torch.Size([12, 71])
+sample loss: epoch:29, batch:840, time:54.14s, batch_loss:3017.1092
+sentence_shape: torch.Size([19, 113])
+sample loss: epoch:29, batch:880, time:52.35s, batch_loss:2762.3275
+sentence_shape: torch.Size([49, 60])
+sample loss: epoch:29, batch:920, time:51.10s, batch_loss:2776.8752
+sentence_shape: torch.Size([12, 91])
+sample loss: epoch:29, batch:960, time:56.17s, batch_loss:3224.4951
+sentence_shape: torch.Size([22, 151])
+sample loss: epoch:29, batch:1000, time:54.66s, batch_loss:3186.6242
+sentence_shape: torch.Size([33, 53])
+sample loss: epoch:29, batch:1040, time:56.08s, batch_loss:3769.0234
+sentence_shape: torch.Size([3, 122])
+sample loss: epoch:29, batch:1080, time:55.03s, batch_loss:2776.7893
+sentence_shape: torch.Size([77, 116])
+sample loss: epoch:29, batch:1120, time:52.20s, batch_loss:3588.6773
+sentence_shape: torch.Size([7, 49])
+sample loss: epoch:29, batch:1160, time:56.54s, batch_loss:3068.4096
+sentence_shape: torch.Size([17, 89])
+sample loss: epoch:29, batch:1200, time:56.79s, batch_loss:3607.3508
+sentence_shape: torch.Size([12, 88])
+sample loss: epoch:29, batch:1240, time:49.76s, batch_loss:2763.8791
+sentence_shape: torch.Size([7, 58])
+sample loss: epoch:29, batch:1280, time:49.34s, batch_loss:3166.1820
+sentence_shape: torch.Size([53, 40])
+sample loss: epoch:29, batch:1320, time:45.81s, batch_loss:2332.2523
+sentence_shape: torch.Size([12, 104])
+sample loss: epoch:29, batch:1360, time:50.25s, batch_loss:2538.6191
+sentence_shape: torch.Size([81, 60])
+sample loss: epoch:29, batch:1400, time:53.31s, batch_loss:3465.5586
+sentence_shape: torch.Size([5, 199])
+sample loss: epoch:29, batch:1440, time:50.87s, batch_loss:2668.1961
+sentence_shape: torch.Size([17, 89])
+sample loss: epoch:29, batch:1480, time:52.01s, batch_loss:2859.6834
+sentence_shape: torch.Size([56, 74])
+sample loss: epoch:29, batch:1520, time:54.70s, batch_loss:2871.8141
+sentence_shape: torch.Size([10, 99])
+sample loss: epoch:29, batch:1560, time:53.64s, batch_loss:3161.0588
+sentence_shape: torch.Size([11, 150])
+sample loss: epoch:29, batch:1600, time:48.88s, batch_loss:2556.8709
+sentence_shape: torch.Size([5, 48])
+sample loss: epoch:29, batch:1640, time:47.66s, batch_loss:2202.6580
+sentence_shape: torch.Size([6, 70])
+sample loss: epoch:29, batch:1680, time:52.37s, batch_loss:3401.3898
+sentence_shape: torch.Size([16, 81])
+sample loss: epoch:29, batch:1720, time:53.18s, batch_loss:3287.3172
+sentence_shape: torch.Size([20, 137])
+sample loss: epoch:29, batch:1760, time:58.28s, batch_loss:3534.1691
+sentence_shape: torch.Size([7, 139])
+sample loss: epoch:29, batch:1800, time:55.65s, batch_loss:3390.3691
+sentence_shape: torch.Size([13, 130])
+sample loss: epoch:29, batch:1840, time:52.69s, batch_loss:2880.8457
+sentence_shape: torch.Size([27, 147])
+sample loss: epoch:29, batch:1880, time:48.21s, batch_loss:2537.5623
+Epoch:29 training finished. Time: 2456.59s, speed: 1.30s/instance, total loss:5546183.5000
+Epoch_train_result: epoch:29, accuracy:0.9539, precision:0.7157, recall:0.5740, f_measure:0.6371 
+dev_result: epoch:29, time:137.77, accuracy:0.9460, precision:0.6394, recall:0.5508, f_measure:0.5918 
+epoch:29 dev set exceed best f score0.5900
+training epoch: 30
+ Learning rate is setted as: 0.0007471720943315962
+训练数据总量： 1889
+sentence_shape: torch.Size([32, 119])
+sample loss: epoch:30, batch:40, time:54.93s, batch_loss:3014.4527
+sentence_shape: torch.Size([15, 57])
+sample loss: epoch:30, batch:80, time:53.73s, batch_loss:2895.9156
+sentence_shape: torch.Size([9, 64])
+sample loss: epoch:30, batch:120, time:50.31s, batch_loss:2532.6926
+sentence_shape: torch.Size([46, 72])
+sample loss: epoch:30, batch:160, time:54.04s, batch_loss:3301.1734
+sentence_shape: torch.Size([49, 70])
+sample loss: epoch:30, batch:200, time:53.16s, batch_loss:3038.8791
+sentence_shape: torch.Size([6, 88])
+sample loss: epoch:30, batch:240, time:45.80s, batch_loss:2224.7412
+sentence_shape: torch.Size([20, 61])
+sample loss: epoch:30, batch:280, time:55.69s, batch_loss:3646.1918
+sentence_shape: torch.Size([23, 63])
+sample loss: epoch:30, batch:320, time:49.03s, batch_loss:2518.5715
+sentence_shape: torch.Size([30, 60])
+sample loss: epoch:30, batch:360, time:54.72s, batch_loss:3602.5223
+sentence_shape: torch.Size([52, 47])
+sample loss: epoch:30, batch:400, time:60.67s, batch_loss:4511.3379
+sentence_shape: torch.Size([3, 73])
+sample loss: epoch:30, batch:440, time:50.74s, batch_loss:2278.1000
+sentence_shape: torch.Size([11, 143])
+sample loss: epoch:30, batch:480, time:48.34s, batch_loss:2095.5213
+sentence_shape: torch.Size([3, 160])
+sample loss: epoch:30, batch:520, time:51.43s, batch_loss:2913.4301
+sentence_shape: torch.Size([8, 150])
+sample loss: epoch:30, batch:560, time:56.12s, batch_loss:3337.6418
+sentence_shape: torch.Size([36, 36])
+sample loss: epoch:30, batch:600, time:51.11s, batch_loss:2984.1555
+sentence_shape: torch.Size([17, 114])
+sample loss: epoch:30, batch:640, time:55.08s, batch_loss:3011.2863
+sentence_shape: torch.Size([14, 88])
+sample loss: epoch:30, batch:680, time:51.31s, batch_loss:2849.2557
+sentence_shape: torch.Size([10, 125])
+sample loss: epoch:30, batch:720, time:53.21s, batch_loss:3454.5629
+sentence_shape: torch.Size([10, 110])
+sample loss: epoch:30, batch:760, time:53.67s, batch_loss:3465.8617
+sentence_shape: torch.Size([17, 103])
+sample loss: epoch:30, batch:800, time:54.52s, batch_loss:2517.5105
+sentence_shape: torch.Size([41, 75])
+sample loss: epoch:30, batch:840, time:63.63s, batch_loss:3799.0641
+sentence_shape: torch.Size([44, 44])
+sample loss: epoch:30, batch:880, time:51.09s, batch_loss:2394.1230
+sentence_shape: torch.Size([9, 105])
+sample loss: epoch:30, batch:920, time:48.17s, batch_loss:2525.1605
+sentence_shape: torch.Size([38, 64])
+sample loss: epoch:30, batch:960, time:53.88s, batch_loss:3332.8090
+sentence_shape: torch.Size([2, 188])
+sample loss: epoch:30, batch:1000, time:51.96s, batch_loss:2696.3398
+sentence_shape: torch.Size([4, 58])
+sample loss: epoch:30, batch:1040, time:50.24s, batch_loss:2734.4750
+sentence_shape: torch.Size([9, 53])
+sample loss: epoch:30, batch:1080, time:52.85s, batch_loss:3319.7555
+sentence_shape: torch.Size([5, 125])
+sample loss: epoch:30, batch:1120, time:47.71s, batch_loss:2510.0076
+sentence_shape: torch.Size([8, 96])
+sample loss: epoch:30, batch:1160, time:46.93s, batch_loss:2118.5408
+sentence_shape: torch.Size([20, 73])
+sample loss: epoch:30, batch:1200, time:52.57s, batch_loss:2485.1146
+sentence_shape: torch.Size([7, 75])
+sample loss: epoch:30, batch:1240, time:45.64s, batch_loss:2520.5740
+sentence_shape: torch.Size([40, 89])
+sample loss: epoch:30, batch:1280, time:55.67s, batch_loss:3181.7100
+sentence_shape: torch.Size([8, 112])
+sample loss: epoch:30, batch:1320, time:45.71s, batch_loss:2550.9160
+sentence_shape: torch.Size([53, 47])
+sample loss: epoch:30, batch:1360, time:58.51s, batch_loss:3512.7918
+sentence_shape: torch.Size([7, 36])
+sample loss: epoch:30, batch:1400, time:56.54s, batch_loss:3423.0027
+sentence_shape: torch.Size([8, 66])
+sample loss: epoch:30, batch:1440, time:54.64s, batch_loss:3070.7016
+sentence_shape: torch.Size([10, 90])
+sample loss: epoch:30, batch:1480, time:54.93s, batch_loss:3723.0176
+sentence_shape: torch.Size([12, 128])
+sample loss: epoch:30, batch:1520, time:45.21s, batch_loss:2393.3139
+sentence_shape: torch.Size([20, 60])
+sample loss: epoch:30, batch:1560, time:59.02s, batch_loss:3379.9988
+sentence_shape: torch.Size([18, 96])
+sample loss: epoch:30, batch:1600, time:55.54s, batch_loss:3904.7516
+sentence_shape: torch.Size([6, 76])
+sample loss: epoch:30, batch:1640, time:46.96s, batch_loss:2300.9328
+sentence_shape: torch.Size([41, 61])
+sample loss: epoch:30, batch:1680, time:46.39s, batch_loss:2861.6898
+sentence_shape: torch.Size([14, 93])
+sample loss: epoch:30, batch:1720, time:51.78s, batch_loss:3229.2688
+sentence_shape: torch.Size([6, 71])
+sample loss: epoch:30, batch:1760, time:53.02s, batch_loss:2744.3348
+sentence_shape: torch.Size([6, 41])
+sample loss: epoch:30, batch:1800, time:46.33s, batch_loss:2589.3494
+sentence_shape: torch.Size([4, 136])
+sample loss: epoch:30, batch:1840, time:50.81s, batch_loss:2513.0889
+sentence_shape: torch.Size([15, 91])
+sample loss: epoch:30, batch:1880, time:43.69s, batch_loss:1944.0873
+Epoch:30 training finished. Time: 2458.51s, speed: 1.30s/instance, total loss:5546267.5000
+Epoch_train_result: epoch:30, accuracy:0.9537, precision:0.7165, recall:0.5727, f_measure:0.6366 
+dev_result: epoch:30, time:137.98, accuracy:0.9472, precision:0.6511, recall:0.5415, f_measure:0.5913 
+loss list: [5788187.5, 5648833.5, 5605485.5, 5587042.0, 5578137.5, 5572131.0, 5568520.5, 5566320.5, 5564399.5, 5561286.5, 5559774.5, 5557319.5, 5556321.5, 5555225.0, 5554090.0, 5552461.5, 5552786.5, 5551290.5, 5550550.5, 5549592.5, 5549734.5, 5549243.0, 5548741.0, 5548790.5, 5547988.0, 5547182.0, 5547187.0, 5546690.0, 5546183.5, 5546267.5]
+train f1 list: [0.26960376299336053, 0.40703992440349634, 0.49311590020940854, 0.5248409280802108, 0.5418004897128502, 0.556969227608225, 0.5722642046352799, 0.5770073280277362, 0.5827145733702492, 0.5935844845741587, 0.5940206411601647, 0.5996501858387732, 0.6023889720558881, 0.6054793664677767, 0.6061274928885642, 0.6131259448591868, 0.6131398203685862, 0.6144030872650318, 0.6206725014379654, 0.6236206336186216, 0.6251786935173099, 0.6217606943583384, 0.6276094901815027, 0.6255212935832443, 0.6300716729361135, 0.6317611958756513, 0.632677676748933, 0.6366458188556868, 0.6370957788200443, 0.6366094467019978]
+train precision list: [0.4437930155493245, 0.5177950457218907, 0.6059243050490315, 0.6217687592797045, 0.632794800371402, 0.6453739652772691, 0.6633315008246289, 0.6660481699774431, 0.6710750389506867, 0.6827680960300817, 0.6801391478984363, 0.6840905041867095, 0.6859263468162932, 0.6909064984137169, 0.6873854181356649, 0.697666170107115, 0.6950502025717809, 0.6977204453083584, 0.7039636081529022, 0.7033584694875017, 0.7086694613731638, 0.7025323106020804, 0.7084221934762088, 0.7070161912104858, 0.7108278030038421, 0.7114902506963788, 0.7128122931112583, 0.7160772597790592, 0.7157416715776337, 0.7165066777963273]
+train recall list: [0.1936111651700075, 0.3353165225610943, 0.415719091439851, 0.4540576607634352, 0.47368567377463927, 0.4898662737357169, 0.5031832967277378, 0.5089660541021435, 0.5149156217854264, 0.5250076454724902, 0.5272595846423309, 0.5337651866885373, 0.5369901859934944, 0.5388529011092885, 0.5420500986960994, 0.5468597959353888, 0.5485000973060135, 0.5488615196419139, 0.55500569935222, 0.5601212154911174, 0.559287163946732, 0.5576468625761072, 0.5633462147960744, 0.5608718618810643, 0.5657927659929384, 0.5681003085990715, 0.5687397481164336, 0.5730768161472379, 0.5740220745642081, 0.5727431955294837]
+dev f1 list: [0.24863883847549914, 0.43927527761542956, 0.4409952606635071, 0.4403287133570465, 0.5084820933584654, 0.5514675485737908, 0.5457160468461064, 0.522361359570662, 0.5093710474876394, 0.5418224548659331, 0.5539053317662144, 0.5548715771598388, 0.5660103626943005, 0.5626138189608998, 0.5757209114740874, 0.5606564187785625, 0.49963565703181917, 0.5583046246998643, 0.5724109189414461, 0.5683938852491562, 0.5399977176765947, 0.5692275221612495, 0.5609262589928057, 0.5742553191489361, 0.5899755241034372, 0.5677118078719146, 0.568967328500893, 0.5611702127659574, 0.5918097754293262, 0.5912845931433293]
+dev precision list: [0.39513803049031726, 0.574969400244798, 0.5902315255312401, 0.6263084438241452, 0.6144158628081458, 0.60788334472545, 0.5972565774679559, 0.6387749521465682, 0.6495601173020528, 0.6224840451644575, 0.6365422396856582, 0.6321644498186215, 0.6259454503781802, 0.6487154150197628, 0.6164975167350464, 0.6217461414420641, 0.6979979640312182, 0.6230195712954334, 0.6372071445140338, 0.5980781282640485, 0.6806674338319908, 0.6438290761518262, 0.6913272374619008, 0.6562120106977875, 0.6744525547445256, 0.6886970596169409, 0.6398865784499055, 0.6775488359646775, 0.6394378568291612, 0.6511257675687969]
+dev recall list: [0.1813883109513902, 0.3554000378286363, 0.35199546056364667, 0.33951201059201813, 0.43370531492339703, 0.5046340079440136, 0.5023642897673539, 0.4418384717230944, 0.4189521467751088, 0.47966710800075657, 0.490259126158502, 0.4944202761490448, 0.5165500283714772, 0.49668999432570454, 0.5400037828636277, 0.5104974465670512, 0.3890675241157556, 0.5057688670323435, 0.5195763192736902, 0.5415169283147343, 0.4475127671647437, 0.5101191602042746, 0.4719122375638358, 0.5104974465670512, 0.5243048988083979, 0.4828825420843579, 0.5121997351995461, 0.47891053527520333, 0.5507849442027615, 0.5415169283147343]
