@@ -1,0 +1,1 @@
+["O", "B-PERSON", "E-PERSON", "B-GPE", "E-GPE", "I-GPE", "S-PERSON", "I-PERSON", "B-LOC", "E-LOC", "B-ORG", "I-ORG", "E-ORG", "I-LOC", "S-GPE", "S-LOC", "S-ORG"]

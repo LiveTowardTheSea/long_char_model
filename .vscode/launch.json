@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "--model","xl",
+                "--status","test",
+                "--load_data","data/Ontonotes_5.0",
+                "--load_model","data/Ontonotes_5.0/saved_model/xl/epoch_28.model"
+            ]
+
+        }
+    ]
+}
